@@ -1,0 +1,10 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/command_block_conditional",
+	"textures": {
+		"side": "block/chain_command_block_conditional",
+		"front": "block/chain_command_block_front",
+		"particle": "block/chain_command_block_back",
+		"back": "block/chain_command_block_back"
+	}
+}

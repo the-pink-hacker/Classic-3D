@@ -1,0 +1,99 @@
+{
+	"credit": "Made with Blockbench - Made by anonymous_46 - Models are for Classic 3D Only",
+	"parent": "block/door_bottom",
+	"textures": {
+		"bottom": "block/acacia_door_bottom"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [3, 16, 3],
+			"faces": {
+				"north": {"uv": [13, 0, 16, 16], "texture": "#bottom"},
+				"east": {"uv": [13, 0, 16, 16], "texture": "#bottom"},
+				"south": {"uv": [13, 0, 16, 16], "rotation": 180, "texture": "#bottom"},
+				"west": {"uv": [16, 0, 13, 16], "texture": "#bottom"},
+				"up": {"uv": [16, 16, 13, 0], "rotation": 180, "texture": "#bottom"},
+				"down": {"uv": [13, 16, 16, 13], "rotation": 180, "texture": "#bottom"}
+			}
+		},
+		{
+			"from": [0, 0, 13],
+			"to": [3, 16, 16],
+			"faces": {
+				"north": {"uv": [13, 0, 16, 16], "rotation": 180, "texture": "#bottom"},
+				"east": {"uv": [0, 0, 3, 16], "texture": "#bottom"},
+				"south": {"uv": [0, 0, 3, 16], "texture": "#bottom"},
+				"west": {"uv": [3, 0, 0, 16], "texture": "#bottom"},
+				"up": {"uv": [3, 16, 0, 0], "rotation": 180, "texture": "#bottom"},
+				"down": {"uv": [0, 16, 3, 13], "rotation": 180, "texture": "#bottom"}
+			}
+		},
+		{
+			"from": [0, 3, 5],
+			"to": [3, 15, 7],
+			"faces": {
+				"north": {"uv": [5, 3, 7, 15], "rotation": 180, "texture": "#bottom"},
+				"east": {"uv": [5, 1, 7, 13], "texture": "#bottom"},
+				"south": {"uv": [5, 3, 7, 15], "rotation": 180, "texture": "#bottom"},
+				"west": {"uv": [5, 1, 7, 13], "rotation": 180, "texture": "#bottom"},
+				"up": {"uv": [7, 15, 5, 3], "rotation": 180, "texture": "#bottom"},
+				"down": {"uv": [7, 15, 5, 3], "rotation": 180, "texture": "#bottom"}
+			}
+		},
+		{
+			"from": [0, 3, 9],
+			"to": [3, 15, 11],
+			"faces": {
+				"north": {"uv": [9, 3, 11, 15], "rotation": 180, "texture": "#bottom"},
+				"east": {"uv": [9, 1, 11, 13], "texture": "#bottom"},
+				"south": {"uv": [9, 3, 11, 15], "rotation": 180, "texture": "#bottom"},
+				"west": {"uv": [9, 1, 11, 13], "rotation": 180, "texture": "#bottom"},
+				"up": {"uv": [11, 15, 9, 3], "rotation": 180, "texture": "#bottom"},
+				"down": {"uv": [11, 15, 9, 3], "rotation": 180, "texture": "#bottom"}
+			}
+		},
+		{
+			"from": [0, 0, 3],
+			"to": [3, 3, 13],
+			"faces": {
+				"north": {"uv": [3, 0, 13, 3], "rotation": 180, "texture": "#bottom"},
+				"east": {"uv": [3, 16, 13, 13], "rotation": 180, "texture": "#bottom"},
+				"south": {"uv": [3, 0, 13, 3], "rotation": 180, "texture": "#bottom"},
+				"west": {"uv": [13, 13, 3, 16], "texture": "#bottom"},
+				"up": {"uv": [3, 13, 13, 16], "rotation": 90, "texture": "#bottom"},
+				"down": {"uv": [3, 13, 13, 16], "rotation": 90, "texture": "#bottom"}
+			}
+		},
+		{
+			"from": [0, 15, 3],
+			"to": [3, 16, 13],
+			"faces": {
+				"north": {"uv": [3, 15, 13, 16], "rotation": 180, "texture": "#bottom"},
+				"east": {"uv": [3, 0, 13, 1], "texture": "#bottom"},
+				"south": {"uv": [3, 15, 13, 16], "rotation": 180, "texture": "#bottom"},
+				"west": {"uv": [3, 0, 13, 1], "rotation": 180, "texture": "#bottom"},
+				"up": {"uv": [13, 16, 3, 15], "rotation": 180, "texture": "#bottom"},
+				"down": {"uv": [13, 16, 3, 15], "rotation": 180, "texture": "#bottom"}
+			}
+		},
+		{
+			"from": [-0.25, 15, 1],
+			"to": [3.25, 16, 2],
+			"faces": {
+				"north": {"uv": [15, 0, 14, 1], "texture": "#bottom"},
+				"east": {"uv": [15, 0, 14, 1], "texture": "#bottom"},
+				"south": {"uv": [15, 0, 14, 1], "texture": "#bottom"},
+				"west": {"uv": [15, 0, 14, 1], "texture": "#bottom"},
+				"up": {"uv": [14, 1, 15, 0], "texture": "#bottom"},
+				"down": {"uv": [14, 1, 15, 0], "texture": "#bottom"}
+			}
+		}
+	],
+	"groups": [0, 1, 2, 3, 4, 5,
+		{
+			"name": "acacia_door_bottom",
+			"origin": [8, 8, 8],
+			"children": []
+		}, 6]
+}

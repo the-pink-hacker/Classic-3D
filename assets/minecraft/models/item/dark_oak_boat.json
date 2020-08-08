@@ -1,0 +1,7 @@
+{
+    "parent": "item/template_boat",
+    "textures": {
+        "particle": "3d/entity/boat/dark_oak",
+		"all": "3d/entity/boat/dark_oak"
+    }
+}

@@ -1,0 +1,9 @@
+{
+	"parent": "block/template_daylight_detector",
+	"credit": "Made with Blockbench - Made/edited by RyanGar46",
+	"textures": {
+		"top": "block/daylight_detector_inverted_top",
+		"particle": "block/daylight_detector_inverted_top",
+		"side": "block/daylight_detector_side"
+	}
+}

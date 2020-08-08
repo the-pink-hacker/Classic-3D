@@ -1,0 +1,8 @@
+{
+	"credit": "Made with Blockbench - Made by anonymous_46 - Models are for Classic 3D Only",
+	"parent": "block/template_planks",
+	"textures": {
+		"particle": "block/crimson_planks",
+		"all": "block/crimson_planks"
+	}
+}

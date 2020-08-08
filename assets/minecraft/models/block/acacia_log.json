@@ -1,0 +1,9 @@
+{
+	"credit": "Made with Blockbench - Made by anonymous_46 - Models are for Classic 3D Only",
+	"parent": "block/template_log",
+	"textures": {
+		"top": "block/acacia_log_top",
+		"side": "block/acacia_log",
+		"particle": "block/acacia_log"
+	}
+}
