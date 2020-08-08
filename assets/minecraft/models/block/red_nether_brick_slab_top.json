@@ -1,8 +1,6 @@
 {
-    "parent": "block/slab_top",
+    "parent": "block/template_nether_brick_slab_top",
     "textures": {
-        "bottom": "block/red_nether_bricks",
-        "top": "block/red_nether_bricks",
-        "side": "block/red_nether_bricks"
+        "all": "block/red_nether_bricks"
     }
 }

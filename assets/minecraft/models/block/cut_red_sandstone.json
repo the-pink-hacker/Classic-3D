@@ -2,8 +2,7 @@
 	"credit": "Made with Blockbench - Made by ryangar46 - Models are for Classic 3D Only",
     "parent": "block/template_cut_sandstone",
     "textures": {
-		"particle": "block/cut_red_sandstone",
-        "end": "block/red_sandstone_top",
+        "top": "block/red_sandstone_top",
         "side": "block/cut_red_sandstone"
     }
 }

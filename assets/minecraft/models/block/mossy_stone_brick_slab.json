@@ -1,8 +1,6 @@
 {
-    "parent": "block/slab",
+    "parent": "block/template_stone_brick_slab",
     "textures": {
-        "bottom": "block/mossy_stone_bricks",
-        "top": "block/mossy_stone_bricks",
-        "side": "block/mossy_stone_bricks"
+        "all": "block/mossy_stone_bricks"
     }
 }

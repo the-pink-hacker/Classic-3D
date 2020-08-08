@@ -1,5 +1,5 @@
 {
-    "parent": "block/template_wall_post",
+    "parent": "block/template_nether_brick_wall_post",
     "textures": {
         "wall": "block/red_nether_bricks"
     }

@@ -1,9 +1,7 @@
 {
-	"credit": "Made with Blockbench - Made/edited by RyanGar46",
+	"credit": "Made with Blockbench - Made by Ryan Garrett - Models are for Classic 3D Only",
 	"textures": {
-		"particle": "block/cut_sandstone",
-		"side": "block/cut_sandstone",
-		"end": "block/sandstone_top"
+		"particle": "#side"
 	},
 	"elements": [
 		{
@@ -14,8 +12,8 @@
 				"east": {"uv": [0, 0, 16, 16], "texture": "#side", "cullface": "east"},
 				"south": {"uv": [0, 0, 16, 16], "texture": "#side", "cullface": "south"},
 				"west": {"uv": [0, 0, 16, 16], "texture": "#side", "cullface": "west"},
-				"up": {"uv": [0, 0, 16, 16], "texture": "#end", "cullface": "up"},
-				"down": {"uv": [0, 0, 16, 16], "texture": "#end", "cullface": "down"}
+				"up": {"uv": [0, 0, 16, 16], "texture": "#top", "cullface": "up"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#top", "cullface": "down"}
 			}
 		},
 		{

@@ -1,9 +1,8 @@
 {
 	"credit": "Made with Blockbench - Made by anonymous_46 - Models are for Classic 3D Only",
-	"parent": "block/template_log",
+	"parent": "block/template_log_nether",
 	"textures": {
 		"side": "block/warped_stem",
-		"top": "block/warped_stem_top",
-		"particle": "block/warped_stem"
+		"top": "block/warped_stem_top"
 	}
 }

@@ -1,10 +1,7 @@
 {
 	"credit": "Made with Blockbench - Made by Ryan Garrett - Models are for Classic 3D Only",
 	"textures": {
-		"top": "block/sandstone_top",
-		"particle": "block/sandstone",
-		"side": "block/sandstone",
-		"bottom": "block/sandstone_bottom"
+		"particle": "#side"
 	},
 	"elements": [
 		{
@@ -305,7 +302,7 @@
 			"from": [8.01, 7.99, -0.49],
 			"to": [10.99, 8.99, 0.01],
 			"faces": {
-				"north": {"uv": [4, 5, 7, 6], "texture": "#side", "cullface": "north"},
+				"north": {"uv": [5, 7, 8, 8], "texture": "#side", "cullface": "north"},
 				"east": {"uv": [5, 7, 6, 8], "texture": "#side", "cullface": "north"},
 				"west": {"uv": [7, 7, 8, 8], "texture": "#side", "cullface": "north"},
 				"up": {"uv": [5, 7, 8, 8], "rotation": 180, "texture": "#side", "cullface": "north"}
@@ -713,7 +710,7 @@
 			"to": [16.49, 8.99, 10.99],
 			"faces": {
 				"north": {"uv": [7, 7, 8, 8], "texture": "#side", "cullface": "east"},
-				"east": {"uv": [4, 5, 7, 6], "texture": "#side", "cullface": "east"},
+				"east": {"uv": [5, 7, 8, 8], "texture": "#side", "cullface": "east"},
 				"south": {"uv": [5, 7, 6, 8], "texture": "#side", "cullface": "east"},
 				"up": {"uv": [5, 7, 8, 8], "rotation": 270, "texture": "#side", "cullface": "east"}
 			}
@@ -1120,7 +1117,7 @@
 			"to": [7.99, 8.99, 16.49],
 			"faces": {
 				"east": {"uv": [7, 7, 8, 8], "texture": "#side", "cullface": "south"},
-				"south": {"uv": [4, 5, 7, 6], "texture": "#side", "cullface": "south"},
+				"south": {"uv": [5, 7, 8, 8], "texture": "#side", "cullface": "south"},
 				"west": {"uv": [5, 7, 6, 8], "texture": "#side", "cullface": "south"},
 				"up": {"uv": [5, 7, 8, 8], "texture": "#side", "cullface": "south"}
 			}
@@ -1528,7 +1525,7 @@
 			"faces": {
 				"north": {"uv": [5, 7, 6, 8], "texture": "#side", "cullface": "west"},
 				"south": {"uv": [7, 7, 8, 8], "texture": "#side", "cullface": "west"},
-				"west": {"uv": [4, 5, 7, 6], "texture": "#side", "cullface": "west"},
+				"west": {"uv": [5, 7, 8, 8], "texture": "#side", "cullface": "west"},
 				"up": {"uv": [5, 7, 8, 8], "rotation": 90, "texture": "#side", "cullface": "west"}
 			}
 		},
@@ -1925,7 +1922,7 @@
 				"east": {"uv": [7, 7, 8, 8], "rotation": 270, "texture": "#side", "cullface": "down"},
 				"south": {"uv": [5, 7, 8, 8], "texture": "#side", "cullface": "down"},
 				"west": {"uv": [5, 7, 6, 8], "rotation": 90, "texture": "#side", "cullface": "down"},
-				"down": {"uv": [4, 5, 7, 6], "texture": "#side", "cullface": "down"}
+				"down": {"uv": [5, 7, 8, 8], "texture": "#side", "cullface": "down"}
 			}
 		},
 		{

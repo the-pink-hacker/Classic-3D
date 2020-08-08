@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench - Made by RyanGar46 - Models are for Classic 3D Only",
     "parent": "block/template_cut_sandstone",
     "textures": {
-        "end": "block/sandstone_top",
+        "top": "block/sandstone_top",
         "side": "block/cut_sandstone"
     }
 }

@@ -1,8 +1,6 @@
 {
-    "parent": "block/slab_top",
+    "parent": "block/template_plank_slab_top",
     "textures": {
-        "bottom": "block/warped_planks",
-        "top": "block/warped_planks",
-        "side": "block/warped_planks"
+        "all": "block/warped_planks"
     }
 }

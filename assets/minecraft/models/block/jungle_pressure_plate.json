@@ -1,5 +1,5 @@
 {
-    "parent": "block/pressure_plate_up",
+    "parent": "block/template_pressure_plate_planks",
     "textures": {
         "texture": "block/jungle_planks"
     }

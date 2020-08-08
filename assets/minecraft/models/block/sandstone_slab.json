@@ -1,5 +1,5 @@
 {
-    "parent": "block/slab",
+    "parent": "block/template_sandstone_slab",
     "textures": {
         "bottom": "block/sandstone_bottom",
         "top": "block/sandstone_top",

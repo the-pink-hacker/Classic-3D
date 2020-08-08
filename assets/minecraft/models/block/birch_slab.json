@@ -1,8 +1,6 @@
 {
-    "parent": "block/slab",
+    "parent": "block/template_plank_slab",
     "textures": {
-        "bottom": "block/birch_planks",
-        "top": "block/birch_planks",
-        "side": "block/birch_planks"
+        "all": "block/birch_planks"
     }
 }

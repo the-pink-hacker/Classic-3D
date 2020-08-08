@@ -1,8 +1,7 @@
 {
 	"credit": "Made with Blockbench - Made by anonymous_46 - Models are for Classic 3D Only",
-	"parent": "block/template_wood",
+	"parent": "block/template_wood_nether",
 	"textures": {
-		"side": "block/crimson_stem",
-		"particle": "block/crimson_stem"
+		"side": "block/crimson_stem"
 	}
 }

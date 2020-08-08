@@ -1,8 +1,6 @@
 {
-    "parent": "block/slab",
+    "parent": "block/template_plank_slab",
     "textures": {
-        "bottom": "block/dark_oak_planks",
-        "top": "block/dark_oak_planks",
-        "side": "block/dark_oak_planks"
+        "all": "block/dark_oak_planks"
     }
 }

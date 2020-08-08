@@ -1,33 +1,14 @@
 {
-	"credit": "Made with Blockbench",
+	"credit": "Made with Blockbench - Made by Ryan Garrett - Models are for Classic 3D Only",
+	"parent": "block/cross",
 	"ambientocclusion": false,
 	"textures": {
 		"cross": "block/sunflower_top",
 		"back": "block/sunflower_back",
-		"front": "block/sunflower_front",
-		"particle": "block/sunflower_front"
+		"particle": "block/sunflower_front",
+		"front": "block/sunflower_front"
 	},
 	"elements": [
-		{
-			"from": [0.8, 0, 8],
-			"to": [15.2, 8, 8],
-			"shade": false,
-			"rotation": {"angle": 45, "axis": "y", "origin": [8, 8, 8], "rescale": true},
-			"faces": {
-				"north": {"uv": [0, 8, 16, 16], "texture": "#cross"},
-				"south": {"uv": [0, 8, 16, 16], "texture": "#cross"}
-			}
-		},
-		{
-			"from": [8, 0, 0.8],
-			"to": [8, 8, 15.2],
-			"shade": false,
-			"rotation": {"angle": 45, "axis": "y", "origin": [8, 8, 8], "rescale": true},
-			"faces": {
-				"east": {"uv": [0, 8, 16, 16], "texture": "#cross"},
-				"west": {"uv": [0, 8, 16, 16], "texture": "#cross"}
-			}
-		},
 		{
 			"from": [7, 0, 7],
 			"to": [9, 8, 9],
@@ -37,7 +18,7 @@
 				"south": {"uv": [7, 8, 9, 16], "texture": "#cross"},
 				"west": {"uv": [7, 8, 9, 16], "texture": "#cross"},
 				"up": {"uv": [7, 14, 9, 16], "texture": "#cross"},
-				"down": {"uv": [7, 14, 9, 16], "texture": "#cross"}
+				"down": {"uv": [7, 14, 9, 16], "texture": "#cross", "cullface": "down"}
 			}
 		},
 		{
@@ -71,7 +52,6 @@
 			"to": [9.75, 10.25, 11],
 			"rotation": {"angle": 22.5, "axis": "z", "origin": [8, 8, 8]},
 			"faces": {
-				"north": {"uv": [0, 0, 1, 6], "texture": "#missing"},
 				"east": {"uv": [5, 5, 6, 11], "texture": "#front"},
 				"south": {"uv": [5, 5, 6, 11], "texture": "#front"},
 				"west": {"uv": [10, 5, 11, 11], "texture": "#back"},
@@ -112,7 +92,6 @@
 			"faces": {
 				"north": {"uv": [10, 5, 11, 11], "texture": "#front"},
 				"east": {"uv": [10, 5, 11, 11], "texture": "#front"},
-				"south": {"uv": [0, 0, 1, 6], "texture": "#missing"},
 				"west": {"uv": [5, 5, 6, 11], "texture": "#back"},
 				"up": {"uv": [10, 5, 11, 6], "texture": "#front"},
 				"down": {"uv": [10, 10, 11, 11], "texture": "#front"}
@@ -125,7 +104,6 @@
 			"faces": {
 				"north": {"uv": [11, 6, 12, 10], "texture": "#front"},
 				"east": {"uv": [11, 6, 12, 10], "texture": "#front"},
-				"south": {"uv": [0, 0, 1, 5], "texture": "#missing"},
 				"west": {"uv": [4, 6, 5, 10], "texture": "#back"},
 				"up": {"uv": [11, 6, 12, 7], "texture": "#front"},
 				"down": {"uv": [11, 9, 12, 10], "texture": "#front"}
@@ -136,7 +114,6 @@
 			"to": [9.75, 9.25, 12],
 			"rotation": {"angle": 22.5, "axis": "z", "origin": [8, 8, 8]},
 			"faces": {
-				"north": {"uv": [0, 0, 1, 4], "texture": "#missing"},
 				"east": {"uv": [4, 6, 5, 10], "texture": "#front"},
 				"south": {"uv": [4, 6, 5, 10], "texture": "#front"},
 				"west": {"uv": [11, 6, 12, 10], "texture": "#back"},
@@ -149,13 +126,34 @@
 			"to": [9.5, 8.25, 9],
 			"rotation": {"angle": 22.5, "axis": "z", "origin": [8, 8, 8]},
 			"faces": {
-				"north": {"uv": [0, 0, 0.75, 2], "texture": "#missing"},
 				"east": {"uv": [7, 7, 9, 9], "texture": "#front"},
-				"south": {"uv": [0, 0, 0.75, 2], "texture": "#missing"},
-				"west": {"uv": [7, 7, 9, 9], "texture": "#back"},
-				"up": {"uv": [0, 0, 0.75, 2], "texture": "#missing"},
-				"down": {"uv": [0, 0, 0.75, 2], "texture": "#missing"}
+				"west": {"uv": [7, 7, 9, 9], "texture": "#back"}
 			}
+		},
+		{
+			"from": [8, 0, 0],
+			"to": [8, 8, 16],
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"east": {"uv": [0, 8, 16, 16], "texture": "#cross"},
+				"west": {"uv": [16, 8, 0, 16], "texture": "#cross"}
+			}
+		},
+		{
+			"from": [0, 0, 8],
+			"to": [16, 8, 8],
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [16, 8, 0, 16], "texture": "#cross"},
+				"south": {"uv": [0, 8, 16, 16], "texture": "#cross"}
+			}
+		}
+	],
+	"groups": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9,
+		{
+			"name": "sunflower_bottom",
+			"origin": [8, 8, 8],
+			"children": [10, 11]
 		}
 	]
 }

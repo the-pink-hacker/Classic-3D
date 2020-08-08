@@ -1,8 +1,6 @@
 {
-    "parent": "block/slab",
+    "parent": "block/template_cobblestone_slab",
     "textures": {
-        "bottom": "block/cobblestone",
-        "top": "block/cobblestone",
-        "side": "block/cobblestone"
+        "all": "block/cobblestone"
     }
 }
