@@ -1,6 +1,8 @@
-# V12.0 - Beta 3
+#### V12.0 - Beta 4
 
-#### Added the following blocks (tall wall are in development):
+Added - All wall inventory models.
+
+Added - Tall wall models for the following walls:
 
 - Polished Blackstone Brick Wall
 - Mossy Stone Brick Wall
@@ -15,23 +17,17 @@
 - Nether Brick Wall
 - Red Nether Brick Wall
 
-Changed - Made warped and crimson stem blocks more 3D.
+Changed - Updated to pack format 6.
 
-Optimized - Optimized the anvil models.
+Fixed - End Stone Brick Wall Post was not 3D.
 
-Optimized - Optimized the beehive.
-
-Fixed - The spruce trapdoor did not have a particle.
-
-Fixed - The door item models were outdated.
-
-Fixed - Sandstone slab was missing textures.
+Fixed - Brick Wall culls its faces incorrectly.
 
 #### Links
 
 To report a bug or give feedback, go here:
 
-[curseforge.com/minecraft/texture-packs/classic-3d/issues](https://www.curseforge.com/minecraft/texture-packs/classic-3d/issues?filter-tag=&amp;filter-action=)
+[github.com/RyanGar46/Classic-3D/issues](https://github.com/RyanGar46/Classic-3D/issues)
 
 To get news and updates about the Classic 3D, go here:
 
