@@ -1,6 +1,6 @@
 {
-  "parent": "minecraft:block/wall_inventory",
+  "parent": "block/template_stone_brick_wall_inv",
   "textures": {
-    "wall": "minecraft:block/polished_blackstone_bricks"
+    "wall": "block/polished_blackstone_bricks"
   }
 }

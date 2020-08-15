@@ -1,0 +1,7 @@
+{
+	"credit": "Made with Blockbench - Made by Ryan Garrett - Models are for Classic 3D Only",
+	"parent": "block/template_stone_brick_wall_side_tall_north",
+	"textures": {
+		"wall": "block/stone_bricks"
+	}
+}

@@ -1,0 +1,8 @@
+{
+	"credit": "Made with Blockbench - Made by Ryan Garrett - Models are for Classic 3D Only",
+	"parent": "block/oak_door_inv",
+	"textures": {
+		"top": "block/iron_door_top",
+		"particle": "block/iron_door_bottom"
+	}
+}

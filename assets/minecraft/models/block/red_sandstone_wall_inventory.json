@@ -1,5 +1,5 @@
 {
-    "parent": "block/wall_inventory",
+    "parent": "block/template_sandstone_wall_inv",
     "textures": {
         "wall": "block/red_sandstone"
     }

@@ -1,5 +1,5 @@
 {
-    "parent": "block/wall_inventory",
+  "parent": "block/template_stone_brick_wall_inv",
     "textures": {
         "wall": "block/end_stone_bricks"
     }

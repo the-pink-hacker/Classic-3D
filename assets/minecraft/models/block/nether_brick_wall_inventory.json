@@ -1,5 +1,5 @@
 {
-    "parent": "block/wall_inventory",
+    "parent": "block/template_nether_brick_wall_inv",
     "textures": {
         "wall": "block/nether_bricks"
     }

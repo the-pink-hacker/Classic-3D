@@ -1,0 +1,6 @@
+{
+    "parent": "block/template_sandstone_wall_side_tall_north",
+    "textures": {
+        "wall": "block/red_sandstone"
+    }
+}
