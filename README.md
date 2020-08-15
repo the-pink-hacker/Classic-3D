@@ -1,9 +1,6 @@
 #### V12.0 - Beta 4
-
 Added - All wall inventory models.
-
 Added - Tall wall models for the following walls:
-
 - Polished Blackstone Brick Wall
 - Mossy Stone Brick Wall
 - Stone Brick Wall
@@ -18,23 +15,17 @@ Added - Tall wall models for the following walls:
 - Red Nether Brick Wall
 
 Changed - Updated to pack format 6.
-
 Fixed - End Stone Brick Wall Post was not 3D.
-
 Fixed - Brick Wall culls its faces incorrectly.
 
 #### Links
-
 To report a bug or give feedback, go here:
-
 [github.com/RyanGar46/Classic-3D/issues](https://github.com/RyanGar46/Classic-3D/issues)
 
 To get news and updates about the Classic 3D, go here:
-
 [twitter.com/Classic\_3D](https://twitter.com/Classic_3D)
 
 Credit:
-
 [instagram.com/godamongdessert/](https://www.instagram.com/godamongdessert/)
 
 The only official download websites for Classic 3D is [Curseforge](https://www.curseforge.com/minecraft/texture-packs/classic-3d) and [Planet Minecraft](https://www.planetminecraft.com/texture-pack/classic-3d-4384051/). Do not download from the following sites:
