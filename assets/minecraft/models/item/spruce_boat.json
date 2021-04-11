@@ -1,7 +1,0 @@
-{
-    "parent": "item/template_boat",
-    "textures": {
-        "particle": "3d/entity/boat/spruce",
-		"all": "3d/entity/boat/spruce"
-    }
-}

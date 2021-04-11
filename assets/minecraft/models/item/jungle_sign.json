@@ -1,7 +1,0 @@
-{
-    "parent": "item/template_sign",
-    "textures": {
-        "all": "3d/block/signs/jungle",
-		"particle": "3d/block/signs/jungle"
-    }
-}

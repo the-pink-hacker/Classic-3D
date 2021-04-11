@@ -1,7 +1,0 @@
-{
-    "parent": "block/template_nether_bricks",
-    "textures": {
-        "all": "block/red_nether_bricks",
-		"particle": "block/red_nether_bricks"
-    }
-}
