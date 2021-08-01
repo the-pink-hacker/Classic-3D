@@ -1,30 +1,6 @@
-# V12.0
+This is the issue tracker for Classic 3D. This includes:
 
-## Changes:
-
-- Added all straight stairs, walls, and slabs
-- Added warped and crimson stem block
-- Improved the end portal frame model
-- Optimized many blocks
-- The hinges on doors are now 3D.
-- Candle item models (1.17)
-
-## Know Issues:
-
-- Old ore models do not match the new 1.17 textures
-
-## Links:
-
-To report a bug or give feedback, go here:
-
-[github.com/RyanGar46/Classic-3D/issues](https://github.com/RyanGar46/Classic-3D/issues)
-
-To get news and updates about the Classic 3D, go here:
-
-[twitter.com/Classic\_3D](https://twitter.com/classic_3d)
-
-Credit:
-
-[instagram.com/godamongdessert/](https://www.instagram.com/godamongdessert/)
-
-The only official download websites for Classic 3D are [Curseforge](https://www.curseforge.com/) and [Planet Minecraft](https://www.planetminecraft.com/). Don&#39;t download it from any other website.
+- [Classic 3D](https://www.curseforge.com/minecraft/texture-packs/classic-3d)
+- [Classic 3D - Lite](https://www.curseforge.com/minecraft/texture-packs/classic-3d-lite)
+- [Classic 3D - Logs](https://www.curseforge.com/minecraft/texture-packs/classic-3d-logs)
+- [Classic 3D - Mod Support](https://www.curseforge.com/minecraft/texture-packs/classic-3d-mod-support)
