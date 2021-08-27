@@ -24,9 +24,8 @@ A clear and concise description of what you expected to happen.
 If applicable, add screenshots to help explain your problem.
 
 **Info (please complete the following information):**
- - OS: [e.g. Windows 10]
- - Minecraft Version: [e.g. 1.17]
- - Classic 3D Version: [e.g. v13.0]
+ - Minecraft Version: 1.17
+ - Classic 3D Version: v13.0
 
 **Additional context**
 Add any other context about the problem here.
