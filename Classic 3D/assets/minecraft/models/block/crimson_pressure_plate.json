@@ -1,0 +1,6 @@
+{
+    "parent": "block/template_pressure_plate_planks",
+    "textures": {
+        "texture": "block/crimson_planks"
+    }
+}

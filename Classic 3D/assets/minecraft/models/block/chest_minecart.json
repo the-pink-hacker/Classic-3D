@@ -1,0 +1,147 @@
+{
+	"credit": "Made with Blockbench - Made/edited by RyanGar46",
+	"parent": "block/cube_bottom_top",
+	"texture_size": [64, 64],
+	"textures": {
+		"1": "3d/chest",
+		"minecart": "3d/minecart",
+		"particle": "3d/chest"
+	},
+	"elements": [
+		{
+			"name": "bottom",
+			"from": [0, 0, -2],
+			"to": [16, 2, 18],
+			"faces": {
+				"north": {"uv": [6, 3, 5.5, 7], "rotation": 90, "texture": "#minecart"},
+				"east": {"uv": [5.5, 2.5, 10.5, 3], "texture": "#minecart"},
+				"south": {"uv": [0, 7, 0.5, 3], "rotation": 90, "texture": "#minecart"},
+				"west": {"uv": [5.5, 2.5, 0.5, 3], "texture": "#minecart"},
+				"up": {"uv": [6, 7, 11, 3], "rotation": 90, "texture": "#minecart"},
+				"down": {"uv": [0.5, 7, 5.5, 3], "rotation": 90, "texture": "#minecart"}
+			}
+		},
+		{
+			"name": "right",
+			"from": [0, 2, 0],
+			"to": [2, 10, 16],
+			"faces": {
+				"east": {"uv": [4.5, 0.5, 0.5, 2.5], "texture": "#minecart"},
+				"west": {"uv": [9, 0.5, 5, 2.5], "texture": "#minecart"},
+				"up": {"uv": [0.5, 0.5, 4.5, 0], "rotation": 90, "texture": "#minecart"}
+			}
+		},
+		{
+			"name": "left",
+			"from": [14, 2, 0],
+			"to": [16, 10, 16],
+			"faces": {
+				"east": {"uv": [9, 0.5, 5, 2.5], "texture": "#minecart"},
+				"west": {"uv": [4.5, 0.5, 0.5, 2.5], "texture": "#minecart"},
+				"up": {"uv": [4.5, 0, 0.5, 0.5], "rotation": 90, "texture": "#minecart"}
+			}
+		},
+		{
+			"name": "front",
+			"from": [0, 2, 16],
+			"to": [16, 10, 18],
+			"faces": {
+				"north": {"uv": [0.5, 0.5, 4.5, 2.5], "texture": "#minecart"},
+				"east": {"uv": [0, 0.5, 0.5, 2.5], "texture": "#minecart"},
+				"south": {"uv": [5, 0.5, 9, 2.5], "texture": "#minecart"},
+				"west": {"uv": [4.5, 0.5, 5, 2.5], "texture": "#minecart"},
+				"up": {"uv": [4.5, 0.5, 0.5, 0], "texture": "#minecart"}
+			}
+		},
+		{
+			"name": "back",
+			"from": [0, 2, -2],
+			"to": [16, 10, 0],
+			"faces": {
+				"north": {"uv": [5, 0.5, 9, 2.5], "texture": "#minecart"},
+				"east": {"uv": [4.5, 0.5, 5, 2.5], "texture": "#minecart"},
+				"south": {"uv": [0.5, 0.5, 4.5, 2.5], "texture": "#minecart"},
+				"west": {"uv": [0, 0.5, 0.5, 2.5], "texture": "#minecart"},
+				"up": {"uv": [0.5, 0, 4.5, 0.5], "texture": "#minecart"}
+			}
+		},
+		{
+			"name": "base_rotation",
+			"from": [2.75, 2, 2.75],
+			"to": [13.25, 9.5, 13.25],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [10.5, 10.75, 14, 8.25], "texture": "#1"},
+				"east": {"uv": [7, 10.75, 10.5, 8.25], "texture": "#1"},
+				"south": {"uv": [3.5, 10.75, 7, 8.25], "texture": "#1"},
+				"west": {"uv": [0, 10.75, 3.5, 8.25], "texture": "#1"},
+				"down": {"uv": [7, 4.75, 3.5, 8.25], "rotation": 180, "texture": "#1"}
+			}
+		},
+		{
+			"name": "lid_rotation",
+			"from": [2.75, 9.5, 2.75],
+			"to": [13.25, 12.5, 13.25],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [10.5, 4.75, 14, 3.75], "texture": "#1"},
+				"east": {"uv": [7, 4.75, 10.5, 3.75], "texture": "#1"},
+				"south": {"uv": [3.5, 4.75, 7, 3.75], "texture": "#1"},
+				"west": {"uv": [0, 4.75, 3.5, 3.75], "texture": "#1"},
+				"up": {"uv": [10.5, 3.5, 7, 0], "rotation": 180, "texture": "#1"}
+			}
+		},
+		{
+			"name": "knob_rotation",
+			"from": [7.25, 7.25, 2],
+			"to": [8.75, 10.25, 2.75],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [1, 0.25, 1.5, 1.25], "texture": "#1"},
+				"east": {"uv": [0.75, 0.25, 1, 1.25], "texture": "#1"},
+				"west": {"uv": [1.25, 0.25, 1.5, 1.25], "texture": "#1"},
+				"up": {"uv": [0.75, 0.25, 0.25, 0], "rotation": 180, "texture": "#1"},
+				"down": {"uv": [1.25, 0, 0.75, 0.25], "rotation": 180, "texture": "#1"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [75, 45, 0],
+			"translation": [0, 2.5, 0],
+			"scale": [0.375, 0.375, 0.375]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [75, 45, 0],
+			"translation": [0, 2.5, 0],
+			"scale": [0.375, 0.375, 0.375]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 45, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 225, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"ground": {
+			"translation": [0, 3, 0],
+			"scale": [0.25, 0.25, 0.25]
+		},
+		"gui": {
+			"rotation": [30, 225, 0],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"fixed": {
+			"rotation": [90, 0, -180],
+			"translation": [0, 0, -4],
+			"scale": [0.5, 0.5, 0.5]
+		}
+	},
+	"groups": [
+		{
+			"name": "minecart",
+			"origin": [8, 8, 8],
+			"children": [0, 1, 2, 3, 4]
+		}, 5, 6, 7]
+}

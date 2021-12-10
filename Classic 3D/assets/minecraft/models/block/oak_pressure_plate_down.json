@@ -1,0 +1,6 @@
+{
+    "parent": "block/template_pressure_plate_planks_down",
+    "textures": {
+        "texture": "block/oak_planks"
+    }
+}

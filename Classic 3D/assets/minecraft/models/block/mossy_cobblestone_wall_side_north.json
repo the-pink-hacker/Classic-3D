@@ -1,0 +1,6 @@
+{
+    "parent": "block/template_cobblestone_wall_side_north",
+    "textures": {
+        "wall": "block/mossy_cobblestone"
+    }
+}

@@ -1,0 +1,6 @@
+{
+	"parent": "block/template_wood",
+	"textures": {
+		"side": "block/crimson_stem"
+	}
+}

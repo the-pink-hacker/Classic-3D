@@ -1,0 +1,6 @@
+{
+	"parent": "block/template_cobblestone_stairs_inner_ne",
+	"textures": {
+		"all": "block/mossy_cobblestone"
+	}
+}

@@ -1,0 +1,6 @@
+{
+    "parent": "block/template_plank_slab",
+    "textures": {
+        "all": "block/crimson_planks"
+    }
+}

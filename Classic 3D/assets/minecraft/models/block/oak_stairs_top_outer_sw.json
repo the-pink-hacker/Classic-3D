@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:block/template_plank_stairs_top_outer_sw",
+    "textures": {
+        "all": "minecraft:block/oak_planks"
+    }
+}

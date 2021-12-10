@@ -1,0 +1,10 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/potted_poppy",
+	"ambientocclusion": false,
+	"textures": {
+		"flowerpot": "block/flower_pot",
+		"dirt": "block/dirt",
+		"particle": "3d/flowers/wither_rose"
+	}
+}

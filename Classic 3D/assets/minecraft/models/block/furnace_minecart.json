@@ -1,0 +1,121 @@
+{
+	"credit": "Made with Blockbench - Made/edited by RyanGar46",
+	"parent": "block/cube_bottom_top",
+	"texture_size": [64, 64],
+	"textures": {
+		"1": "3d/furnaces/furnace_front",
+		"3": "block/furnace_side",
+		"4": "block/furnace_top",
+		"minecart": "3d/minecart",
+		"particle": "#1"
+	},
+	"elements": [
+		{
+			"name": "back",
+			"from": [0, 2, -2],
+			"to": [16, 10, 0],
+			"faces": {
+				"north": {"uv": [5, 0.5, 9, 2.5], "texture": "#minecart"},
+				"east": {"uv": [4.5, 0.5, 5, 2.5], "texture": "#minecart"},
+				"south": {"uv": [0.5, 0.5, 4.5, 2.5], "texture": "#minecart"},
+				"west": {"uv": [0, 0.5, 0.5, 2.5], "texture": "#minecart"},
+				"up": {"uv": [0.5, 0, 4.5, 0.5], "texture": "#minecart"}
+			}
+		},
+		{
+			"name": "front",
+			"from": [0, 2, 16],
+			"to": [16, 10, 18],
+			"faces": {
+				"north": {"uv": [0.5, 0.5, 4.5, 2.5], "texture": "#minecart"},
+				"east": {"uv": [0, 0.5, 0.5, 2.5], "texture": "#minecart"},
+				"south": {"uv": [5, 0.5, 9, 2.5], "texture": "#minecart"},
+				"west": {"uv": [4.5, 0.5, 5, 2.5], "texture": "#minecart"},
+				"up": {"uv": [4.5, 0.5, 0.5, 0], "texture": "#minecart"}
+			}
+		},
+		{
+			"name": "left",
+			"from": [14, 2, 0],
+			"to": [16, 10, 16],
+			"faces": {
+				"east": {"uv": [9, 0.5, 5, 2.5], "texture": "#minecart"},
+				"west": {"uv": [4.5, 0.5, 0.5, 2.5], "texture": "#minecart"},
+				"up": {"uv": [4.5, 0, 0.5, 0.5], "rotation": 90, "texture": "#minecart"}
+			}
+		},
+		{
+			"name": "right",
+			"from": [0, 2, 0],
+			"to": [2, 10, 16],
+			"faces": {
+				"east": {"uv": [4.5, 0.5, 0.5, 2.5], "texture": "#minecart"},
+				"west": {"uv": [9, 0.5, 5, 2.5], "texture": "#minecart"},
+				"up": {"uv": [0.5, 0.5, 4.5, 0], "rotation": 90, "texture": "#minecart"}
+			}
+		},
+		{
+			"name": "bottom",
+			"from": [0, 0, -2],
+			"to": [16, 2, 18],
+			"faces": {
+				"north": {"uv": [6, 3, 5.5, 7], "rotation": 90, "texture": "#minecart"},
+				"east": {"uv": [5.5, 2.5, 10.5, 3], "texture": "#minecart"},
+				"south": {"uv": [0, 7, 0.5, 3], "rotation": 90, "texture": "#minecart"},
+				"west": {"uv": [5.5, 2.5, 0.5, 3], "texture": "#minecart"},
+				"up": {"uv": [6, 7, 11, 3], "rotation": 90, "texture": "#minecart"},
+				"down": {"uv": [0.5, 7, 5.5, 3], "rotation": 90, "texture": "#minecart"}
+			}
+		},
+		{
+			"from": [2, 2, 2],
+			"to": [14, 14, 14],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#3"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#3"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#3"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#4"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [75, 45, 0],
+			"translation": [0, 2.5, 0],
+			"scale": [0.375, 0.375, 0.375]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [75, 45, 0],
+			"translation": [0, 2.5, 0],
+			"scale": [0.375, 0.375, 0.375]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 45, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 225, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"ground": {
+			"translation": [0, 3, 0],
+			"scale": [0.25, 0.25, 0.25]
+		},
+		"gui": {
+			"rotation": [30, 225, 0],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"fixed": {
+			"rotation": [90, 0, -180],
+			"translation": [0, 0, -4],
+			"scale": [0.5, 0.5, 0.5]
+		}
+	},
+	"groups": [
+		{
+			"name": "minecart",
+			"origin": [8, 8, 8],
+			"children": [0, 1, 2, 3, 4]
+		}, 5]
+}

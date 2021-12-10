@@ -1,0 +1,6 @@
+{
+	"parent": "block/template_cobblestone_stairs_top_east",
+	"textures": {
+		"all": "block/cobblestone"
+	}
+}

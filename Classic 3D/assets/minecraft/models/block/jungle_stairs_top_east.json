@@ -1,0 +1,6 @@
+{
+    "parent": "block/template_plank_stairs_top_east",
+    "textures": {
+        "all": "block/jungle_planks"
+    }
+}

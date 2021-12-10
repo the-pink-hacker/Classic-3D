@@ -1,0 +1,6 @@
+{
+	"parent": "block/template_stone_brick_stairs_top_outer_nw",
+	"textures": {
+		"all": "block/polished_blackstone_bricks"
+	}
+}

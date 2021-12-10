@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:block/template_plank_stairs_outer_ne",
+    "textures": {
+        "all": "minecraft:block/warped_planks"
+    }
+}

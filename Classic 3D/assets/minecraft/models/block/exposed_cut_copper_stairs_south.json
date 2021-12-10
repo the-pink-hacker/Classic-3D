@@ -1,0 +1,7 @@
+{
+	"credit": "Made with Blockbench - Made/edited by RyanGar46",
+	"parent": "block/template_cut_copper_stairs_south",
+	"textures": {
+		"all": "block/exposed_cut_copper"
+	}
+}
