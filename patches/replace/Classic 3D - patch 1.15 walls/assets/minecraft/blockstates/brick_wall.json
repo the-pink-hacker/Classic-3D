@@ -3,29 +3,17 @@
         {   "when": { "up": "true" },
             "apply": { "model": "block/brick_wall_post" }
         },
-        {   "when": { "north": "low" },
+        {   "when": { "north": "true" },
             "apply": { "model": "block/brick_wall_side_north"}
         },
-        {   "when": { "east": "low" },
+        {   "when": { "east": "true" },
             "apply": { "model": "block/brick_wall_side_east"}
         },
-        {   "when": { "south": "low" },
+        {   "when": { "south": "true" },
             "apply": { "model": "block/brick_wall_side_south"}
         },
-        {   "when": { "west": "low" },
+        {   "when": { "west": "true" },
             "apply": { "model": "block/brick_wall_side_west"}
-        },
-        {   "when": { "north": "tall" },
-            "apply": { "model": "block/brick_wall_side_tall_north"}
-        },
-        {   "when": { "east": "tall" },
-            "apply": { "model": "block/brick_wall_side_tall_east"}
-        },
-        {   "when": { "south": "tall" },
-            "apply": { "model": "block/brick_wall_side_tall_south"}
-        },
-        {   "when": { "west": "tall" },
-            "apply": { "model": "block/brick_wall_side_tall_west"}
         }
     ]
 }
