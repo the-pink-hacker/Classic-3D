@@ -1,11 +1,7 @@
 {
-	"credit": "Made with Blockbench",
-	"ambientocclusion": false,
 	"parent": "block/activator_rail_raised_sw",
 	"textures": {
-		"particle": "block/activator_rail_on",
-		"activator_rail": "block/activator_rail_on",
-		"rail_3d": "3d/rails/rail",
-		"rail_powered_3d": "3d/rails/rail_powered_on"
+		"front": "block/activator_rail_on",
+		"back": "3d/rails/activator_rail_on"
 	}
 }
