@@ -12,107 +12,12 @@
       "patch": {
         "mixins": [
           {
-            "file":"assets/minecraft/models/block/smooth_stone_slab.json",
-            "selector": {
-              "type": "path",
-              "arguments": {
-                "location": "textures"
-              }
-            },
-            "modifiers": [
-              {
-                "type": "set",
-                "arguments": {
-                  "data": {
-                    "all": "block/stone_slab_top",
-		                "side": "block/stone_slab_side"
-                  }
-                }
-              }
-            ]
-          },
-          {
-            "file":"assets/minecraft/models/block/smooth_stone_slab_top.json",
-            "selector": {
-              "type": "path",
-              "arguments": {
-                "location": "textures"
-              }
-            },
-            "modifiers": [
-              {
-                "type": "set",
-                "arguments": {
-                  "data": {
-                    "all": "block/stone_slab_top",
-		                "side": "block/stone_slab_side"
-                  }
-                }
-              }
-            ]
-          },
-          {
-            "file":"assets/minecraft/models/block/smooth_stone_slab_double.json",
-            "selector": {
-              "type": "path",
-              "arguments": {
-                "location": "textures"
-              }
-            },
-            "modifiers": [
-              {
-                "type": "set",
-                "arguments": {
-                  "data": {
-                    "all": "block/stone_slab_top",
-		                "side": "block/stone_slab_side"
-                  }
-                }
-              }
-            ]
-          },
-          {
-            "file":"assets/minecraft/models/block/smooth_stone.json",
-            "selector": {
-              "type": "path",
-              "arguments": {
-                "location": "textures"
-              }
-            },
-            "modifiers": [
-              {
-                "type": "set",
-                "arguments": {
-                  "data": {
-                    "all": "block/stone_slab_top",
-		                "side": "block/stone_slab_side"
-                  }
-                }
-              }
-            ]
-          },
-          {
-            "file":"assets/minecraft/models/block/smooth_stone.json",
-            "selector": {
-              "type": "path",
-              "arguments": {
-                "location": "textures"
-              }
-            },
-            "modifiers": [
-              {
-                "type": "set",
-                "arguments": {
-                  "data": {
-                    "all": "block/stone_slab_top",
-		                "side": "block/stone_slab_side"
-                  }
-                }
-              }
-            ]
-          },
-          {
-            "file":"assets/minecraft/models/block/smooth_stone.json",
+            "files": [
+              "assets/minecraft/models/block/smooth_stone_slab.json",
+              "assets/minecraft/models/block/smooth_stone_slab_top.json",
+              "assets/minecraft/models/block/smooth_stone_slab_double.json",
+              "assets/minecraft/models/block/smooth_stone.json"
+            ],
             "selector": {
               "type": "path",
               "arguments": {
