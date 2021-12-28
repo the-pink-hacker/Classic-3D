@@ -18,6 +18,23 @@
             }
           }
         ]
+      },
+      {
+        "files": ["assets/minecraft/models/block/ladder.json"],
+        "selector": {
+          "type": "path",
+          "arguments": {
+            "location": "textures/particle"
+          }
+        },
+        "modifiers": [
+          {
+            "type": "set",
+            "arguments": {
+              "data": "block/ladder"
+            }
+          }
+        ]
       }
     ]
   }

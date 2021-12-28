@@ -1,11 +1,10 @@
 {
-	"credit": "Made with Blockbench - Made/edited by RyanGar46",
 	"parent": "block/template_torch",
 	"ambientocclusion": false,
 	"textures": {
-		"1": "block/redstone_torch_off",
 		"4": "block/comparator_on",
-		"particle": "block/smooth_stone",
+		"particle": "block/comparator_on",
+		"unlit": "block/redstone_torch_off",
 		"slab": "block/smooth_stone",
 		"torch": "block/redstone_torch"
 	},
@@ -26,10 +25,10 @@
 			"from": [4, 2, 11],
 			"to": [6, 5, 13],
 			"faces": {
-				"north": {"uv": [7, 8, 9, 11], "texture": "#1"},
-				"east": {"uv": [7, 8, 9, 11], "texture": "#1"},
-				"south": {"uv": [7, 8, 9, 11], "texture": "#1"},
-				"west": {"uv": [7, 8, 9, 11], "texture": "#1"}
+				"north": {"uv": [7, 8, 9, 11], "texture": "#unlit"},
+				"east": {"uv": [7, 8, 9, 11], "texture": "#unlit"},
+				"south": {"uv": [7, 8, 9, 11], "texture": "#unlit"},
+				"west": {"uv": [7, 8, 9, 11], "texture": "#unlit"}
 			}
 		},
 		{
@@ -200,10 +199,10 @@
 			"from": [10, 2, 11],
 			"to": [12, 5, 13],
 			"faces": {
-				"north": {"uv": [7, 8, 9, 11], "texture": "#1"},
-				"east": {"uv": [7, 8, 9, 11], "texture": "#1"},
-				"south": {"uv": [7, 8, 9, 11], "texture": "#1"},
-				"west": {"uv": [7, 8, 9, 11], "texture": "#1"}
+				"north": {"uv": [7, 8, 9, 11], "texture": "#unlit"},
+				"east": {"uv": [7, 8, 9, 11], "texture": "#unlit"},
+				"south": {"uv": [7, 8, 9, 11], "texture": "#unlit"},
+				"west": {"uv": [7, 8, 9, 11], "texture": "#unlit"}
 			}
 		},
 		{
@@ -375,10 +374,10 @@
 			"from": [7, 2, 2],
 			"to": [9, 3, 4],
 			"faces": {
-				"north": {"uv": [7, 8, 9, 9], "texture": "#1"},
-				"east": {"uv": [7, 8, 9, 9], "texture": "#1"},
-				"south": {"uv": [7, 8, 9, 9], "texture": "#1"},
-				"west": {"uv": [7, 8, 9, 9], "texture": "#1"}
+				"north": {"uv": [7, 8, 9, 9], "texture": "#unlit"},
+				"east": {"uv": [7, 8, 9, 9], "texture": "#unlit"},
+				"south": {"uv": [7, 8, 9, 9], "texture": "#unlit"},
+				"west": {"uv": [7, 8, 9, 9], "texture": "#unlit"}
 			}
 		},
 		{
@@ -582,20 +581,24 @@
 			"translation": [0, 0, -1]
 		}
 	},
-	"groups": [0,
+	"groups": [
+		0,
 		{
 			"name": "redstone torch 1",
 			"origin": [8, 8, 8],
+			"color": 0,
 			"children": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
 		},
 		{
 			"name": "redstone torch 2",
 			"origin": [11, 5, 12],
+			"color": 0,
 			"children": [15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28]
 		},
 		{
 			"name": "redstone torch 3",
 			"origin": [11, 5, 12],
+			"color": 0,
 			"children": [29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42]
 		}
 	]
