@@ -35,6 +35,44 @@
                 }
               }
             ]
+          },
+          {
+            "files": [
+              "assets/minecraft/models/block/repeater_1tick.json",
+              "assets/minecraft/models/block/repeater_1tick_locked.json",
+              "assets/minecraft/models/block/repeater_1tick_on.json",
+              "assets/minecraft/models/block/repeater_1tick_on_locked.json",
+              "assets/minecraft/models/block/repeater_2tick.json",
+              "assets/minecraft/models/block/repeater_2tick_locked.json",
+              "assets/minecraft/models/block/repeater_2tick_on.json",
+              "assets/minecraft/models/block/repeater_2tick_on_locked.json",
+              "assets/minecraft/models/block/repeater_3tick.json",
+              "assets/minecraft/models/block/repeater_3tick_locked.json",
+              "assets/minecraft/models/block/repeater_3tick_on.json",
+              "assets/minecraft/models/block/repeater_3tick_on_locked.json",
+              "assets/minecraft/models/block/repeater_4tick.json",
+              "assets/minecraft/models/block/repeater_4tick_locked.json",
+              "assets/minecraft/models/block/repeater_4tick_on.json",
+              "assets/minecraft/models/block/repeater_4tick_on_locked.json",
+              "assets/minecraft/models/block/comparator.json",
+              "assets/minecraft/models/block/comparator_on.json",
+              "assets/minecraft/models/block/comparator_on_subtract.json",
+              "assets/minecraft/models/block/comparator_subtract.json"
+            ],
+            "selector": {
+              "type": "path",
+              "arguments": {
+                "location": "textures/slab"
+              }
+            },
+            "modifiers": [
+              {
+                "type": "set",
+                "arguments": {
+                  "data": "block/stone_slab_top"
+                }
+              }
+            ]
           }
         ]
       }
