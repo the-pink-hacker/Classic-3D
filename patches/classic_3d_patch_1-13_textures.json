@@ -26,7 +26,7 @@
             },
             "modifiers": [
               {
-                "type": "set",
+                "type": "merge",
                 "arguments": {
                   "data": {
                     "all": "block/stone_slab_top",
@@ -70,6 +70,28 @@
                 "type": "set",
                 "arguments": {
                   "data": "block/stone_slab_top"
+                }
+              }
+            ]
+          },
+          {
+            "files": [
+              "assets/minecraft/models/block/nether_quartz_ore.json"
+            ],
+            "selector": {
+              "type": "path",
+              "arguments": {
+                "location": "textures"
+              }
+            },
+            "modifiers": [
+              {
+                "type": "merge",
+                "arguments": {
+                  "data": {
+                    "ore": "3d/nether_quartz_ore",
+                    "cube": "block/netherrack"
+                  }
                 }
               }
             ]
