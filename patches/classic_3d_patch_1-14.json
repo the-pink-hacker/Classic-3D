@@ -3,7 +3,12 @@
   "patch": {
     "mixins": [
       {
-        "files": ["assets/minecraft/models/block/mycelium.json"],
+        "file_selector": {
+          "type": "file",
+          "arguments": {
+            "files": ["assets/minecraft/models/block/mycelium.json"]
+          }
+        },
         "selector": {
           "type": "path",
           "arguments": {
@@ -20,7 +25,12 @@
         ]
       },
       {
-        "files": ["assets/minecraft/models/block/ladder.json"],
+        "file_selector": {
+          "type": "file",
+          "arguments": {
+            "files": ["assets/minecraft/models/block/ladder.json"]
+          }
+        },
         "selector": {
           "type": "path",
           "arguments": {
