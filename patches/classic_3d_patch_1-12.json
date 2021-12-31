@@ -2,12 +2,6 @@
   "type": "multi",
   "patch": [
     {
-      "type": "replace",
-      "patch": {
-        "directory": "#workdir/patches/replace/Classic 3D - patch 1.12"
-      }
-    },
-    {
       "type": "mixin_json",
       "patch": {
         "mixins": [
@@ -28,7 +22,7 @@
               {
                 "type": "replace",
                 "arguments": {
-                  "select": "^block|(?<=^minecraft:)block",
+                  "select": "(^block|(?<=^minecraft:)block)(?!s)",
                   "replacement": "blocks"
                 }
               }
@@ -221,8 +215,67 @@
                 }
               }
             ]
+          },
+          {
+            "file_selector": {
+              "type": "file",
+              "arguments": {
+                "files": ["assets/minecraft/models/block/grass_block.json"]
+              }
+            },
+            "selector": {
+              "type": "path",
+              "arguments": {
+                "location": "textures"
+              }
+            },
+            "modifiers": [
+              {
+                "type": "set",
+                "arguments": {
+                  "data": {
+                    "top": "blocks/grass_top",
+                    "side": "blocks/grass_side",
+                    "overlay": "blocks/grass_side_overlay"
+                  },
+                  "merge": true
+                }
+              }
+            ]
+          },
+          {
+            "file_selector": {
+              "type": "file",
+              "arguments": {
+                "files": ["assets/minecraft/models/block/podzol.json"]
+              }
+            },
+            "selector": {
+              "type": "path",
+              "arguments": {
+                "location": "textures"
+              }
+            },
+            "modifiers": [
+              {
+                "type": "set",
+                "arguments": {
+                  "data": {
+                    "bottom": "blocks/dirt",
+                    "top": "blocks/dirt_podzol_top",
+                    "side": "blocks/dirt_podzol_side"
+                  }
+                }
+              }
+            ]
           }
         ]
+      }
+    },
+    {
+      "type": "replace",
+      "patch": {
+        "directory": "#workdir/patches/replace/Classic 3D - patch 1.12"
       }
     }
   ]
