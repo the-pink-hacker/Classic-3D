@@ -8,6 +8,36 @@
           "assets/minecraft/blockstates"
         ]
       }
+    },
+    {
+      "type": "mixin_json",
+      "patch": {
+        "mixins": [
+          {
+            "file_selector": {
+              "type": "path",
+              "arguments": {
+                "path": "assets/minecraft/models/*"
+              }
+            },
+            "selector": {
+              "type": "path",
+              "arguments": {
+                "location": "textures/*"
+              }
+            },
+            "modifiers": [
+              {
+                "type": "replace",
+                "arguments": {
+                  "select": "^block|(?<=^minecraft:)block",
+                  "replacement": "blocks"
+                }
+              }
+            ]
+          }
+        ]
+      }
     }
   ]
 }
