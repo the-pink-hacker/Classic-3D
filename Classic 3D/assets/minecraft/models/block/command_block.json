@@ -1,5 +1,4 @@
 {
-	"credit": "Made with Blockbench - Made/edited by RyanGar46",
 	"parent": "block/cube_directional",
 	"textures": {
 		"front": "block/command_block_front",

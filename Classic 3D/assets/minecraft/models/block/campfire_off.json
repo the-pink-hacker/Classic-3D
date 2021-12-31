@@ -1,5 +1,4 @@
 {
-	"credit": "Made with Blockbench - Made by RyanGar46 - Models are for Classic 3D Only",
 	"parent": "block/block",
 	"textures": {
 		"particle": "block/campfire_log",

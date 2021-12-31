@@ -1,5 +1,4 @@
 {
-	"credit": "Made/edited by RyanGar46",
 	"parent": "block/block",
 	"textures": {
 		"top": "block/composter_top",

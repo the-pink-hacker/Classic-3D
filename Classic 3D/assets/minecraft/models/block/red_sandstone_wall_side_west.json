@@ -1,5 +1,4 @@
 {
-	"credit": "Made with Blockbench - Made by Ryan Garrett - Models are for Classic 3D Only",
 	"parent": "block/template_sandstone_wall_side_west",
 	"textures": {
 		"wall": "block/red_sandstone_bottom"

@@ -1,5 +1,4 @@
 {
-	"credit": "Made with Blockbench - Made by Ryan Garrett - Models are for Classic 3D Only",
     "parent": "block/template_stone_bricks",
     "textures": {
 		"particle": "block/cracked_polished_blackstone_bricks",

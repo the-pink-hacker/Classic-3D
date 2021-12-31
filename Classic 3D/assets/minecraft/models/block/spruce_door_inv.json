@@ -1,5 +1,4 @@
 {
-	"credit": "Made with Blockbench - Made/edited by RyanGar46",
 	"parent": "block/door_inv",
 	"textures": {
 		"particle": "block/spruce_door_bottom",

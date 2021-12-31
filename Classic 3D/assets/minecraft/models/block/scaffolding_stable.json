@@ -1,5 +1,4 @@
 {
-	"credit": "Made with Blockbench - Made by ryangar46 - Models are for Classic 3D Only",
 	"parent": "block/block",
 	"textures": {
 		"particle": "block/scaffolding_top",

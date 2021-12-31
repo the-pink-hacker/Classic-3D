@@ -1,5 +1,4 @@
 {
-	"credit": "Made with Blockbench - Made by anonymous_46 - Models are for Classic 3D Only",
 	"parent": "block/furnace",
 	"textures": {
 		"front": "3d/furnaces/furnace_front_on"

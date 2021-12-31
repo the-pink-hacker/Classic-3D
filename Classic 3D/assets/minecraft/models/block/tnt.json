@@ -1,5 +1,4 @@
 {
-	"credit": "Made with Blockbench",
 	"parent": "block/cube_bottom_top",
 	"textures": {
 		"particle": "3d/tnt_top_3d",

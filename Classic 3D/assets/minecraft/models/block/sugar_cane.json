@@ -1,5 +1,4 @@
 {
-	"credit": "Made with Blockbench - Made/edited by RyanGar46",
 	"parent": "block/tinted_cross",
 	"textures": {
 		"cross": "block/sugar_cane"

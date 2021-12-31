@@ -1,5 +1,4 @@
 {
-	"credit": "Made with Blockbench - Made by RyanGar46 - Models are for Classic 3D Only",
     "parent": "block/template_sandstone",
     "textures": {
         "bottom": "block/sandstone_bottom",

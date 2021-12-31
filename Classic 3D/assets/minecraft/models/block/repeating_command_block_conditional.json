@@ -1,5 +1,4 @@
 {
-	"credit": "Made with Blockbench",
 	"parent": "block/command_block_conditional",
 	"textures": {
 		"side": "block/repeating_command_block_conditional",
