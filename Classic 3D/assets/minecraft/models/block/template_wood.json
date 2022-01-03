@@ -1,7 +1,6 @@
 {
 	"textures": {
-		"particle": "block/oak_log",
-		"side": "block/oak_log"
+		"particle": "#side"
 	},
 	"elements": [
 		{
