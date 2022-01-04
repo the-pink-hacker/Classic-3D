@@ -3,8 +3,8 @@
 	"ambientocclusion": false,
 	"textures": {
 		"1": "block/redstone_torch_off",
-		"particle": "block/redstone_torch_off",
 		"slab": "block/smooth_stone",
+		"particle": "block/repeater",
 		"top": "block/repeater"
 	},
 	"elements": [
@@ -215,15 +215,18 @@
 		{
 			"name": "repeater_1tick",
 			"origin": [8, 8, 8],
+			"color": 0,
 			"children": [0]
 		},
 		{
 			"name": "redstone_torch_off",
 			"origin": [8, 8, 8],
+			"color": 0,
 			"children": [
 				{
 					"name": "redstone torch 1",
 					"origin": [8, 8, 8],
+					"color": 0,
 					"children": [1, 2, 3, 4, 5, 6]
 				}
 			]
@@ -231,6 +234,7 @@
 		{
 			"name": "redstone torch 2",
 			"origin": [8, 8, 8],
+			"color": 0,
 			"children": [7, 8, 9, 10, 11, 12]
 		}
 	]
