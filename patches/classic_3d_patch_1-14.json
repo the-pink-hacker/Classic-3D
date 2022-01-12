@@ -1,51 +1,55 @@
 {
-  "type": "mixin_json",
-  "patch": {
-    "mixins": [
-      {
-        "file_selector": {
-          "type": "file",
-          "arguments": {
-            "files": ["assets/minecraft/models/block/mycelium.json"]
-          }
-        },
-        "selector": {
-          "type": "path",
-          "arguments": {
-            "location": "textures/overlay"
-          }
-        },
-        "modifiers": [
+  "patches": [
+    {
+      "type": "mixin_json",
+      "patch": {
+        "mixins": [
           {
-            "type": "set",
-            "arguments": {
-              "data": "block/mycelium_top"
-            }
-          }
-        ]
-      },
-      {
-        "file_selector": {
-          "type": "file",
-          "arguments": {
-            "files": ["assets/minecraft/models/block/ladder.json"]
-          }
-        },
-        "selector": {
-          "type": "path",
-          "arguments": {
-            "location": "textures/particle"
-          }
-        },
-        "modifiers": [
+            "file_selector": {
+              "type": "file",
+              "arguments": {
+                "files": ["assets/minecraft/models/block/mycelium.json"]
+              }
+            },
+            "selector": {
+              "type": "path",
+              "arguments": {
+                "location": "textures/overlay"
+              }
+            },
+            "modifiers": [
+              {
+                "type": "set",
+                "arguments": {
+                  "data": "block/mycelium_top"
+                }
+              }
+            ]
+          },
           {
-            "type": "set",
-            "arguments": {
-              "data": "block/ladder"
-            }
+            "file_selector": {
+              "type": "file",
+              "arguments": {
+                "files": ["assets/minecraft/models/block/ladder.json"]
+              }
+            },
+            "selector": {
+              "type": "path",
+              "arguments": {
+                "location": "textures/particle"
+              }
+            },
+            "modifiers": [
+              {
+                "type": "set",
+                "arguments": {
+                  "data": "block/ladder"
+                }
+              }
+            ]
           }
         ]
       }
-    ]
-  }
+    }
+  ]
 }

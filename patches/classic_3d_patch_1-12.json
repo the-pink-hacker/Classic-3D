@@ -1,6 +1,5 @@
 {
-  "type": "multi",
-  "patch": [
+  "patches": [
     {
       "type": "mixin_json",
       "patch": {
