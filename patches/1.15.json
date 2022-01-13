@@ -3,7 +3,7 @@
     {
       "type": "replace",
       "patch": {
-        "directory": "#workdir/patches/replace/Classic 3D - patch 1.15 walls"
+        "directory": "#workdir/patches/replace/1.15"
       }
     }
   ]
