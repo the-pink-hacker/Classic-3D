@@ -2,8 +2,8 @@
 	"parent": "block/door_bottom",
 	"ambientocclusion": false,
 	"textures": {
-		"1": "block/warped_door_bottom",
 		"particle": "block/warped_door_bottom",
+		"bottom": "block/warped_door_bottom",
 		"top": "block/warped_door_top"
 	},
 	"elements": [
@@ -15,7 +15,7 @@
 				"east": {"uv": [0, 0, 16, 16], "texture": "#top"},
 				"south": {"uv": [0, 0, 3, 16], "texture": "#top", "cullface": "south"},
 				"west": {"uv": [16, 0, 0, 16], "texture": "#top", "cullface": "west"},
-				"up": {"uv": [13, 16, 16, 0], "texture": "#1", "cullface": "up"}
+				"up": {"uv": [13, 16, 16, 0], "texture": "#bottom", "cullface": "up"}
 			}
 		},
 		{
@@ -684,7 +684,8 @@
 			"rotation": [0, 180, 0]
 		}
 	},
-	"groups": [0,
+	"groups": [
+		0,
 		{
 			"name": "north",
 			"origin": [8, 8, 8],
@@ -718,7 +719,9 @@
 					"name": "west",
 					"origin": [8, 8, 8],
 					"color": 0,
-					"children": [49, 50,
+					"children": [
+						49,
+						50,
 						{
 							"name": "west handle",
 							"origin": [8.75, 8, 8],
@@ -743,7 +746,9 @@
 					"name": "east",
 					"origin": [8, 8, 8],
 					"color": 0,
-					"children": [55, 56,
+					"children": [
+						55,
+						56,
 						{
 							"name": "east handle",
 							"origin": [-5.75, 8, 8],

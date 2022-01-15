@@ -1,8 +1,6 @@
 {
 	"parent": "block/oak_door_top_hinge",
-	"ambientocclusion": false,
 	"textures": {
-		"particle": "block/iron_door_bottom",
 		"top": "block/iron_door_top"
 	}
 }

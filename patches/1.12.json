@@ -993,6 +993,428 @@
                 }
               }
             ]
+          },
+          {
+            "file_selector": {
+              "type": "file",
+              "arguments": {
+                "files": [
+                  "assets/minecraft/models/block/rail_flat.json",
+                  "assets/minecraft/models/block/rail_corner.json",
+                  "assets/minecraft/models/block/rail_raised_ne.json",
+                  "assets/minecraft/models/block/rail_raised_sw.json"
+                ]
+              }
+            },
+            "selector": {
+              "type": "path",
+              "arguments": {
+                "location": "textures/front"
+              }
+            },
+            "modifiers": [
+              {
+                "type": "set",
+                "arguments": {
+                  "data": "blocks/rail_normal"
+                }
+              }
+            ]
+          },
+          {
+            "file_selector": {
+              "type": "file",
+              "arguments": {
+                "files": [
+                  "assets/minecraft/models/block/activator_rail.json",
+                  "assets/minecraft/models/block/activator_rail_raised_ne.json",
+                  "assets/minecraft/models/block/activator_rail_raised_sw.json"
+                ]
+              }
+            },
+            "selector": {
+              "type": "path",
+              "arguments": {
+                "location": "textures/front"
+              }
+            },
+            "modifiers": [
+              {
+                "type": "set",
+                "arguments": {
+                  "data": "blocks/rail_activator"
+                }
+              }
+            ]
+          },
+          {
+            "file_selector": {
+              "type": "file",
+              "arguments": {
+                "files": [
+                  "assets/minecraft/models/block/activator_rail_on.json",
+                  "assets/minecraft/models/block/activator_rail_on_raised_ne.json",
+                  "assets/minecraft/models/block/activator_rail_on_raised_sw.json"
+                ]
+              }
+            },
+            "selector": {
+              "type": "path",
+              "arguments": {
+                "location": "textures/front"
+              }
+            },
+            "modifiers": [
+              {
+                "type": "set",
+                "arguments": {
+                  "data": "blocks/rail_activator_powered"
+                }
+              }
+            ]
+          },
+          {
+            "file_selector": {
+              "type": "file",
+              "arguments": {
+                "files": [
+                  "assets/minecraft/models/block/powered_rail.json",
+                  "assets/minecraft/models/block/powered_rail_raised_ne.json",
+                  "assets/minecraft/models/block/powered_rail_raised_sw.json"
+                ]
+              }
+            },
+            "selector": {
+              "type": "path",
+              "arguments": {
+                "location": "textures/front"
+              }
+            },
+            "modifiers": [
+              {
+                "type": "set",
+                "arguments": {
+                  "data": "blocks/rail_golden"
+                }
+              }
+            ]
+          },
+          {
+            "file_selector": {
+              "type": "file",
+              "arguments": {
+                "files": [
+                  "assets/minecraft/models/block/powered_rail_on.json",
+                  "assets/minecraft/models/block/powered_rail_on_raised_ne.json",
+                  "assets/minecraft/models/block/powered_rail_on_raised_sw.json"
+                ]
+              }
+            },
+            "selector": {
+              "type": "path",
+              "arguments": {
+                "location": "textures/front"
+              }
+            },
+            "modifiers": [
+              {
+                "type": "set",
+                "arguments": {
+                  "data": "blocks/rail_golden_powered"
+                }
+              }
+            ]
+          },
+          {
+            "file_selector": {
+              "type": "file",
+              "arguments": {
+                "files": [
+                  "assets/minecraft/models/block/detector_rail.json",
+                  "assets/minecraft/models/block/detector_rail_raised_ne.json",
+                  "assets/minecraft/models/block/detector_rail_raised_sw.json"
+                ]
+              }
+            },
+            "selector": {
+              "type": "path",
+              "arguments": {
+                "location": "textures/front"
+              }
+            },
+            "modifiers": [
+              {
+                "type": "set",
+                "arguments": {
+                  "data": "blocks/rail_detector"
+                }
+              }
+            ]
+          },
+          {
+            "file_selector": {
+              "type": "file",
+              "arguments": {
+                "files": [
+                  "assets/minecraft/models/block/detector_rail_on.json",
+                  "assets/minecraft/models/block/detector_rail_on_raised_ne.json",
+                  "assets/minecraft/models/block/detector_rail_on_raised_sw.json"
+                ]
+              }
+            },
+            "selector": {
+              "type": "path",
+              "arguments": {
+                "location": "textures/front"
+              }
+            },
+            "modifiers": [
+              {
+                "type": "set",
+                "arguments": {
+                  "data": "blocks/rail_detector_powered"
+                }
+              }
+            ]
+          },
+          {
+            "file_selector": {
+              "type": "file",
+              "arguments": {
+                "files": [
+                  "assets/minecraft/models/block/acacia_door_bottom.json",
+                  "assets/minecraft/models/block/acacia_door_bottom_hinge.json",
+                  "assets/minecraft/models/block/acacia_door_top.json",
+                  "assets/minecraft/models/block/acacia_door_top_hinge.json",
+                  "assets/minecraft/models/block/acacia_door_inv.json"
+                ]
+              }
+            },
+            "selector": {
+              "type": "path",
+              "arguments": {
+                "location": "textures"
+              }
+            },
+            "modifiers": [
+              {
+                "type": "set",
+                "arguments": {
+                  "data": {
+                    "top": "blocks/door_acacia_upper",
+                    "bottom": "blocks/door_acacia_lower"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "file_selector": {
+              "type": "file",
+              "arguments": {
+                "files": [
+                  "assets/minecraft/models/block/oak_door_bottom.json",
+                  "assets/minecraft/models/block/oak_door_bottom_hinge.json",
+                  "assets/minecraft/models/block/oak_door_top.json",
+                  "assets/minecraft/models/block/oak_door_top_hinge.json",
+                  "assets/minecraft/models/block/oak_door_inv.json"
+                ]
+              }
+            },
+            "selector": {
+              "type": "path",
+              "arguments": {
+                "location": "textures"
+              }
+            },
+            "modifiers": [
+              {
+                "type": "set",
+                "arguments": {
+                  "data": {
+                    "top": "blocks/door_wood_upper",
+                    "bottom": "blocks/door_wood_lower"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "file_selector": {
+              "type": "file",
+              "arguments": {
+                "files": [
+                  "assets/minecraft/models/block/birch_door_bottom.json",
+                  "assets/minecraft/models/block/birch_door_bottom_hinge.json",
+                  "assets/minecraft/models/block/birch_door_top.json",
+                  "assets/minecraft/models/block/birch_door_top_hinge.json",
+                  "assets/minecraft/models/block/birch_door_inv.json"
+                ]
+              }
+            },
+            "selector": {
+              "type": "path",
+              "arguments": {
+                "location": "textures"
+              }
+            },
+            "modifiers": [
+              {
+                "type": "set",
+                "arguments": {
+                  "data": {
+                    "top": "blocks/door_birch_upper",
+                    "bottom": "blocks/door_birch_lower"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "file_selector": {
+              "type": "file",
+              "arguments": {
+                "files": [
+                  "assets/minecraft/models/block/spruce_door_bottom.json",
+                  "assets/minecraft/models/block/spruce_door_bottom_hinge.json",
+                  "assets/minecraft/models/block/spruce_door_top.json",
+                  "assets/minecraft/models/block/spruce_door_top_hinge.json",
+                  "assets/minecraft/models/block/spruce_door_inv.json"
+                ]
+              }
+            },
+            "selector": {
+              "type": "path",
+              "arguments": {
+                "location": "textures"
+              }
+            },
+            "modifiers": [
+              {
+                "type": "set",
+                "arguments": {
+                  "data": {
+                    "top": "blocks/door_spruce_upper",
+                    "bottom": "blocks/door_spruce_lower"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "file_selector": {
+              "type": "file",
+              "arguments": {
+                "files": [
+                  "assets/minecraft/models/block/dark_oak_door_bottom.json",
+                  "assets/minecraft/models/block/dark_oak_door_bottom_hinge.json",
+                  "assets/minecraft/models/block/dark_oak_door_top.json",
+                  "assets/minecraft/models/block/dark_oak_door_top_hinge.json",
+                  "assets/minecraft/models/block/dark_oak_door_inv.json"
+                ]
+              }
+            },
+            "selector": {
+              "type": "path",
+              "arguments": {
+                "location": "textures"
+              }
+            },
+            "modifiers": [
+              {
+                "type": "set",
+                "arguments": {
+                  "data": {
+                    "top": "blocks/door_dark_oak_upper",
+                    "bottom": "blocks/door_dark_oak_lower"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "file_selector": {
+              "type": "file",
+              "arguments": {
+                "files": [
+                  "assets/minecraft/models/block/iron_door_bottom.json",
+                  "assets/minecraft/models/block/iron_door_bottom_hinge.json",
+                  "assets/minecraft/models/block/iron_door_top.json",
+                  "assets/minecraft/models/block/iron_door_top_hinge.json",
+                  "assets/minecraft/models/block/iron_door_inv.json"
+                ]
+              }
+            },
+            "selector": {
+              "type": "path",
+              "arguments": {
+                "location": "textures"
+              }
+            },
+            "modifiers": [
+              {
+                "type": "set",
+                "arguments": {
+                  "data": {
+                    "top": "blocks/door_iron_upper",
+                    "bottom": "blocks/door_iron_lower"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "file_selector": {
+              "type": "file",
+              "arguments": {
+                "files": [
+                  "assets/minecraft/models/block/jungle_door_bottom.json",
+                  "assets/minecraft/models/block/jungle_door_bottom_hinge.json",
+                  "assets/minecraft/models/block/jungle_door_top.json",
+                  "assets/minecraft/models/block/jungle_door_top_hinge.json",
+                  "assets/minecraft/models/block/jungle_door_inv.json"
+                ]
+              }
+            },
+            "selector": {
+              "type": "path",
+              "arguments": {
+                "location": "textures"
+              }
+            },
+            "modifiers": [
+              {
+                "type": "set",
+                "arguments": {
+                  "data": {
+                    "top": "blocks/door_jungle_upper",
+                    "bottom": "blocks/door_jungle_lower"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "file_selector": {
+              "type": "file",
+              "arguments": {
+                "files": ["assets/minecraft/models/block/sugar_cane.json"]
+              }
+            },
+            "selector": {
+              "type": "path",
+              "arguments": {
+                "location": "textures/cross"
+              }
+            },
+            "modifiers": [
+              {
+                "type": "set",
+                "arguments": {
+                  "data": "blocks/reeds"
+                }
+              }
+            ]
           }
         ]
       }

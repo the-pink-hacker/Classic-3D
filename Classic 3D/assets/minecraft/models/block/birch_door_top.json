@@ -2,9 +2,9 @@
 	"parent": "minecraft:block/door_top",
 	"ambientocclusion": false,
 	"textures": {
-		"particle": "minecraft:block/birch_door_bottom",
-		"bottom": "minecraft:block/birch_door_bottom",
-		"top": "minecraft:block/birch_door_top"
+		"particle": "block/birch_door_bottom",
+		"bottom": "block/birch_door_bottom",
+		"top": "block/birch_door_top"
 	},
 	"elements": [
 		{
@@ -191,7 +191,13 @@
 			"rotation": [0, 180, 0]
 		}
 	},
-	"groups": [0, 1, 2, 3, 4, 5,
+	"groups": [
+		0,
+		1,
+		2,
+		3,
+		4,
+		5,
 		{
 			"name": "door_hinges_top",
 			"origin": [8, 8, 8],

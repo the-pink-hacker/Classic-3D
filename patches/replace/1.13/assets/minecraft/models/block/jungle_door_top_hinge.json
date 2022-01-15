@@ -1,9 +1,10 @@
 {
+	"parent": "minecraft:block/door_top_rh",
 	"ambientocclusion": false,
 	"textures": {
-		"top": "block/jungle_door_top",
-		"bottom": "block/jungle_door_bottom",
-		"particle": "block/jungle_door_bottom"
+		"top": "Default Textures Blockbench:block/jungle_door_top",
+		"particle": "Default Textures Blockbench:block/jungle_door_bottom",
+		"bottom": "Default Textures Blockbench:block/jungle_door_bottom"
 	},
 	"elements": [
 		{

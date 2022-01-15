@@ -1,8 +1,10 @@
 {
+	"parent": "minecraft:block/door_top_rh",
 	"ambientocclusion": false,
 	"textures": {
 		"top": "block/oak_door_top",
-		"particle": "block/oak_door_bottom"
+		"particle": "block/oak_door_bottom",
+		"bottom": "block/oak_door_bottom"
 	},
 	"elements": [
 		{
@@ -15,7 +17,7 @@
 				"east": {"uv": [0, 0, 3, 16], "texture": "#top"},
 				"south": {"uv": [0, 0, 3, 16], "texture": "#top", "cullface": "south"},
 				"west": {"uv": [3, 0, 0, 16], "texture": "#top", "cullface": "west"},
-				"up": {"uv": [13, 3, 16, 0], "texture": "#particle", "cullface": "up"}
+				"up": {"uv": [13, 3, 16, 0], "texture": "#bottom", "cullface": "up"}
 			}
 		},
 		{
@@ -49,7 +51,7 @@
 			"faces": {
 				"east": {"uv": [3, 0, 13, 3], "texture": "#top"},
 				"west": {"uv": [13, 0, 3, 3], "texture": "#top", "cullface": "west"},
-				"up": {"uv": [13, 13, 16, 3], "texture": "#particle", "cullface": "up"},
+				"up": {"uv": [13, 13, 16, 3], "texture": "#bottom", "cullface": "up"},
 				"down": {"uv": [0, 10, 3, 0], "texture": "#top"}
 			}
 		},
@@ -63,7 +65,7 @@
 				"east": {"uv": [13, 0, 16, 16], "texture": "#top"},
 				"south": {"uv": [16, 0, 13, 16], "texture": "#top", "cullface": "south"},
 				"west": {"uv": [16, 0, 13, 16], "texture": "#top", "cullface": "west"},
-				"up": {"uv": [13, 16, 16, 13], "texture": "#particle", "cullface": "up"}
+				"up": {"uv": [13, 16, 16, 13], "texture": "#bottom", "cullface": "up"}
 			}
 		},
 		{
@@ -256,12 +258,21 @@
 			"rotation": [0, 180, 0]
 		}
 	},
-	"groups": [0, 1, 2, 3, 4, 5, 6,
+	"groups": [
+		0,
+		1,
+		2,
+		3,
+		4,
+		5,
+		6,
 		{
 			"name": "west",
 			"origin": [8, 8, 8],
 			"color": 0,
-			"children": [7, 8,
+			"children": [
+				7,
+				8,
 				{
 					"name": "west handle",
 					"origin": [8.75, 8, 8],
@@ -286,7 +297,9 @@
 			"name": "east",
 			"origin": [8, 8, 8],
 			"color": 0,
-			"children": [15, 16,
+			"children": [
+				15,
+				16,
 				{
 					"name": "east handle",
 					"origin": [-5.75, 8, 8],

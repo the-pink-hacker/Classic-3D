@@ -1,8 +1,8 @@
 {
-	"parent": "block/door_bottom",
+	"parent": "minecraft:block/door_top_rh",
 	"ambientocclusion": false,
 	"textures": {
-		"1": "block/acacia_door_bottom",
+		"bottom": "block/acacia_door_bottom",
 		"particle": "block/acacia_door_top",
 		"top": "block/acacia_door_top"
 	},
@@ -22,7 +22,7 @@
 			"faces": {
 				"east": {"uv": [3, 0, 13, 3], "texture": "#top"},
 				"west": {"uv": [13, 0, 3, 3], "texture": "#top", "cullface": "west"},
-				"up": {"uv": [13, 13, 16, 3], "texture": "#1", "cullface": "up"},
+				"up": {"uv": [13, 13, 16, 3], "texture": "#bottom", "cullface": "up"},
 				"down": {"uv": [13, 0, 3, 3], "rotation": 90, "texture": "#top"}
 			}
 		},
@@ -54,7 +54,7 @@
 				"east": {"uv": [13, 0, 16, 16], "texture": "#top"},
 				"south": {"uv": [13, 0, 16, 16], "rotation": 180, "texture": "#top", "cullface": "south"},
 				"west": {"uv": [16, 0, 13, 16], "texture": "#top", "cullface": "west"},
-				"up": {"uv": [13, 16, 16, 13], "texture": "#1", "cullface": "up"}
+				"up": {"uv": [13, 16, 16, 13], "texture": "#bottom", "cullface": "up"}
 			}
 		},
 		{
@@ -65,7 +65,7 @@
 				"east": {"uv": [0, 0, 3, 16], "texture": "#top"},
 				"south": {"uv": [0, 0, 3, 16], "texture": "#top", "cullface": "south"},
 				"west": {"uv": [3, 0, 0, 16], "texture": "#top", "cullface": "west"},
-				"up": {"uv": [13, 3, 16, 0], "texture": "#1", "cullface": "up"}
+				"up": {"uv": [13, 3, 16, 0], "texture": "#bottom", "cullface": "up"}
 			}
 		},
 		{
@@ -210,7 +210,15 @@
 			"rotation": [0, 180, 0]
 		}
 	},
-	"groups": [0, 1, 2, 3, 4, 5, 6, 7,
+	"groups": [
+		0,
+		1,
+		2,
+		3,
+		4,
+		5,
+		6,
+		7,
 		{
 			"name": "door_hinges_top_hinge",
 			"origin": [8, 8, 8],
@@ -220,7 +228,9 @@
 					"name": "west",
 					"origin": [8, 8, 8],
 					"color": 0,
-					"children": [8, 9,
+					"children": [
+						8,
+						9,
 						{
 							"name": "west handle",
 							"origin": [8.75, 8, 8],
@@ -245,7 +255,9 @@
 					"name": "east",
 					"origin": [8, 8, 8],
 					"color": 0,
-					"children": [14, 15,
+					"children": [
+						14,
+						15,
 						{
 							"name": "east handle",
 							"origin": [-5.75, 8, 8],
