@@ -1,6 +1,6 @@
 {
     "parent": "block/template_stone_bricks",
-	"textures": {
-		"all": "block/stone_bricks"
-	}
+		"textures": {
+			"all": "block/stone_bricks"
+		}
 }
