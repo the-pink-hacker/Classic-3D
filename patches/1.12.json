@@ -1561,6 +1561,137 @@
                 }
               }
             ]
+          },
+          {
+            "file_selector": {
+              "type": "file",
+              "arguments": {
+                "files": [
+                  "assets/minecraft/models/block/nether_bricks.json",
+                  "assets/minecraft/models/block/nether_brick_stairs_north.json",
+                  "assets/minecraft/models/block/nether_brick_stairs_east.json",
+                  "assets/minecraft/models/block/nether_brick_stairs_south.json",
+                  "assets/minecraft/models/block/nether_brick_stairs_west.json",
+                  "assets/minecraft/models/block/nether_brick_stairs_inner_nw.json",
+                  "assets/minecraft/models/block/nether_brick_stairs_inner_ne.json",
+                  "assets/minecraft/models/block/nether_brick_stairs_inner_se.json",
+                  "assets/minecraft/models/block/nether_brick_stairs_inner_sw.json",
+                  "assets/minecraft/models/block/nether_brick_stairs_outer_nw.json",
+                  "assets/minecraft/models/block/nether_brick_stairs_outer_ne.json",
+                  "assets/minecraft/models/block/nether_brick_stairs_outer_se.json",
+                  "assets/minecraft/models/block/nether_brick_stairs_outer_sw.json",
+                  "assets/minecraft/models/block/nether_brick_stairs_top_north.json",
+                  "assets/minecraft/models/block/nether_brick_stairs_top_east.json",
+                  "assets/minecraft/models/block/nether_brick_stairs_top_south.json",
+                  "assets/minecraft/models/block/nether_brick_stairs_top_west.json",
+                  "assets/minecraft/models/block/nether_brick_stairs_top_inner_nw.json",
+                  "assets/minecraft/models/block/nether_brick_stairs_top_inner_ne.json",
+                  "assets/minecraft/models/block/nether_brick_stairs_top_inner_se.json",
+                  "assets/minecraft/models/block/nether_brick_stairs_top_inner_sw.json",
+                  "assets/minecraft/models/block/nether_brick_stairs_top_outer_nw.json",
+                  "assets/minecraft/models/block/nether_brick_stairs_top_outer_ne.json",
+                  "assets/minecraft/models/block/nether_brick_stairs_top_outer_se.json",
+                  "assets/minecraft/models/block/nether_brick_stairs_top_outer_sw.json",
+                  "assets/minecraft/models/block/nether_brick_slab.json",
+                  "assets/minecraft/models/block/nether_brick_slab_top.json",
+                  "assets/minecraft/models/block/nether_brick_fence_post.json",
+                  "assets/minecraft/models/block/nether_brick_fence_inv.json"
+                ]
+              }
+            },
+            "selector": {
+              "type": "path",
+              "arguments": {
+                "location": "textures/*"
+              }
+            },
+            "modifiers": [
+              {
+                "type": "set",
+                "arguments": {
+                  "data": "blocks/nether_brick"
+                }
+              }
+            ]
+          },
+          {
+            "file_selector": {
+              "type": "file",
+              "arguments": {
+                "files": [
+                  "assets/minecraft/models/block/red_nether_bricks.json"
+                ]
+              }
+            },
+            "selector": {
+              "type": "path",
+              "arguments": {
+                "location": "textures/*"
+              }
+            },
+            "modifiers": [
+              {
+                "type": "set",
+                "arguments": {
+                  "data": "blocks/red_nether_brick"
+                }
+              }
+            ]
+          },
+          {
+            "file_selector": {
+              "type": "file",
+              "arguments": {
+                "files": [
+                  "assets/minecraft/models/block/nether_wart_stage0.json",
+                  "assets/minecraft/models/block/nether_wart_stage1.json",
+                  "assets/minecraft/models/block/nether_wart_stage2.json",
+                  "assets/minecraft/models/block/nether_wart_stage3.json"
+                ]
+              }
+            },
+            "selector": {
+              "type": "path",
+              "arguments": {
+                "location": "textures/*"
+              }
+            },
+            "modifiers": [
+              {
+                "type": "replace",
+                "arguments": {
+                  "select": "nether_wart_stage",
+                  "replacement": "nether_wart_stage_"
+                }
+              }
+            ]
+          },
+          {
+            "file_selector": {
+              "type": "file",
+              "arguments": {
+                "files": [
+                  "assets/minecraft/models/block/chiseled_quartz_block.json"
+                ]
+              }
+            },
+            "selector": {
+              "type": "path",
+              "arguments": {
+                "location": "textures"
+              }
+            },
+            "modifiers": [
+              {
+                "type": "set",
+                "arguments": {
+                  "data": {
+                    "side": "blocks/quartz_block_chiseled",
+                    "end": "blocks/quartz_block_chiseled_top"
+                  }
+                }
+              }
+            ]
           }
         ]
       }
