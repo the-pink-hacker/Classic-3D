@@ -1692,6 +1692,36 @@
                 }
               }
             ]
+          },
+          {
+            "file_selector": {
+              "type": "file",
+              "arguments": {
+                "files": [
+                  "assets/minecraft/models/block/mossy_cobblestone.json",
+                  "assets/minecraft/models/block/mossy_cobblestone_wall_inventory.json",
+                  "assets/minecraft/models/block/mossy_cobblestone_wall_post.json",
+                  "assets/minecraft/models/block/mossy_cobblestone_wall_side_north.json",
+                  "assets/minecraft/models/block/mossy_cobblestone_wall_side_east.json",
+                  "assets/minecraft/models/block/mossy_cobblestone_wall_side_south.json",
+                  "assets/minecraft/models/block/mossy_cobblestone_wall_side_west.json"
+                ]
+              }
+            },
+            "selector": {
+              "type": "path",
+              "arguments": {
+                "location": "textures/*"
+              }
+            },
+            "modifiers": [
+              {
+                "type": "set",
+                "arguments": {
+                  "data": "blocks/cobblestone_mossy"
+                }
+              }
+            ]
           }
         ]
       }
