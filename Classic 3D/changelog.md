@@ -1,26 +1,9 @@
-v14.1
+v14.2
 
 Changes:
 
-- Clean up rail models
-- Tweaked chisled stone bricks' model
-
-Fixes:
-
-- Birch trapdoor error when opened [#7](https://github.com/RyanGar46/Classic-3D/issues/7)
-- Wall blockstates are missing
-- Wall blockstates fail to load (1.13-1.15)
-- Tnt uv is incorrect
-- Boats use wrong texture (1.13)
-- Iron door doesn't match texture (1.13)
-- Grass block inccorectly culls faces
-- Myceilium has missing textures (1.13-1.14)
-- Smooth stone has texture issues (1.13)
-- Jungle door doesn't match texture (1.13)
-- Hanging lantern model didn't load
-- Repeater and comparator use wrong texture (1.13)
-- Warnings are present in the log (1.13-1.14)
-- Ladder is missing a particle texture (1.13-1.14)
+- Added 1.12 support
+- Removed unnecessary files
 
 ---
 
