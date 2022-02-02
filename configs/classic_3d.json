@@ -1,4 +1,5 @@
 {
+  "$schema": "https://raw.githubusercontent.com/RyanGar46/resource-pack-packer/main/schema/config.schema.json",
   "directory": "#workdir/Classic 3D",
   "name_scheme": "\u00A76\u00A7l#name v#version - #mcversion",
   "configs": {
@@ -39,12 +40,12 @@
     },
     "1.16": {
       "mc_versions": [
-        "1.16",
-        "1.16.1",
-        "1.16.2",
-        "1.16.3",
+        "1.16.5",
         "1.16.4",
-        "1.16.5"
+        "1.16.3",
+        "1.16.2",
+        "1.16.1",
+        "1.16"
       ],
       "textures": {
         "delete": true,
@@ -62,9 +63,9 @@
     },
     "1.15": {
       "mc_versions": [
-        "1.15",
+        "1.15.2",
         "1.15.1",
-        "1.15.2"
+        "1.15"
       ],
       "textures": {
         "delete": true,
@@ -83,11 +84,11 @@
     },
     "1.14": {
       "mc_versions": [
-        "1.14",
-        "1.14.1",
-        "1.14.2",
+        "1.14.4",
         "1.14.3",
-        "1.14.4"
+        "1.14.2",
+        "1.14.1",
+        "1.14"
       ],
       "textures": {
         "delete": true,
@@ -107,9 +108,9 @@
     },
     "1.13": {
       "mc_versions": [
-        "1.13",
+        "1.13.2",
         "1.13.1",
-        "1.13.2"
+        "1.13"
       ],
       "textures": {
         "delete": true,
@@ -130,9 +131,9 @@
     },
     "1.12": {
       "mc_versions": [
-        "1.12",
+        "1.12.2",
         "1.12.1",
-        "1.12.2"
+        "1.12"
       ],
       "textures": {
         "delete": true,
