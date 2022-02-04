@@ -247,7 +247,9 @@
 			"scale": [0.5, 0.5, 0.5]
 		}
 	},
-	"groups": [0, 1,
+	"groups": [
+		0,
+		1,
 		{
 			"name": "other down",
 			"origin": [0, 0, 0],
