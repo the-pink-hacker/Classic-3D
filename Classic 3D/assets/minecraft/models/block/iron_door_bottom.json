@@ -1,6 +1,6 @@
 {
-	"parent": "block/oak_door_bottom",
+	"parent": "minecraft:block/template_oak_door_bottom",
 	"textures": {
-		"bottom": "block/iron_door_bottom"
+		"bottom": "minecraft:block/iron_door_bottom"
 	}
 }

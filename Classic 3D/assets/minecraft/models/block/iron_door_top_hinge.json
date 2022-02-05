@@ -1,6 +1,7 @@
 {
-	"parent": "block/oak_door_top_hinge",
+	"parent": "minecraft:block/template_oak_door_top_hinge",
 	"textures": {
-		"top": "block/iron_door_top"
+		"top": "minecraft:block/iron_door_top",
+		"bottom": "minecraft:block/iron_door_top"
 	}
 }
