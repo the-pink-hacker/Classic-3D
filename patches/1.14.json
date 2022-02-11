@@ -7,9 +7,9 @@
         "mixins": [
           {
             "file_selector": {
-              "type": "file",
+              "type": "identifier",
               "arguments": {
-                "files": ["assets/minecraft/models/block/mycelium.json"]
+                "models": ["minecraft:block/mycelium"]
               }
             },
             "selector": {
@@ -29,9 +29,9 @@
           },
           {
             "file_selector": {
-              "type": "file",
+              "type": "identifier",
               "arguments": {
-                "files": ["assets/minecraft/models/block/ladder.json"]
+                "models": ["minecraft:block/ladder"]
               }
             },
             "selector": {

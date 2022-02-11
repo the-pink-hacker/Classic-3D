@@ -63,9 +63,9 @@
           },
           {
             "file_selector": {
-              "type": "file",
+              "type": "identifier",
               "arguments": {
-                "files": ["assets/minecraft/models/block/nether_quartz_ore.json"]
+                "models": ["minecraft:block/nether_quartz_ore"]
               }
             },
             "selector": {
