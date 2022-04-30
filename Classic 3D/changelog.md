@@ -1,31 +1,13 @@
-v14.3
+v14.3.1
+
+Changes:
+
+- Improve cake models
 
 Fixes:
 
-- Reduced Z-fighting on many blocks
-- Barrel lighting issue
-- Iron bars' blockstate is incorrect
-- Iron door uses oak door texture
-- Loom culling issues
-- Sea lantern culling issues
-- Reduced lag in nether
-- Parenting issues with rails
-- 1.12 support
-  - Prismarine
-  - Dark Prismarine
-  - Piston
-  - Sticky Piston
-  - Cake
-- Optimized
-  - Sandstone
-  - Cobblestone
-  - Stone Bricks
-  - Bee Nest
-  - Beehive
-  - Anvils
-  - Redstone Dust
-  - Scaffolding
-  - Nylium
+- Culling issues with oak and dark oak doors
+- Furnace particle issue
 
 ---
 
@@ -33,17 +15,21 @@ Links:
 
 To report a bug or give feedback, go here:
 
-[Classic 3D's Github](github.com/RyanGar46/Classic-3D/issues)
+[Classic 3D's Github](https://github.com/RyanGar46/Classic-3D/issues)
 
 To get news and updates about the Classic 3D, go here:
 
-[Classic 3D's Twitter](twitter.com/Classic_3D)
+~~[Classic 3D's Twitter](https://twitter.com/Classic_3D "No longer in use. Tumblr is now used.")~~
+
+[Classic 3D's Tumblr](https://classic3d.tumblr.com/)
 
 ---
 
 Credit:
 
-Some textures by: [GodAmongDessert](instagram.com/godamongdessert/)
+Some textures by: [GodAmongDessert](https://instagram.com/godamongdessert/)
+
+Created by: [Ryan Garrett (RyanGar46)](https://ryangar46.tumblr.com/)
 
 Built using [Resource Pack Packer](https://github.com/RyanGar46/resource-pack-packer).
 
