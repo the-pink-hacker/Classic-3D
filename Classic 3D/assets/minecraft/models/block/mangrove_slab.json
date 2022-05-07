@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_plank_slab",
+  "textures": {
+    "all": "minecraft:block/mangrove_planks"
+  }
+}

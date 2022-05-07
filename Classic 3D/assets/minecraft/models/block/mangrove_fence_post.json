@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_plank_fence_post",
+  "textures": {
+    "all": "minecraft:block/mangrove_planks"
+  }
+}
