@@ -1,0 +1,106 @@
+{
+	"parent": "minecraft:item/item",
+	"textures": {
+		"back": "painting/back",
+		"painting": "item/painting"
+	},
+	"elements": [
+		{
+			"from": [8.5, 12, 7.5],
+			"to": [10.5, 13, 8.5],
+			"faces": {
+				"north": {"uv": [8, 3, 6, 4], "texture": "#painting"},
+				"east": {"uv": [7, 3, 8, 4], "texture": "#painting"},
+				"south": {"uv": [6, 3, 8, 4], "texture": "#painting"},
+				"west": {"uv": [6, 3, 7, 4], "texture": "#painting"},
+				"up": {"uv": [6, 3, 8, 4], "texture": "#painting"}
+			}
+		},
+		{
+			"from": [5.5, 12, 7.5],
+			"to": [7.5, 13, 8.5],
+			"faces": {
+				"north": {"uv": [11, 3, 9, 4], "texture": "#painting"},
+				"east": {"uv": [10, 3, 11, 4], "texture": "#painting"},
+				"south": {"uv": [9, 3, 11, 4], "texture": "#painting"},
+				"west": {"uv": [9, 3, 10, 4], "texture": "#painting"},
+				"up": {"uv": [9, 3, 11, 4], "texture": "#painting"}
+			}
+		},
+		{
+			"from": [6.5, 13, 7.5],
+			"to": [9.5, 14, 8.5],
+			"faces": {
+				"north": {"uv": [10, 2, 7, 3], "texture": "#painting"},
+				"east": {"uv": [9, 2, 10, 3], "texture": "#painting"},
+				"south": {"uv": [7, 2, 10, 3], "texture": "#painting"},
+				"west": {"uv": [7, 2, 8, 3], "texture": "#painting"},
+				"up": {"uv": [7, 2, 10, 3], "texture": "#painting"},
+				"down": {"uv": [10, 2, 7, 3], "texture": "#painting"}
+			}
+		},
+		{
+			"from": [7.5, 14, 7.5],
+			"to": [8.5, 15, 8.5],
+			"faces": {
+				"north": {"uv": [9, 1, 8, 2], "texture": "#painting"},
+				"east": {"uv": [8, 1, 9, 2], "texture": "#painting"},
+				"south": {"uv": [8, 1, 9, 2], "texture": "#painting"},
+				"west": {"uv": [8, 1, 9, 2], "texture": "#painting"},
+				"up": {"uv": [8, 1, 9, 2], "texture": "#painting"}
+			}
+		},
+		{
+			"from": [2.5, 1, 7],
+			"to": [13.5, 3, 9],
+			"faces": {
+				"north": {"uv": [3, 13, 14, 15], "texture": "#back"},
+				"south": {"uv": [3, 13, 14, 15], "texture": "#painting"},
+				"up": {"uv": [3, 13, 14, 14], "texture": "#painting"},
+				"down": {"uv": [3, 14, 14, 15], "texture": "#painting"}
+			}
+		},
+		{
+			"from": [2.5, 11, 7],
+			"to": [13.5, 12, 9],
+			"faces": {
+				"north": {"uv": [3, 4, 14, 5], "texture": "#back"},
+				"south": {"uv": [3, 4, 14, 5], "texture": "#painting"},
+				"up": {"uv": [3, 4, 14, 5], "texture": "#painting"},
+				"down": {"uv": [3, 4, 14, 5], "texture": "#painting"}
+			}
+		},
+		{
+			"from": [2.5, 3, 7],
+			"to": [13.5, 11, 8],
+			"faces": {
+				"north": {"uv": [3, 5, 14, 13], "texture": "#back"},
+				"south": {"uv": [3, 5, 14, 13], "texture": "#painting"}
+			}
+		},
+		{
+			"from": [1.5, 1, 7],
+			"to": [2.5, 12, 9],
+			"faces": {
+				"north": {"uv": [14, 4, 15, 15], "texture": "#back"},
+				"east": {"uv": [2, 4, 3, 15], "texture": "#painting"},
+				"south": {"uv": [2, 4, 3, 15], "texture": "#painting"},
+				"west": {"uv": [2, 4, 3, 15], "texture": "#painting"},
+				"up": {"uv": [2, 4, 3, 5], "texture": "#painting"},
+				"down": {"uv": [2, 14, 3, 15], "texture": "#painting"}
+			}
+		},
+		{
+			"from": [13.5, 1, 7],
+			"to": [14.5, 12, 9],
+			"faces": {
+				"north": {"uv": [2, 4, 3, 15], "texture": "#back"},
+				"east": {"uv": [14, 4, 15, 15], "texture": "#painting"},
+				"south": {"uv": [14, 4, 15, 15], "texture": "#painting"},
+				"west": {"uv": [14, 4, 15, 15], "texture": "#painting"},
+				"up": {"uv": [14, 4, 15, 5], "texture": "#painting"},
+				"down": {"uv": [14, 14, 15, 15], "texture": "#painting"}
+			}
+		}
+	]
+}
