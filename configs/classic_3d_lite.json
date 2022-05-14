@@ -70,6 +70,17 @@
     ]
   },
   "configs": {
+    "1.19": {
+      "mc_versions": [
+        "22w19a"
+      ],
+      "regenerate_meta": true,
+      "minify_json": true,
+      "patches": [
+        "lite",
+        "margin_model"
+      ]
+    },
     "1.18": {
       "mc_versions": [
         "1.18",
