@@ -1,13 +1,27 @@
-v14.3.1
+v15.0 - Beta 1
+
+This beta is mostly for 1.19 feedback, but there are some non-1.19 features in this. Feel like a block should be added? Then create a ticket on [Github](https://github.com/RyanGar46/Classic-3D/issues).
 
 Changes:
 
-- Improve cake models
+- 1.19 is now supported
+- Added the following blocks
+  - Frog Spawn
+  - Mangrove wood blocks
+  - Emerald
+  - Skulk Vein
+  - Reinforced Deepslate
+- Added the following items
+  - All chest boats
+  - Item Frame
+  - Glowing Item Frame
+  - Painting
 
 Fixes:
 
-- Culling issues with oak and dark oak doors
-- Furnace particle issue
+- Pumpkin's UV is incorrect in some places
+- Jack o'Lantern's item head position is incorrect
+- 
 
 ---
 
