@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/template_polished_block",
   "textures": {
-    "all": "minecraft:block/polished_blackstone"
+    "all": "minecraft:block/polished_andesite"
   }
 }
