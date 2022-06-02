@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_polished_stairs_outer_nw",
+  "textures": {
+    "all": "minecraft:block/polished_diorite"
+  }
+}

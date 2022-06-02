@@ -1,8 +1,5 @@
 {
 	"parent": "minecraft:block/slab",
-	"textures": {
-		"particle": "#texture"
-	},
 	"elements": [
 		{
 			"from": [0, 8, 0],
