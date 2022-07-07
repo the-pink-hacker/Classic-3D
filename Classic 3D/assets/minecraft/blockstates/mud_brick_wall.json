@@ -1,0 +1,148 @@
+{
+  "multipart": [
+    {
+      "when": {
+        "up": "true"
+      },
+      "apply": {
+        "model": "minecraft:block/mud_brick_wall_post"
+      }
+    },
+    {
+      "when": {
+        "north": "low"
+      },
+      "apply": {
+        "model": "minecraft:block/mud_brick_wall_side_north"
+      }
+    },
+    {
+      "when": {
+        "east": "low"
+      },
+      "apply": {
+        "model": "minecraft:block/mud_brick_wall_side_east"
+      }
+    },
+    {
+      "when": {
+        "south": "low"
+      },
+      "apply": {
+        "model": "minecraft:block/mud_brick_wall_side_south"
+      }
+    },
+    {
+      "when": {
+        "west": "low"
+      },
+      "apply": {
+        "model": "minecraft:block/mud_brick_wall_side_west"
+      }
+    },
+    {
+      "when": {
+        "up": "false",
+        "north": "low",
+        "east": "none",
+        "south": "low",
+        "west": "none"
+      },
+      "apply": {
+        "model": "minecraft:block/mud_brick_wall_side_ns"
+      }
+    },
+    {
+      "when": {
+        "up": "false",
+        "north": "none",
+        "east": "low",
+        "south": "none",
+        "west": "low"
+      },
+      "apply": {
+        "model": "minecraft:block/mud_brick_wall_side_ew"
+      }
+    },
+    {
+      "when": {
+        "up": "false",
+        "north": "low",
+        "east": "low",
+        "south": "low",
+        "west": "low"
+      },
+      "apply": {
+        "model": "minecraft:block/mud_brick_wall_cross"
+      }
+    },
+    {
+      "when": {
+        "north": "tall"
+      },
+      "apply": {
+        "model": "minecraft:block/mud_brick_wall_side_tall_north"
+      }
+    },
+    {
+      "when": {
+        "east": "tall"
+      },
+      "apply": {
+        "model": "minecraft:block/mud_brick_wall_side_tall_east"
+      }
+    },
+    {
+      "when": {
+        "south": "tall"
+      },
+      "apply": {
+        "model": "minecraft:block/mud_brick_wall_tall_south"
+      }
+    },
+    {
+      "when": {
+        "west": "tall"
+      },
+      "apply": {
+        "model": "minecraft:block/mud_brick_wall_tall_west"
+      }
+    },
+    {
+      "when": {
+        "up": "false",
+        "north": "tall",
+        "east": "none",
+        "south": "tall",
+        "west": "none"
+      },
+      "apply": {
+        "model": "minecraft:block/mud_brick_wall_tall_ns"
+      }
+    },
+    {
+      "when": {
+        "up": "false",
+        "north": "none",
+        "east": "tall",
+        "south": "none",
+        "west": "tall"
+      },
+      "apply": {
+        "model": "minecraft:block/mud_brick_wall_side_tall_ew"
+      }
+    },
+    {
+      "when": {
+        "up": "false",
+        "north": "tall",
+        "east": "tall",
+        "south": "tall",
+        "west": "tall"
+      },
+      "apply": {
+        "model": "minecraft:block/mud_brick_wall_cross_tall"
+      }
+    }
+  ]
+}
