@@ -1,0 +1,6 @@
+{
+  "parent": "block/template_boat",
+  "textures": {
+    "boat": "minecraft:3d/boat/mangrove"
+  }
+}

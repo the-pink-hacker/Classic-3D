@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:block/cube_all",
+  "parent": "minecraft:block/template_polished_block",
   "textures": {
     "all": "minecraft:block/polished_blackstone"
   }

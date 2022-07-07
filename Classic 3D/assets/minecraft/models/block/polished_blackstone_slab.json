@@ -1,8 +1,6 @@
 {
-  "parent": "minecraft:block/slab",
+  "parent": "minecraft:block/template_polished_slab",
   "textures": {
-    "bottom": "minecraft:block/polished_blackstone",
-    "top": "minecraft:block/polished_blackstone",
-    "side": "minecraft:block/polished_blackstone"
+    "texture": "minecraft:block/polished_blackstone"
   }
 }
