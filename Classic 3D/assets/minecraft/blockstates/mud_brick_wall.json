@@ -97,7 +97,7 @@
         "south": "tall"
       },
       "apply": {
-        "model": "minecraft:block/mud_brick_wall_tall_south"
+        "model": "minecraft:block/mud_brick_wall_side_tall_south"
       }
     },
     {
@@ -105,7 +105,7 @@
         "west": "tall"
       },
       "apply": {
-        "model": "minecraft:block/mud_brick_wall_tall_west"
+        "model": "minecraft:block/mud_brick_wall_side_tall_west"
       }
     },
     {
@@ -117,7 +117,7 @@
         "west": "none"
       },
       "apply": {
-        "model": "minecraft:block/mud_brick_wall_tall_ns"
+        "model": "minecraft:block/mud_brick_wall_side_tall_ns"
       }
     },
     {
