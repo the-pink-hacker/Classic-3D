@@ -1,20 +1,27 @@
-v15.0 - Beta 1
-
-This beta is mostly for 1.19 feedback, but there are some non-1.19 features in this. Feel like a block should be added? Then create a ticket on [Github](https://github.com/RyanGar46/Classic-3D/issues).
+v15.0
 
 Changes:
 
-- 1.19 is now supported
 - Added the following blocks
+  - Block of Quartz
+  - Emerald
   - Frog Spawn
   - Mangrove wood blocks
-  - Emerald
-  - Skulk Vein
+  - Mud Bricks
+  - Polished Andesite
+  - Polished Blackstone
+  - Polished Deepslate
+  - Polished Diorite
+  - Polished Granite
   - Reinforced Deepslate
+  - Skulk Catalyst
+  - Skulk Sensor
+  - Skulk Shrieker
+  - Skulk Vein
 - Added the following items
   - All chest boats
-  - Item Frame
   - Glowing Item Frame
+  - Item Frame
   - Painting
 
 Fixes:
@@ -22,6 +29,10 @@ Fixes:
 - Pumpkin's UV is incorrect in some places
 - Jack o'Lantern's item head position is incorrect
 - Inconsistencies with planks on other blocks
+- Inconsistencies between plant and item Models
+- Culling issues with quartz blocks
+- Deepslate Tile Wall is missing an item model
+- Culling issues with deepslate tile stairs
 
 ---
 
