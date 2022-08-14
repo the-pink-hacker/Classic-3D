@@ -72,7 +72,9 @@
   "configs": {
     "1.19": {
       "mc_versions": [
-        "1.19"
+        "1.19",
+        "1.19.1",
+        "1.19.2"
       ],
       "regenerate_meta": true,
       "minify_json": true,
