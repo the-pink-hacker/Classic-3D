@@ -4,8 +4,8 @@
 	"textures": {
 		"flowerpot": "block/flower_pot",
 		"dirt": "block/dirt",
-		"particle": "3d/flowers/cornflower",
-		"cross": "3d/flowers/cornflower"
+		"particle": "block/flower_pot",
+		"cross": "3d/block/cornflower"
 	},
 	"elements": [
 		{

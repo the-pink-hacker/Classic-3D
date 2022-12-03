@@ -3,7 +3,7 @@
 		"side": "block/blast_furnace_side",
 		"top": "block/blast_furnace_top",
 		"particle": "#front",
-		"front": "3d/furnaces/blast_furnace_front"
+		"front": "3d/block/blast_furnace_front"
 	},
 	"elements": [
 		{

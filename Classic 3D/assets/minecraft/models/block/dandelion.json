@@ -1,7 +1,7 @@
 {
 	"parent": "minecraft:block/plant",
 	"textures": {
-		"cross": "3d/flowers/dandelion"
+		"cross": "3d/block/dandelion"
 	},
 	"elements": [
 		{

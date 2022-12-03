@@ -1,7 +1,7 @@
 {
 	"parent": "block/template_planks",
 	"textures": {
-		"extra": "3d/crafting_table_3d",
+		"extra": "3d/block/crafting_table_3d",
 		"east": "block/crafting_table_side",
 		"north": "block/crafting_table_front",
 		"up": "block/crafting_table_top",

@@ -3,7 +3,7 @@
 	"ambientocclusion": false,
 	"texture_size": [64, 64],
 	"textures": {
-		"minecart": "3d/minecart",
+		"minecart": "3d/item/minecart",
 		"top": "block/hopper_top",
 		"particle": "block/hopper_outside",
 		"side": "block/hopper_outside",

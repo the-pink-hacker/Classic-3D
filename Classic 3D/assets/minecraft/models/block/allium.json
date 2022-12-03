@@ -1,7 +1,7 @@
 {
 	"parent": "minecraft:block/plant",
 	"textures": {
-		"cross": "3d/flowers/allium"
+		"cross": "minecraft:3d/block/allium"
 	},
 	"elements": [
 		{

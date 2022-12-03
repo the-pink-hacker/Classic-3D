@@ -1,6 +1,6 @@
 {
 	"parent": "minecraft:block/poppy",
 	"textures": {
-		"cross": "3d/flowers/wither_rose"
+		"cross": "minecraft:3d/block/wither_rose"
 	}
 }

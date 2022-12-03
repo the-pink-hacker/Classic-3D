@@ -2,7 +2,7 @@
 	"parent": "block/template_rail_raised_ne",
 	"textures": {
 		"front": "block/powered_rail",
-		"back": "3d/rails/powered_rail"
+		"back": "3d/block/powered_rail"
 	},
 	"elements": [
 		{

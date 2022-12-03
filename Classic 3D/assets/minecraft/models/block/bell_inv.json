@@ -1,10 +1,10 @@
 {
 	"texture_size": [32, 32],
 	"textures": {
-		"bell": "3d/bell",
-		"particle": "block/dark_oak_planks",
-		"planks": "block/dark_oak_planks",
-		"stone": "block/stone"
+		"bell": "minecraft:3d/block/bell",
+		"particle": "minecraft:block/dark_oak_planks",
+		"planks": "minecraft:block/dark_oak_planks",
+		"stone": "minecraft:block/stone"
 	},
 	"elements": [
 		{

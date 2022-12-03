@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/sign_inv",
   "textures": {
-    "all": "minecraft:3d/signs/crimson"
+    "all": "minecraft:3d/item/crimson_sign"
   }
 }

@@ -1,7 +1,7 @@
 {
 	"parent": "minecraft:block/plant",
 	"textures": {
-		"cross": "3d/red_mushroom"
+		"cross": "minecraft:3d/block/red_mushroom"
 	},
 	"elements": [
 		{

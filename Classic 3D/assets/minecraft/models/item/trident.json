@@ -1,7 +1,7 @@
 {
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "3d/trident"
+		"0": "minecraft:3d/block/trident"
 	},
 	"elements": [
 		{

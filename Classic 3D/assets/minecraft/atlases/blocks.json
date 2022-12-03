@@ -1,0 +1,18 @@
+{
+  "sources": [
+    {
+      "type": "directory",
+      "source": "3d/block",
+      "prefix": "3d/block/"
+    },
+    {
+      "type": "directory",
+      "source": "3d/item",
+      "prefix": "3d/item/"
+    },
+    {
+      "type": "single",
+      "resource": "painting/back"
+    }
+  ]
+}

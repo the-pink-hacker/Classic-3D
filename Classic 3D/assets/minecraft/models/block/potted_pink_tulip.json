@@ -1,7 +1,6 @@
 {
-	"parent": "block/template_potted_tulip",
+	"parent": "minecraft:block/template_potted_tulip",
 	"textures": {
-		"particle": "3d/flowers/pink_tulip",
-		"all": "3d/flowers/pink_tulip"
+		"all": "minecraft:3d/block/pink_tulip"
 	}
 }

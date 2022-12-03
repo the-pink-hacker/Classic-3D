@@ -2,7 +2,7 @@
 	"ambientocclusion": false,
 	"textures": {
 		"particle": "#front",
-		"back": "3d/rails/rail"
+		"back": "3d/block/rail"
 	},
 	"elements": [
 		{

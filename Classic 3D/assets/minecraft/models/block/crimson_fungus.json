@@ -1,10 +1,10 @@
 {
 	"parent": "minecraft:block/plant",
 	"textures": {
-		"side": "3d/crimson_fungus/crimson_fungus_side",
-		"top": "3d/crimson_fungus/crimson_fungus_top",
-		"bottom": "3d/crimson_fungus/crimson_fungus_bottom",
-		"particle": "3d/crimson_fungus/crimson_fungus_side"
+		"side": "minecraft:3d/block/crimson_fungus_side",
+		"top": "minecraft:3d/block/crimson_fungus_top",
+		"bottom": "minecraft:3d/block/crimson_fungus_bottom",
+		"particle": "minecraft:3d/block/crimson_fungus_side"
 	},
 	"elements": [
 		{

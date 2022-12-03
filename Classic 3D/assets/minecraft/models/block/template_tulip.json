@@ -1,8 +1,5 @@
 {
 	"parent": "minecraft:block/plant",
-	"textures": {
-		"particle": "#all"
-	},
 	"elements": [
 		{
 			"from": [-0.25, 0, 8],

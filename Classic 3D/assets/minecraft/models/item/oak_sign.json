@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/sign_inv",
   "textures": {
-    "all": "minecraft:3d/signs/oak"
+    "all": "minecraft:3d/item/oak_sign"
   }
 }

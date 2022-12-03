@@ -1,7 +1,7 @@
 {
 	"parent": "minecraft:block/plant",
 	"textures": {
-		"cross": "3d/flowers/cornflower"
+		"cross": "3d/block/cornflower"
 	},
 	"elements": [
 		{

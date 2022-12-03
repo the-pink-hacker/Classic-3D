@@ -1,9 +1,9 @@
 {
 	"parent": "minecraft:block/plant",
 	"textures": {
-		"bottom": "3d/brown_mushroom/brown_mushroom_bottom",
-		"particle": "3d/brown_mushroom/brown_mushroom_top",
-		"top": "3d/brown_mushroom/brown_mushroom_top"
+		"bottom": "minecraft:3d/block/brown_mushroom_bottom",
+		"particle": "minecraft:3d/block/brown_mushroom_top",
+		"top": "minecraft:3d/block/brown_mushroom_top"
 	},
 	"elements": [
 		{

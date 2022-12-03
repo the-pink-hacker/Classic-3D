@@ -1,6 +1,6 @@
 {
-  "parent": "block/template_chest_boat",
+  "parent": "minecraft:block/template_chest_boat",
   "textures": {
-    "boat": "minecraft:entity/chest_boat/oak"
+    "boat": "minecraft:3d/block/oak_boat"
   }
 }

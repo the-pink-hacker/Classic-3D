@@ -1,9 +1,9 @@
 {
-	"parent": "block/potted_poppy",
+	"parent": "minecraft:block/potted_poppy",
 	"ambientocclusion": false,
 	"textures": {
-		"flowerpot": "block/flower_pot",
-		"dirt": "block/dirt",
-		"particle": "3d/flowers/wither_rose"
+		"flowerpot": "minecraft:block/flower_pot",
+		"dirt": "minecraft:block/dirt",
+		"cross": "minecraft:3d/block/wither_rose"
 	}
 }
