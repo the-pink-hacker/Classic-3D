@@ -78,6 +78,7 @@
       "regenerate_meta": true,
       "minify_json": true,
       "patches": [
+        "1.16-content",
         "1.19.3-patch",
         "1.20-patch",
         "margin_model"
@@ -91,6 +92,7 @@
       "regenerate_meta": true,
       "minify_json": true,
       "patches": [
+        "1.16-content",
         "1.19.3-patch",
         "margin_model"
       ]
@@ -104,6 +106,7 @@
       "regenerate_meta": true,
       "minify_json": true,
       "patches": [
+        "1.16-content",
         "margin_model"
       ]
     },
@@ -116,6 +119,7 @@
       "regenerate_meta": true,
       "minify_json": true,
       "patches": [
+        "1.16-content",
         "margin_model"
       ]
     },
@@ -127,6 +131,7 @@
       "regenerate_meta": true,
       "minify_json": true,
       "patches": [
+        "1.16-content",
         "margin_model"
       ]
     },
@@ -142,6 +147,7 @@
       "regenerate_meta": true,
       "minify_json": true,
       "patches": [
+        "1.16-content",
         "1.16-patch",
         "margin_model"
       ]
