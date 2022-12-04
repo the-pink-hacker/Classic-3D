@@ -78,7 +78,9 @@
       "regenerate_meta": true,
       "minify_json": true,
       "patches": [
-        "1.20-patch"
+        "1.19.3-patch",
+        "1.20-patch",
+        "margin_model"
       ]
     },
     "1.19.3": {
@@ -87,7 +89,11 @@
         "22w46a"
       ],
       "regenerate_meta": true,
-      "minify_json": true
+      "minify_json": true,
+      "patches": [
+        "1.19.3-patch",
+        "margin_model"
+      ]
     },
     "1.19": {
       "mc_versions": [
