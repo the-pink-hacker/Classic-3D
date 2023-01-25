@@ -1,12 +1,16 @@
-v15.1
+v15.2 - 1.19.3 Dedicated Release
+
+Sorry about not releasing this sooner. The fixes have been sitting on GitHub for the past month, but I've been going through a lot. I hope you all enjoy!
+
+Changes:
+
+- Cleaned out unnecessary files
+- Optimized Brewing Stand block model
 
 Fixes:
 
-- Dark oak trapdoor open model is missing ([#12](https://github.com/RyanGar46/Classic-3D/issues/12))
-- Culling issues with plank stairs
-- Culling issues with stone brick stairs
-- Mud brick wall is missing a item model
-- Hay block's blockstate is incorrect
+- Purpur Pillar's horizontal block state didn't work
+- Fixed issue with some textures not being in the texture atlases ([#19](https://github.com/RyanGar46/Classic-3D/issues/19))
 
 ---
 
@@ -36,4 +40,4 @@ Models created with [BlockBench](https://www.blockbench.net)
 
 ---
 
-The only official download websites for Classic 3D are [CurseForge](https://www.curseforge.com/minecraft/texture-packs/classic-3d) and [Planet Minecraft](https://www.planetminecraft.com/texture-pack/classic-3d-4384051/). Don't download Classic 3D from any other website.
+The only official download websites for Classic 3D are [Modrinth](https://modrinth.com/resourcepack/classic-3d), [CurseForge](https://www.curseforge.com/minecraft/texture-packs/classic-3d), and [Planet Minecraft](https://www.planetminecraft.com/texture-pack/classic-3d-4384051/). Don't download Classic 3D from any other website.
