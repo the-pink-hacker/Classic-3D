@@ -1,66 +1,26 @@
-v14.0
+v14.1
 
 Changes:
 
-- Added the following blocks
-  - Vines
-  - Cave Lichen
-  - Deepslate Tile Slab
-  - Deepslate Tile Stairs
-  - Dandelions
-  - Cornflower
-- Added the remaining stair models ([#4](https://github.com/RyanGar46/Classic-3D/issues/4))
-- Added custom item model support for Candles
-- Added support for old textures
-  - Redstone Ore
-  - Gold Ore
-  - Coal Ore
-  - Iron Ore
-  - Emerald Ore
-  - Nether Quartz Ore
-  - Smooth Stone
-  - Iron Door
-- Optimized the following models
-  - Lily Pad
-  - Composter
-  - Torch
-  - Daylight Detector
-- Updated icon
-- Tweaked the following models
-  - Iron Bars' item model
-  - Tweaked Flower Pot item model
-  - Tweaked blocks of ores (Iron Block, Gold Block, etc)
-  - Chiseled Stone Bricks
-  - Chiseled Deepslate
-- Crimson and Warped Nylium now use the same model
-- Improved Lectern model
-- Pointed Dripstone's item model now uses its block model
-- Removed extra files
-- Minified all json files
-
-
----
+- Clean up rail models
+- Tweaked chisled stone bricks' model
 
 Fixes:
 
-- Issue with Torch model
-- Updated credits for 1.18
-- Fixed Coco Bean UV issue
-- Smooth Stone, Repeaters, and Comparators were missing a texture (1.13)
-- Culling issues with the following models
-  - Cobblestone Walls
-  - Wooden Stairs
-  - Blackstone
-- Fixed all warnings in log
-
----
-
-Lite Only
-
-- Simplified Nylium model
-- Removed Grass Block
-- Now supports [Classic 3D - Mod Support](https://www.curseforge.com/minecraft/texture-packs/classic-3d-mod)
-- Parity issues with full version ([#5](https://github.com/RyanGar46/Classic-3D/issues/5))
+- Birch trapdoor error when opened [#7](https://github.com/RyanGar46/Classic-3D/issues/7)
+- Wall blockstates are missing
+- Wall blockstates fail to load (1.13-1.15)
+- Tnt uv is incorrect
+- Boats use wrong texture (1.13)
+- Iron door doesn't match texture (1.13)
+- Grass block inccorectly culls faces
+- Myceilium has missing textures (1.13-1.14)
+- Smooth stone has texture issues (1.13)
+- Jungle door doesn't match texture (1.13)
+- Hanging lantern model didn't load
+- Repeater and comparator use wrong texture (1.13)
+- Warnings are present in the log (1.13-1.14)
+- Ladder is missing a particle texture (1.13-1.14)
 
 ---
 
@@ -80,7 +40,7 @@ Credit:
 
 Some textures by: [GodAmongDessert](instagram.com/godamongdessert/)
 
-Built using my [Resource Pack Packer](https://github.com/RyanGar46/resource-pack-packer) tool.
+Built using [Resource Pack Packer](https://github.com/RyanGar46/resource-pack-packer).
 
 Models created with [BlockBench](https://www.blockbench.net)
 
