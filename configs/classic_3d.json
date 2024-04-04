@@ -72,7 +72,7 @@
   "configs": {
     "1.19": {
       "mc_versions": [
-        "22w18a"
+        "22w19a"
       ],
       "regenerate_meta": true,
       "minify_json": true,
