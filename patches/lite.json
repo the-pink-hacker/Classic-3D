@@ -3,7 +3,7 @@
     {
       "type": "replace",
       "patch": {
-        "directory": "#workdir/patches/replace/Classic 3D - lite patch replace"
+        "directory": "#workdir/patches/replace/lite"
       }
     },
     {

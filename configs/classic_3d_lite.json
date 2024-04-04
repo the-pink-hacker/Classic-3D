@@ -20,7 +20,7 @@
       "regenerate_meta": true,
       "minify_json": true,
       "patches": [
-        "classic_3d_lite_patch"
+        "lite"
       ]
     },
     "1.17": {
@@ -38,7 +38,7 @@
       "regenerate_meta": true,
       "minify_json": true,
       "patches": [
-        "classic_3d_lite_patch"
+        "lite"
       ]
     },
     "1.16": {
@@ -60,8 +60,8 @@
       "regenerate_meta": true,
       "minify_json": true,
       "patches": [
-        "classic_3d_patch_1-16_ores",
-        "classic_3d_lite_patch"
+        "1.16",
+        "lite"
       ]
     },
     "1.15": {
@@ -80,9 +80,9 @@
       "regenerate_meta": true,
       "minify_json": true,
       "patches": [
-        "classic_3d_patch_1-16_ores",
-        "classic_3d_patch_1-15_walls",
-        "classic_3d_lite_patch"
+        "1.16",
+        "1.15",
+        "lite"
       ]
     },
     "1.14": {
@@ -103,10 +103,10 @@
       "regenerate_meta": true,
       "minify_json": true,
       "patches": [
-        "classic_3d_patch_1-16_ores",
-        "classic_3d_patch_1-15_walls",
-        "classic_3d_patch_1-14",
-        "classic_3d_lite_patch"
+        "1.16",
+        "1.15",
+        "1.14",
+        "lite"
       ]
     },
     "1.13": {
@@ -125,11 +125,11 @@
       "regenerate_meta": true,
       "minify_json": true,
       "patches": [
-        "classic_3d_patch_1-16_ores",
-        "classic_3d_patch_1-15_walls",
-        "classic_3d_patch_1-14",
-        "classic_3d_patch_1-13_textures",
-        "classic_3d_lite_patch"
+        "1.16",
+        "1.15",
+        "1.14",
+        "1.13",
+        "lite"
       ]
     }
   }
