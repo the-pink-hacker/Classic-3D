@@ -1,0 +1,13 @@
+{
+  "type": "multi",
+  "patch": [
+    {
+      "type": "remove",
+      "patch": {
+        "files": [
+          "assets/minecraft/blockstates"
+        ]
+      }
+    }
+  ]
+}

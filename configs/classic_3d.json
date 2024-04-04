@@ -121,6 +121,29 @@
         "classic_3d_patch_1-14",
         "classic_3d_patch_1-13_textures"
       ]
+    },
+    "1.12": {
+      "mc_versions": [
+        "1.12",
+        "1.12.1",
+        "1.12.2"
+      ],
+      "textures": {
+        "delete": true,
+        "ignore": [
+          "3d",
+          "gui"
+        ]
+      },
+      "regenerate_meta": true,
+      "minify_json": true,
+      "patches": [
+        "classic_3d_patch_1-16_ores",
+        "classic_3d_patch_1-15_walls",
+        "classic_3d_patch_1-14",
+        "classic_3d_patch_1-13_textures",
+        "classic_3d_patch_1-12"
+      ]
     }
   }
 }
