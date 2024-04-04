@@ -11,46 +11,59 @@
       "type": "remove",
       "patch": {
         "file_selector": {
-          "type": "block",
+          "type": "union",
           "arguments": {
-            "blocks": [
-              { "block": "acacia" },
-              { "block": "acacia_planks", "plural": true },
-              { "block": "basalt" },
-              { "block": "birch" },
-              { "block": "birch_planks", "plural": true },
-              { "block": "blackstone" },
-              { "block": "bricks", "plural": true },
-              { "block": "chiseled_quartz_block" },
-              { "block": "cobblestone" },
-              { "block": "cracked_nether_bricks", "plural": true },
-              { "block": "crimson" },
-              { "block": "crimson_planks", "plural": true },
-              { "block": "dark_oak" },
-              { "block": "dark_oak_planks", "plural": true },
-              { "block": "dark_prismarine" },
-              { "block": "deepslate_tiles", "plural": true },
-              { "block": "glowstone" },
-              { "block": "grass_block" },
-              { "block": "jungle" },
-              { "block": "jungle_planks", "plural": true },
-              { "block": "magma_block" },
-              { "block": "mossy_cobblestone" },
-              { "block": "nether_bricks", "plural": true },
-              { "block": "oak" },
-              { "block": "oak_planks", "plural": true },
-              { "block": "petrified_oak" },
-              { "block": "prismarine" },
-              { "block": "prismarine_bricks", "plural": true },
-              { "block": "purpur_pillar" },
-              { "block": "red_nether_bricks", "plural": true },
-              { "block": "red_sandstone" },
-              { "block": "sandstone" },
-              { "block": "sea_lantern" },
-              { "block": "spruce" },
-              { "block": "spruce_planks", "plural": true },
-              { "block": "warped" },
-              { "block": "warped_planks", "plural": true }
+            "selectors": [
+              {
+                "type": "block",
+                "arguments": {
+                  "blocks": [
+                    { "block": "acacia" },
+                    { "block": "acacia_planks", "plural": true },
+                    { "block": "basalt" },
+                    { "block": "birch" },
+                    { "block": "birch_planks", "plural": true },
+                    { "block": "blackstone" },
+                    { "block": "bricks", "plural": true },
+                    { "block": "chiseled_quartz_block" },
+                    { "block": "cobblestone" },
+                    { "block": "cracked_nether_bricks", "plural": true },
+                    { "block": "crimson" },
+                    { "block": "crimson_planks", "plural": true },
+                    { "block": "dark_oak" },
+                    { "block": "dark_oak_planks", "plural": true },
+                    { "block": "dark_prismarine" },
+                    { "block": "deepslate_tiles", "plural": true },
+                    { "block": "grass_block" },
+                    { "block": "jungle" },
+                    { "block": "jungle_planks", "plural": true },
+                    { "block": "mossy_cobblestone" },
+                    { "block": "nether_bricks", "plural": true },
+                    { "block": "oak" },
+                    { "block": "oak_planks", "plural": true },
+                    { "block": "petrified_oak" },
+                    { "block": "prismarine" },
+                    { "block": "prismarine_bricks", "plural": true },
+                    { "block": "red_nether_bricks", "plural": true },
+                    { "block": "red_sandstone" },
+                    { "block": "sandstone" },
+                    { "block": "spruce" },
+                    { "block": "spruce_planks", "plural": true },
+                    { "block": "warped" },
+                    { "block": "warped_planks", "plural": true }
+                  ]
+                }
+              },
+              {
+                "type": "identifier",
+                "arguments": {
+                  "models": [
+                    "minecraft:block/sea_lantern",
+                    "minecraft:block/glowstone",
+                    "minecraft:block/magma_block"
+                  ]
+                }
+              }
             ]
           }
         }
