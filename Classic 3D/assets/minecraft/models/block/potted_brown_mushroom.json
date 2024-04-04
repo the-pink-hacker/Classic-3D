@@ -1,12 +1,12 @@
 {
-	"parent": "block/flower_pot_cross",
+	"parent": "minecraft:block/flower_pot_cross",
 	"ambientocclusion": false,
 	"textures": {
-		"1": "3d/brown_mushroom/brown_mushroom_bottom",
-		"flowerpot": "block/flower_pot",
-		"dirt": "block/dirt",
-		"particle": "3d/brown_mushroom/brown_mushroom_top",
-		"top": "3d/brown_mushroom/brown_mushroom_top"
+		"bottom": "minecraft:3d/block/brown_mushroom_bottom",
+		"flowerpot": "minecraft:block/flower_pot",
+		"dirt": "minecraft:block/dirt",
+		"particle": "minecraft:block/flower_pot",
+		"top": "minecraft:3d/block/brown_mushroom_top"
 	},
 	"elements": [
 		{
@@ -84,7 +84,7 @@
 				"south": {"uv": [5, 3, 11, 4], "texture": "#top"},
 				"west": {"uv": [5, 10, 11, 11], "texture": "#top"},
 				"up": {"uv": [5, 4, 11, 10], "texture": "#top"},
-				"down": {"uv": [5, 4, 11, 10], "texture": "#1"}
+				"down": {"uv": [5, 4, 11, 10], "texture": "#bottom"}
 			}
 		},
 		{

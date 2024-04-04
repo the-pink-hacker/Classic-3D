@@ -1,7 +1,7 @@
 {
-	"parent": "block/template_tulip",
+	"parent": "minecraft:block/template_tulip",
 	"textures": {
-		"particle": "3d/flowers/white_tulip",
-		"all": "3d/flowers/white_tulip"
+		"particle": "minecraft:3d/block/white_tulip",
+		"all": "minecraft:3d/block/white_tulip"
 	}
 }

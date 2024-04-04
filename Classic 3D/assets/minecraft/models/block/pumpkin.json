@@ -1,9 +1,9 @@
 {
-	"parent": "block/cube_column",
+	"parent": "minecraft:block/cube_column",
 	"textures": {
-		"particle": "block/pumpkin_side",
-		"side": "block/pumpkin_side",
-		"end": "block/pumpkin_top"
+		"particle": "minecraft:block/pumpkin_side",
+		"side": "minecraft:block/pumpkin_side",
+		"end": "minecraft:block/pumpkin_top"
 	},
 	"elements": [
 		{

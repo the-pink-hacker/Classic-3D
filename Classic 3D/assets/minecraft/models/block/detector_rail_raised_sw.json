@@ -2,7 +2,7 @@
 	"parent": "block/template_rail_raised_sw",
 	"textures": {
 		"front": "block/detector_rail",
-		"back": "3d/rails/rail"
+		"back": "3d/block/rail"
 	},
 	"elements": [
 		{

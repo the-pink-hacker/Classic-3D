@@ -3,7 +3,7 @@
 	"textures": {
 		"side": "block/furnace_side",
 		"top": "block/furnace_top",
-		"front": "3d/furnaces/furnace_front"
+		"front": "3d/block/furnace_front"
 	},
 	"elements": [
 		{

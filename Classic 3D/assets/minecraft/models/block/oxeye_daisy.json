@@ -1,7 +1,7 @@
 {
 	"parent": "minecraft:block/plant",
 	"textures": {
-		"cross": "3d/flowers/oxeye_daisy"
+		"cross": "3d/block/oxeye_daisy"
 	},
 	"elements": [
 		{

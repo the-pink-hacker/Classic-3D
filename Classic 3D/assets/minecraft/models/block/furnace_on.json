@@ -1,6 +1,6 @@
 {
 	"parent": "block/furnace",
 	"textures": {
-		"front": "3d/furnaces/furnace_front_on"
+		"front": "3d/block/furnace_front_on"
 	}
 }

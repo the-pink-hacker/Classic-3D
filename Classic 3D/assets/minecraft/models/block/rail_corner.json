@@ -2,6 +2,6 @@
 	"parent": "minecraft:block/template_rail_corner",
 	"textures": {
 		"front": "minecraft:block/rail_corner",
-		"back": "minecraft:3d/rails/rail"
+		"back": "minecraft:3d/block/rail"
 	}
 }

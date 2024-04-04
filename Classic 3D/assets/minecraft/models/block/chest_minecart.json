@@ -1,9 +1,9 @@
 {
 	"texture_size": [64, 64],
 	"textures": {
-		"1": "3d/chest",
-		"minecart": "3d/minecart",
-		"particle": "3d/chest"
+		"1": "3d/item/chest",
+		"minecart": "3d/item/minecart",
+		"particle": "3d/item/chest"
 	},
 	"elements": [
 		{

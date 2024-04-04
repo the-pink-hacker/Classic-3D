@@ -1,11 +1,11 @@
 {
 	"parent": "minecraft:block/orientable",
 	"textures": {
-		"torch": "block/torch",
-		"inside": "3d/jack_o_lantern_inside",
-		"side": "block/pumpkin_side",
-		"top": "block/pumpkin_top",
-		"front": "block/jack_o_lantern"
+		"torch": "minecraft:block/torch",
+		"inside": "minecraft:3d/block/jack_o_lantern_inside",
+		"side": "minecraft:block/pumpkin_side",
+		"top": "minecraft:block/pumpkin_top",
+		"front": "minecraft:block/jack_o_lantern"
 	},
 	"elements": [
 		{

@@ -1,10 +1,10 @@
 {
 	"texture_size": [64, 64],
 	"textures": {
-		"1": "3d/furnaces/furnace_front",
+		"1": "3d/block/furnace_front",
 		"3": "block/furnace_side",
 		"4": "block/furnace_top",
-		"minecart": "3d/minecart"
+		"minecart": "3d/item/minecart"
 	},
 	"elements": [
 		{

@@ -1,11 +1,11 @@
 {
-	"parent": "block/cross",
+	"parent": "minecraft:block/flower_pot_cross",
 	"ambientocclusion": false,
 	"textures": {
-		"cross": "3d/flowers/allium",
-		"particle": "block/flower_pot",
-		"flowerpot": "block/flower_pot",
-		"dirt": "block/dirt"
+		"cross": "minecraft:3d/block/allium",
+		"particle": "minecraft:block/flower_pot",
+		"flowerpot": "minecraft:block/flower_pot",
+		"dirt": "minecraft:block/dirt"
 	},
 	"elements": [
 		{

@@ -1,10 +1,10 @@
 {
 	"parent": "minecraft:block/orientable",
 	"textures": {
-		"inside": "3d/carved_pumpkin_inside",
-		"side": "block/pumpkin_side",
-		"top": "block/pumpkin_top",
-		"front": "block/carved_pumpkin"
+		"inside": "minecraft:3d/block/carved_pumpkin_inside",
+		"side": "minecraft:block/pumpkin_side",
+		"top": "minecraft:block/pumpkin_top",
+		"front": "minecraft:block/carved_pumpkin"
 	},
 	"elements": [
 		{

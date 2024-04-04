@@ -1,11 +1,11 @@
 {
-	"parent": "block/cube_bottom_top",
+	"parent": "minecraft:block/cube_bottom_top",
 	"textures": {
-		"particle": "3d/tnt_top_3d",
-		"top3d": "3d/tnt_top_3d",
-		"bottom": "block/tnt_bottom",
-		"top": "block/tnt_top",
-		"side": "block/tnt_side"
+		"particle": "minecraft:3d/block/tnt_top_3d",
+		"top3d": "minecraft:3d/block/tnt_top_3d",
+		"bottom": "minecraft:block/tnt_bottom",
+		"top": "minecraft:block/tnt_top",
+		"side": "minecraft:block/tnt_side"
 	},
 	"elements": [
 		{

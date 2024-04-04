@@ -2,6 +2,6 @@
 	"parent": "minecraft:block/template_rail",
 	"textures": {
 		"front": "minecraft:block/rail",
-		"back": "minecraft:3d/rails/rail"
+		"back": "minecraft:3d/block/rail"
 	}
 }

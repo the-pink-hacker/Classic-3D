@@ -2,6 +2,6 @@
 	"parent": "block/activator_rail_raised_sw",
 	"textures": {
 		"front": "block/activator_rail_on",
-		"back": "3d/rails/activator_rail_on"
+		"back": "3d/block/activator_rail_on"
 	}
 }

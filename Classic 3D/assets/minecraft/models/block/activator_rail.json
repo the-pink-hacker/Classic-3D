@@ -2,7 +2,7 @@
 	"parent": "block/template_rail",
 	"textures": {
 		"front": "block/activator_rail",
-		"back": "3d/rails/activator_rail"
+		"back": "3d/block/activator_rail"
 	},
 	"elements": [
 		{

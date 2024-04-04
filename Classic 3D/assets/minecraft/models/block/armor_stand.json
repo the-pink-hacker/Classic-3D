@@ -1,8 +1,8 @@
 {
 	"texture_size": [64, 64],
 	"textures": {
-		"particle": "3d/armor_stand",
-		"armor_stand": "3d/armor_stand"
+		"particle": "minecraft:3d/block/armor_stand",
+		"armor_stand": "minecraft:3d/block/armor_stand"
 	},
 	"elements": [
 		{
