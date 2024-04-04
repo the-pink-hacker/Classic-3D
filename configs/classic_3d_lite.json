@@ -1,7 +1,7 @@
 {
   "$schema": "https://raw.githubusercontent.com/RyanGar46/resource-pack-packer/main/schema/config.schema.json",
   "directory": "#workdir/Classic 3D",
-  "name_scheme": "\u00A76\u00A7l#name - Lite v#version - #mcversion",
+  "name_scheme": "\u00A76\u00A7l#name - Lite v#version - #mcvX.#mcvY",
   "description": "\u00A7l\u00A7bMade By: \u00A7eRyanGar46",
   "selectors": {
     "block_files": [
