@@ -7,6 +7,9 @@ assignees: RyanGar46
 
 ---
 
+**READ THIS**
+**Please put the labels that best fit with this bug. For example put "Classic 3D - Lite" if it only applies to classic 3d lite.**
+
 **Describe the bug**
 A clear and concise description of what the bug is.
 
