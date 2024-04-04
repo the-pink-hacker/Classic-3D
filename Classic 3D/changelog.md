@@ -21,7 +21,7 @@ Fixes:
 
 - Pumpkin's UV is incorrect in some places
 - Jack o'Lantern's item head position is incorrect
-- 
+- Inconsistencies with planks on other blocks
 
 ---
 
