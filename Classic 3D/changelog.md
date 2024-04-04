@@ -1,38 +1,12 @@
-v15.0
-
-Changes:
-
-- Added the following blocks
-  - Block of Quartz
-  - Emerald
-  - Frog Spawn
-  - Mangrove wood blocks
-  - Mud Bricks
-  - Polished Andesite
-  - Polished Blackstone
-  - Polished Deepslate
-  - Polished Diorite
-  - Polished Granite
-  - Reinforced Deepslate
-  - Skulk Catalyst
-  - Skulk Sensor
-  - Skulk Shrieker
-  - Skulk Vein
-- Added the following items
-  - All chest boats
-  - Glowing Item Frame
-  - Item Frame
-  - Painting
+v15.1
 
 Fixes:
 
-- Pumpkin's UV is incorrect in some places
-- Jack o'Lantern's item head position is incorrect
-- Inconsistencies with planks on other blocks
-- Inconsistencies between plant and item Models
-- Culling issues with quartz blocks
-- Deepslate Tile Wall is missing an item model
-- Culling issues with deepslate tile stairs
+- Dark oak trapdoor open model is missing ([#12](https://github.com/RyanGar46/Classic-3D/issues/12))
+- Culling issues with plank stairs
+- Culling issues with stone brick stairs
+- Mud brick wall is missing a item model
+- Hay block's blockstate is incorrect
 
 ---
 
