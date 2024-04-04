@@ -76,13 +76,6 @@
         "1.18.1",
         "1.18.2"
       ],
-      "textures": {
-        "delete": true,
-        "ignore": [
-          "3d",
-          "gui"
-        ]
-      },
       "regenerate_meta": true,
       "minify_json": true,
       "patches": [
@@ -95,13 +88,6 @@
         "1.17",
         "1.17.1"
       ],
-      "textures": {
-        "delete": true,
-        "ignore": [
-          "3d",
-          "gui"
-        ]
-      },
       "regenerate_meta": true,
       "minify_json": true,
       "patches": [
@@ -118,13 +104,6 @@
         "1.16.4",
         "1.16.5"
       ],
-      "textures": {
-        "delete": true,
-        "ignore": [
-          "3d",
-          "gui"
-        ]
-      },
       "regenerate_meta": true,
       "minify_json": true,
       "patches": [
@@ -139,13 +118,6 @@
         "1.15.1",
         "1.15.2"
       ],
-      "textures": {
-        "delete": true,
-        "ignore": [
-          "3d",
-          "gui"
-        ]
-      },
       "regenerate_meta": true,
       "minify_json": true,
       "patches": [
@@ -163,13 +135,6 @@
         "1.14.3",
         "1.14.4"
       ],
-      "textures": {
-        "delete": true,
-        "ignore": [
-          "3d",
-          "gui"
-        ]
-      },
       "regenerate_meta": true,
       "minify_json": true,
       "patches": [
@@ -186,13 +151,6 @@
         "1.13.1",
         "1.13.2"
       ],
-      "textures": {
-        "delete": true,
-        "ignore": [
-          "3d",
-          "gui"
-        ]
-      },
       "regenerate_meta": true,
       "minify_json": true,
       "patches": [
