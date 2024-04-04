@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/sign_inv",
+  "textures": {
+    "all": "minecraft:3d/signs/mangrove"
+  }
+}
