@@ -1,0 +1,17 @@
+{
+  "$schema": "https://raw.githubusercontent.com/RyanGar46/resource-pack-packer/main/schema/patch.schema.json",
+  "patches": [
+    {
+      "type": "mixin_json",
+      "patch": {
+        "mixins": []
+      }
+    },
+    {
+      "type": "replace",
+      "patch": {
+        "directory": "#workdir/patches/replace/1.11"
+      }
+    }
+  ]
+}

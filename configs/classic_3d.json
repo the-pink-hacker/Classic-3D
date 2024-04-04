@@ -184,6 +184,24 @@
         "1.12-patch",
         "margin_model"
       ]
+    },
+    "1.11": {
+      "mc_versions": [
+        "1.11",
+        "1.11.1",
+        "1.11.2"
+      ],
+      "regenerate_meta": true,
+      "minify_json": true,
+      "patches": [
+        "1.16-patch",
+        "1.15-patch",
+        "1.14-patch",
+        "1.13-patch",
+        "1.12-patch",
+        "1.11-patch",
+        "margin_model"
+      ]
     }
   }
 }
