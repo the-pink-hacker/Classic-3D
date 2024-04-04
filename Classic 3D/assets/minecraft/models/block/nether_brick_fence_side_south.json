@@ -1,0 +1,33 @@
+{
+	"credit": "Made with Blockbench - Made by Ryan Garrett - Models are for Classic 3D Only",
+	"textures": {
+		"particle": "block/nether_bricks",
+		"texture": "block/nether_bricks"
+	},
+	"elements": [
+		{
+			"name": "top bar",
+			"from": [7, 12, 7],
+			"to": [9, 15, 16],
+			"faces": {
+				"east": {"uv": [7, 1, 16, 4], "texture": "#texture"},
+				"south": {"uv": [7, 1, 9, 4], "texture": "#texture", "cullface": "south"},
+				"west": {"uv": [7, 1, 16, 4], "texture": "#texture"},
+				"up": {"uv": [7, 7, 9, 16], "texture": "#texture"},
+				"down": {"uv": [7, 7, 9, 16], "texture": "#texture"}
+			}
+		},
+		{
+			"name": "lower bar",
+			"from": [7, 6, 7],
+			"to": [9, 9, 16],
+			"faces": {
+				"east": {"uv": [7, 7, 16, 10], "texture": "#texture"},
+				"south": {"uv": [7, 7, 9, 10], "texture": "#texture", "cullface": "south"},
+				"west": {"uv": [7, 7, 16, 10], "texture": "#texture"},
+				"up": {"uv": [7, 7, 9, 16], "texture": "#texture"},
+				"down": {"uv": [7, 7, 9, 16], "texture": "#texture"}
+			}
+		}
+	]
+}

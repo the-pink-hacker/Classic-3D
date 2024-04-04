@@ -1,0 +1,6 @@
+{
+    "parent": "block/template_plank_slab_top",
+    "textures": {
+        "all": "block/warped_planks"
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "parent": "block/template_nether_bricks",
+    "textures": {
+        "all": "block/cracked_nether_bricks",
+		"particle": "block/cracked_nether_bricks"
+    }
+}

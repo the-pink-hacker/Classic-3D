@@ -1,0 +1,66 @@
+{
+	"credit": "Made with Blockbench - Made/edited by RyanGar46",
+	"parent": "minecraft:block/pointed_dripstone",
+	"textures": {
+		"1": "block/dripstone_block",
+		"particle": "block/dripstone_block",
+		"cross": "block/pointed_dripstone_up_frustum"
+	},
+	"elements": [
+		{
+			"from": [2, 0, 2],
+			"to": [14, 5, 14],
+			"faces": {
+				"north": {"uv": [2, 11, 14, 16], "texture": "#cross"},
+				"east": {"uv": [2, 11, 14, 16], "texture": "#cross"},
+				"south": {"uv": [14, 11, 2, 16], "texture": "#cross"},
+				"west": {"uv": [14, 11, 2, 16], "texture": "#cross"},
+				"up": {"uv": [2, 2, 14, 14], "texture": "#1"},
+				"down": {"uv": [2, 2, 14, 14], "texture": "#1"}
+			}
+		},
+		{
+			"from": [2, 5, 2],
+			"to": [13, 8, 13],
+			"faces": {
+				"north": {"uv": [3, 8, 14, 11], "texture": "#cross"},
+				"east": {"uv": [3, 8, 14, 11], "texture": "#cross"},
+				"south": {"uv": [14, 8, 3, 11], "texture": "#cross"},
+				"west": {"uv": [14, 8, 3, 11], "texture": "#cross"},
+				"up": {"uv": [2, 2, 13, 13], "texture": "#1"}
+			}
+		},
+		{
+			"from": [3, 8, 3],
+			"to": [13, 11, 13],
+			"faces": {
+				"north": {"uv": [3, 5, 13, 8], "texture": "#cross"},
+				"east": {"uv": [3, 5, 13, 8], "texture": "#cross"},
+				"south": {"uv": [13, 5, 3, 8], "texture": "#cross"},
+				"west": {"uv": [13, 5, 3, 8], "texture": "#cross"},
+				"up": {"uv": [3, 3, 13, 13], "texture": "#1"}
+			}
+		},
+		{
+			"from": [3, 11, 3],
+			"to": [12, 14, 12],
+			"faces": {
+				"north": {"uv": [4, 2, 13, 5], "texture": "#cross"},
+				"east": {"uv": [4, 2, 13, 5], "texture": "#cross"},
+				"south": {"uv": [13, 2, 4, 5], "texture": "#cross"},
+				"west": {"uv": [13, 2, 4, 5], "texture": "#cross"},
+				"up": {"uv": [3, 3, 12, 12], "texture": "#1"}
+			}
+		},
+		{
+			"from": [4, 14, 4],
+			"to": [12, 16, 12],
+			"faces": {
+				"north": {"uv": [4, 0, 12, 2], "texture": "#cross"},
+				"east": {"uv": [4, 0, 12, 2], "texture": "#cross"},
+				"south": {"uv": [12, 0, 4, 2], "texture": "#cross"},
+				"west": {"uv": [12, 0, 4, 2], "texture": "#cross"}
+			}
+		}
+	]
+}

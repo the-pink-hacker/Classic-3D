@@ -1,0 +1,6 @@
+{
+    "parent": "block/template_boat",
+    "textures": {
+		"all": "3d/boat/birch"
+    }
+}

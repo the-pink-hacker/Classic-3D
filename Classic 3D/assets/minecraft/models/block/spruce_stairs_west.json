@@ -1,0 +1,6 @@
+{
+    "parent": "block/template_plank_stairs_west",
+    "textures": {
+        "all": "block/spruce_planks"
+    }
+}

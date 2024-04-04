@@ -1,0 +1,21 @@
+{
+	"credit": "Made with Blockbench - Made by Ryan Garrett - Models are for Classic 3D Only",
+	"parent": "block/template_wall_side",
+	"textures": {
+		"particle": "#wall"
+	},
+	"elements": [
+		{
+			"name": "wall",
+			"from": [0, 0, 5],
+			"to": [8, 14, 11],
+			"faces": {
+				"north": {"uv": [8, 2, 16, 16], "texture": "#wall"},
+				"south": {"uv": [0, 2, 8, 16], "texture": "#wall"},
+				"west": {"uv": [5, 2, 11, 16], "texture": "#wall", "cullface": "west"},
+				"up": {"uv": [0, 5, 8, 11], "texture": "#wall"},
+				"down": {"uv": [0, 5, 8, 11], "texture": "#wall", "cullface": "down"}
+			}
+		}
+	]
+}

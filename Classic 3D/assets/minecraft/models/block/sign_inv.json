@@ -1,0 +1,73 @@
+{
+	"credit": "Made with Blockbench - Made/edited by RyanGar46",
+	"texture_size": [32, 32],
+	"textures": {
+		"particle": "#all"
+	},
+	"elements": [
+		{
+			"from": [7.25, 0, 7.25],
+			"to": [8.75, 10.5, 8.75],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 16]},
+			"faces": {
+				"north": {"uv": [1, 4, 0.5, 7.5], "texture": "#all"},
+				"east": {"uv": [1.5, 4, 1, 7.5], "texture": "#all"},
+				"south": {"uv": [2, 4, 1.5, 7.5], "texture": "#all"},
+				"west": {"uv": [0.5, 4, 0, 7.5], "texture": "#all"},
+				"down": {"uv": [1.5, 7.5, 2, 7], "rotation": 180, "texture": "#all"}
+			}
+		},
+		{
+			"from": [-1, 10.5, 7.25],
+			"to": [17, 19.5, 8.75],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 16]},
+			"faces": {
+				"north": {"uv": [6.5, 0.5, 0.5, 3.5], "texture": "#all"},
+				"east": {"uv": [13, 0.5, 12.5, 3.5], "texture": "#all"},
+				"south": {"uv": [12.5, 0.5, 6.5, 3.5], "texture": "#all"},
+				"west": {"uv": [0.5, 0.5, 0, 3.5], "texture": "#all"},
+				"up": {"uv": [0.5, 0.5, 6.5, 0], "rotation": 180, "texture": "#all"},
+				"down": {"uv": [6.5, 0.5, 12.5, 0], "texture": "#all"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, -180, 0],
+			"translation": [0, 2.5, 1],
+			"scale": [0.33, 0.33, 0.33]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, -180, 0],
+			"translation": [0, 2.5, 1],
+			"scale": [0.33, 0.33, 0.33]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 90, -25],
+			"translation": [1.13, 1.45, 1.38],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 90, -25],
+			"translation": [1.13, 1.45, 1.38],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"ground": {
+			"translation": [0, 2, 0],
+			"scale": [0.33, 0.33, 0.33]
+		},
+		"gui": {
+			"rotation": [30, 225, 0],
+			"translation": [0, -2.5, 0],
+			"scale": [0.625, 0.625, 0.625]
+		},
+		"head": {
+			"rotation": [0, 180, 0],
+			"translation": [0, 13, 7]
+		},
+		"fixed": {
+			"translation": [0, -2.25, 0],
+			"scale": [0.5, 0.5, 0.5]
+		}
+	}
+}

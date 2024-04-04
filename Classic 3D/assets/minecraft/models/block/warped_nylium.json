@@ -1,0 +1,8 @@
+{
+	"parent": "block/template_nylium",
+	"textures": {
+		"side": "block/warped_nylium_side",
+		"top": "block/warped_nylium",
+		"bottom": "block/netherrack"
+	}
+}

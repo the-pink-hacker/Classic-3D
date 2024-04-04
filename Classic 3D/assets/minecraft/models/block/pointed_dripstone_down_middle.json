@@ -1,0 +1,66 @@
+{
+	"credit": "Made with Blockbench - Made/edited by RyanGar46",
+	"parent": "minecraft:block/pointed_dripstone",
+	"textures": {
+		"1": "block/dripstone_block",
+		"particle": "block/dripstone_block",
+		"cross": "block/pointed_dripstone_down_middle"
+	},
+	"elements": [
+		{
+			"from": [2, 0, 2],
+			"to": [14, 2, 14],
+			"faces": {
+				"north": {"uv": [2, 14, 14, 16], "texture": "#cross"},
+				"east": {"uv": [2, 14, 14, 16], "texture": "#cross"},
+				"south": {"uv": [14, 14, 2, 16], "texture": "#cross"},
+				"west": {"uv": [14, 14, 2, 16], "texture": "#cross"},
+				"up": {"uv": [2, 2, 14, 14], "texture": "#1"}
+			}
+		},
+		{
+			"from": [2, 2, 2],
+			"to": [13, 5, 13],
+			"faces": {
+				"north": {"uv": [3, 11, 14, 14], "texture": "#cross"},
+				"east": {"uv": [3, 11, 14, 14], "texture": "#cross"},
+				"south": {"uv": [14, 11, 3, 14], "texture": "#cross"},
+				"west": {"uv": [14, 11, 3, 14], "texture": "#cross"}
+			}
+		},
+		{
+			"from": [2, 5, 2],
+			"to": [14, 9, 14],
+			"faces": {
+				"north": {"uv": [2, 7, 14, 11], "texture": "#cross"},
+				"east": {"uv": [2, 7, 14, 11], "texture": "#cross"},
+				"south": {"uv": [14, 7, 2, 11], "texture": "#cross"},
+				"west": {"uv": [14, 7, 2, 11], "texture": "#cross"},
+				"up": {"uv": [2, 2, 14, 14], "texture": "#1"},
+				"down": {"uv": [2, 2, 14, 14], "texture": "#1"}
+			}
+		},
+		{
+			"from": [3, 9, 3],
+			"to": [14, 12, 14],
+			"faces": {
+				"north": {"uv": [2, 4, 13, 7], "texture": "#cross"},
+				"east": {"uv": [2, 4, 13, 7], "texture": "#cross"},
+				"south": {"uv": [13, 4, 2, 7], "texture": "#cross"},
+				"west": {"uv": [13, 4, 2, 7], "texture": "#cross"}
+			}
+		},
+		{
+			"from": [2, 12, 2],
+			"to": [14, 16, 14],
+			"faces": {
+				"north": {"uv": [2, 0, 14, 4], "texture": "#cross"},
+				"east": {"uv": [2, 0, 14, 4], "texture": "#cross"},
+				"south": {"uv": [14, 0, 2, 4], "texture": "#cross"},
+				"west": {"uv": [14, 0, 2, 4], "texture": "#cross"},
+				"up": {"uv": [2, 2, 14, 14], "texture": "#1"},
+				"down": {"uv": [2, 2, 14, 14], "texture": "#1"}
+			}
+		}
+	]
+}

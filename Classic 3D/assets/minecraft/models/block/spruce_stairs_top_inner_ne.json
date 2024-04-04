@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:block/template_plank_stairs_top_inner_ne",
+    "textures": {
+        "all": "minecraft:block/spruce_planks"
+    }
+}

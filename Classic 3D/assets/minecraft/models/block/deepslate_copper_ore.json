@@ -1,0 +1,7 @@
+{
+	"credit": "Made with Blockbench - Made/edited by RyanGar46",
+	"parent": "block/template_copper_ore",
+	"textures": {
+		"all": "block/deepslate_copper_ore"
+	}
+}

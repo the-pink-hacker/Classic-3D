@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:block/template_plank_stairs_inner_sw",
+    "textures": {
+        "all": "minecraft:block/crimson_planks"
+    }
+}

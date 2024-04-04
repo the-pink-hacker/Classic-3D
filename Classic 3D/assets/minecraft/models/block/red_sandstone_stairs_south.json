@@ -1,0 +1,8 @@
+{
+	"parent": "block/template_sandstone_stairs_south",
+	"textures": {
+		"side": "block/red_sandstone",
+		"top": "block/red_sandstone_top",
+		"bottom": "block/red_sandstone_bottom"
+	}
+}

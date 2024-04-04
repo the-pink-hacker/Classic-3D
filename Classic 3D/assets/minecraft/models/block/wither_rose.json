@@ -1,0 +1,7 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/poppy",
+	"textures": {
+		"particle": "3d/flowers/wither_rose"
+	}
+}

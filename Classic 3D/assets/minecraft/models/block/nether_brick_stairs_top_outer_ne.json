@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:block/template_nether_brick_stairs_top_outer_ne",
+	"textures": {
+		"all": "minecraft:block/nether_bricks"
+	}
+}
