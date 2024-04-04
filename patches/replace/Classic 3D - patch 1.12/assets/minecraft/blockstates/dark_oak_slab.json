@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "half=bottom": { "model": "dark_oak_slab" },
+        "half=top": { "model": "dark_oak_slab_top" }
+    }
+}

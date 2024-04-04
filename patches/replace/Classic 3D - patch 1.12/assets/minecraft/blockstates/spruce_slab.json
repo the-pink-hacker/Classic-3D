@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "half=bottom": { "model": "spruce_slab" },
+        "half=top": { "model": "spruce_slab_top" }
+    }
+}

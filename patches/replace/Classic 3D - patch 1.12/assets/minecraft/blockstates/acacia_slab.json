@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "half=bottom": { "model": "acacia_slab" },
+        "half=top": { "model": "acacia_slab_top" }
+    }
+}

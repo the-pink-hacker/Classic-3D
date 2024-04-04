@@ -1,0 +1,7 @@
+{
+	"parent": "block/template_log",
+	"textures": {
+		"top": "blocks/log_jungle_top",
+		"side": "blocks/log_jungle"
+	}
+}

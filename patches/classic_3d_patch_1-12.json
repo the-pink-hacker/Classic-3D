@@ -268,6 +268,318 @@
                 }
               }
             ]
+          },
+          {
+            "file_selector": {
+              "type": "file",
+              "arguments": {
+                "files": [
+                  "assets/minecraft/models/block/oak_planks.json",
+                  "assets/minecraft/models/block/oak_stairs_north.json",
+                  "assets/minecraft/models/block/oak_stairs_east.json",
+                  "assets/minecraft/models/block/oak_stairs_south.json",
+                  "assets/minecraft/models/block/oak_stairs_west.json",
+                  "assets/minecraft/models/block/oak_stairs_inner_nw.json",
+                  "assets/minecraft/models/block/oak_stairs_inner_ne.json",
+                  "assets/minecraft/models/block/oak_stairs_inner_se.json",
+                  "assets/minecraft/models/block/oak_stairs_inner_sw.json",
+                  "assets/minecraft/models/block/oak_stairs_outer_nw.json",
+                  "assets/minecraft/models/block/oak_stairs_outer_ne.json",
+                  "assets/minecraft/models/block/oak_stairs_outer_se.json",
+                  "assets/minecraft/models/block/oak_stairs_outer_sw.json",
+                  "assets/minecraft/models/block/oak_stairs_top_north.json",
+                  "assets/minecraft/models/block/oak_stairs_top_east.json",
+                  "assets/minecraft/models/block/oak_stairs_top_south.json",
+                  "assets/minecraft/models/block/oak_stairs_top_west.json",
+                  "assets/minecraft/models/block/oak_stairs_top_inner_nw.json",
+                  "assets/minecraft/models/block/oak_stairs_top_inner_ne.json",
+                  "assets/minecraft/models/block/oak_stairs_top_inner_se.json",
+                  "assets/minecraft/models/block/oak_stairs_top_inner_sw.json",
+                  "assets/minecraft/models/block/oak_stairs_top_outer_nw.json",
+                  "assets/minecraft/models/block/oak_stairs_top_outer_ne.json",
+                  "assets/minecraft/models/block/oak_stairs_top_outer_se.json",
+                  "assets/minecraft/models/block/oak_stairs_top_outer_sw.json",
+                  "assets/minecraft/models/block/oak_fence_post.json",
+                  "assets/minecraft/models/item/oak_fence.json",
+                  "assets/minecraft/models/block/oak_slab.json",
+                  "assets/minecraft/models/block/oak_slab_top.json"
+                ]
+              }
+            },
+            "selector": {
+              "type": "path",
+              "arguments": {
+                "location": "textures/*"
+              }
+            },
+            "modifiers": [
+              {
+                "type": "set",
+                "arguments": {
+                  "data": "blocks/planks_oak"
+                }
+              }
+            ]
+          },
+          {
+            "file_selector": {
+              "type": "file",
+              "arguments": {
+                "files": [
+                  "assets/minecraft/models/block/birch_planks.json",
+                  "assets/minecraft/models/block/birch_stairs_north.json",
+                  "assets/minecraft/models/block/birch_stairs_east.json",
+                  "assets/minecraft/models/block/birch_stairs_south.json",
+                  "assets/minecraft/models/block/birch_stairs_west.json",
+                  "assets/minecraft/models/block/birch_stairs_inner_nw.json",
+                  "assets/minecraft/models/block/birch_stairs_inner_ne.json",
+                  "assets/minecraft/models/block/birch_stairs_inner_se.json",
+                  "assets/minecraft/models/block/birch_stairs_inner_sw.json",
+                  "assets/minecraft/models/block/birch_stairs_outer_nw.json",
+                  "assets/minecraft/models/block/birch_stairs_outer_ne.json",
+                  "assets/minecraft/models/block/birch_stairs_outer_se.json",
+                  "assets/minecraft/models/block/birch_stairs_outer_sw.json",
+                  "assets/minecraft/models/block/birch_stairs_top_north.json",
+                  "assets/minecraft/models/block/birch_stairs_top_east.json",
+                  "assets/minecraft/models/block/birch_stairs_top_south.json",
+                  "assets/minecraft/models/block/birch_stairs_top_west.json",
+                  "assets/minecraft/models/block/birch_stairs_top_inner_nw.json",
+                  "assets/minecraft/models/block/birch_stairs_top_inner_ne.json",
+                  "assets/minecraft/models/block/birch_stairs_top_inner_se.json",
+                  "assets/minecraft/models/block/birch_stairs_top_inner_sw.json",
+                  "assets/minecraft/models/block/birch_stairs_top_outer_nw.json",
+                  "assets/minecraft/models/block/birch_stairs_top_outer_ne.json",
+                  "assets/minecraft/models/block/birch_stairs_top_outer_se.json",
+                  "assets/minecraft/models/block/birch_stairs_top_outer_sw.json",
+                  "assets/minecraft/models/block/birch_fence_post.json",
+                  "assets/minecraft/models/item/birch_fence.json",
+                  "assets/minecraft/models/block/birch_slab.json",
+                  "assets/minecraft/models/block/birch_slab_top.json"
+                ]
+              }
+            },
+            "selector": {
+              "type": "path",
+              "arguments": {
+                "location": "textures/*"
+              }
+            },
+            "modifiers": [
+              {
+                "type": "set",
+                "arguments": {
+                  "data": "blocks/planks_birch"
+                }
+              }
+            ]
+          },
+          {
+            "file_selector": {
+              "type": "file",
+              "arguments": {
+                "files": [
+                  "assets/minecraft/models/block/jungle_planks.json",
+                  "assets/minecraft/models/block/jungle_stairs_north.json",
+                  "assets/minecraft/models/block/jungle_stairs_east.json",
+                  "assets/minecraft/models/block/jungle_stairs_south.json",
+                  "assets/minecraft/models/block/jungle_stairs_west.json",
+                  "assets/minecraft/models/block/jungle_stairs_inner_nw.json",
+                  "assets/minecraft/models/block/jungle_stairs_inner_ne.json",
+                  "assets/minecraft/models/block/jungle_stairs_inner_se.json",
+                  "assets/minecraft/models/block/jungle_stairs_inner_sw.json",
+                  "assets/minecraft/models/block/jungle_stairs_outer_nw.json",
+                  "assets/minecraft/models/block/jungle_stairs_outer_ne.json",
+                  "assets/minecraft/models/block/jungle_stairs_outer_se.json",
+                  "assets/minecraft/models/block/jungle_stairs_outer_sw.json",
+                  "assets/minecraft/models/block/jungle_stairs_top_north.json",
+                  "assets/minecraft/models/block/jungle_stairs_top_east.json",
+                  "assets/minecraft/models/block/jungle_stairs_top_south.json",
+                  "assets/minecraft/models/block/jungle_stairs_top_west.json",
+                  "assets/minecraft/models/block/jungle_stairs_top_inner_nw.json",
+                  "assets/minecraft/models/block/jungle_stairs_top_inner_ne.json",
+                  "assets/minecraft/models/block/jungle_stairs_top_inner_se.json",
+                  "assets/minecraft/models/block/jungle_stairs_top_inner_sw.json",
+                  "assets/minecraft/models/block/jungle_stairs_top_outer_nw.json",
+                  "assets/minecraft/models/block/jungle_stairs_top_outer_ne.json",
+                  "assets/minecraft/models/block/jungle_stairs_top_outer_se.json",
+                  "assets/minecraft/models/block/jungle_stairs_top_outer_sw.json",
+                  "assets/minecraft/models/block/jungle_fence_post.json",
+                  "assets/minecraft/models/item/jungle_fence.json",
+                  "assets/minecraft/models/block/jungle_slab.json",
+                  "assets/minecraft/models/block/jungle_slab_top.json"
+                ]
+              }
+            },
+            "selector": {
+              "type": "path",
+              "arguments": {
+                "location": "textures/*"
+              }
+            },
+            "modifiers": [
+              {
+                "type": "set",
+                "arguments": {
+                  "data": "blocks/planks_jungle"
+                }
+              }
+            ]
+          },
+          {
+            "file_selector": {
+              "type": "file",
+              "arguments": {
+                "files": [
+                  "assets/minecraft/models/block/acacia_planks.json",
+                  "assets/minecraft/models/block/acacia_stairs_north.json",
+                  "assets/minecraft/models/block/acacia_stairs_east.json",
+                  "assets/minecraft/models/block/acacia_stairs_south.json",
+                  "assets/minecraft/models/block/acacia_stairs_west.json",
+                  "assets/minecraft/models/block/acacia_stairs_inner_nw.json",
+                  "assets/minecraft/models/block/acacia_stairs_inner_ne.json",
+                  "assets/minecraft/models/block/acacia_stairs_inner_se.json",
+                  "assets/minecraft/models/block/acacia_stairs_inner_sw.json",
+                  "assets/minecraft/models/block/acacia_stairs_outer_nw.json",
+                  "assets/minecraft/models/block/acacia_stairs_outer_ne.json",
+                  "assets/minecraft/models/block/acacia_stairs_outer_se.json",
+                  "assets/minecraft/models/block/acacia_stairs_outer_sw.json",
+                  "assets/minecraft/models/block/acacia_stairs_top_north.json",
+                  "assets/minecraft/models/block/acacia_stairs_top_east.json",
+                  "assets/minecraft/models/block/acacia_stairs_top_south.json",
+                  "assets/minecraft/models/block/acacia_stairs_top_west.json",
+                  "assets/minecraft/models/block/acacia_stairs_top_inner_nw.json",
+                  "assets/minecraft/models/block/acacia_stairs_top_inner_ne.json",
+                  "assets/minecraft/models/block/acacia_stairs_top_inner_se.json",
+                  "assets/minecraft/models/block/acacia_stairs_top_inner_sw.json",
+                  "assets/minecraft/models/block/acacia_stairs_top_outer_nw.json",
+                  "assets/minecraft/models/block/acacia_stairs_top_outer_ne.json",
+                  "assets/minecraft/models/block/acacia_stairs_top_outer_se.json",
+                  "assets/minecraft/models/block/acacia_stairs_top_outer_sw.json",
+                  "assets/minecraft/models/block/acacia_fence_post.json",
+                  "assets/minecraft/models/item/acacia_fence.json",
+                  "assets/minecraft/models/block/acacia_slab.json",
+                  "assets/minecraft/models/block/acacia_slab_top.json"
+                ]
+              }
+            },
+            "selector": {
+              "type": "path",
+              "arguments": {
+                "location": "textures/*"
+              }
+            },
+            "modifiers": [
+              {
+                "type": "set",
+                "arguments": {
+                  "data": "blocks/planks_acacia"
+                }
+              }
+            ]
+          },
+          {
+            "file_selector": {
+              "type": "file",
+              "arguments": {
+                "files": [
+                  "assets/minecraft/models/block/dark_oak_planks.json",
+                  "assets/minecraft/models/block/dark_oak_stairs_north.json",
+                  "assets/minecraft/models/block/dark_oak_stairs_east.json",
+                  "assets/minecraft/models/block/dark_oak_stairs_south.json",
+                  "assets/minecraft/models/block/dark_oak_stairs_west.json",
+                  "assets/minecraft/models/block/dark_oak_stairs_inner_nw.json",
+                  "assets/minecraft/models/block/dark_oak_stairs_inner_ne.json",
+                  "assets/minecraft/models/block/dark_oak_stairs_inner_se.json",
+                  "assets/minecraft/models/block/dark_oak_stairs_inner_sw.json",
+                  "assets/minecraft/models/block/dark_oak_stairs_outer_nw.json",
+                  "assets/minecraft/models/block/dark_oak_stairs_outer_ne.json",
+                  "assets/minecraft/models/block/dark_oak_stairs_outer_se.json",
+                  "assets/minecraft/models/block/dark_oak_stairs_outer_sw.json",
+                  "assets/minecraft/models/block/dark_oak_stairs_top_north.json",
+                  "assets/minecraft/models/block/dark_oak_stairs_top_east.json",
+                  "assets/minecraft/models/block/dark_oak_stairs_top_south.json",
+                  "assets/minecraft/models/block/dark_oak_stairs_top_west.json",
+                  "assets/minecraft/models/block/dark_oak_stairs_top_inner_nw.json",
+                  "assets/minecraft/models/block/dark_oak_stairs_top_inner_ne.json",
+                  "assets/minecraft/models/block/dark_oak_stairs_top_inner_se.json",
+                  "assets/minecraft/models/block/dark_oak_stairs_top_inner_sw.json",
+                  "assets/minecraft/models/block/dark_oak_stairs_top_outer_nw.json",
+                  "assets/minecraft/models/block/dark_oak_stairs_top_outer_ne.json",
+                  "assets/minecraft/models/block/dark_oak_stairs_top_outer_se.json",
+                  "assets/minecraft/models/block/dark_oak_stairs_top_outer_sw.json",
+                  "assets/minecraft/models/block/dark_oak_fence_post.json",
+                  "assets/minecraft/models/item/dark_oak_fence.json",
+                  "assets/minecraft/models/block/dark_oak_slab.json",
+                  "assets/minecraft/models/block/dark_oak_slab_top.json"
+                ]
+              }
+            },
+            "selector": {
+              "type": "path",
+              "arguments": {
+                "location": "textures/*"
+              }
+            },
+            "modifiers": [
+              {
+                "type": "set",
+                "arguments": {
+                  "data": "blocks/planks_big_oak"
+                }
+              }
+            ]
+          },
+          {
+            "file_selector": {
+              "type": "file",
+              "arguments": {
+                "files": [
+                  "assets/minecraft/models/block/spruce_planks.json",
+                  "assets/minecraft/models/block/spruce_stairs_north.json",
+                  "assets/minecraft/models/block/spruce_stairs_east.json",
+                  "assets/minecraft/models/block/spruce_stairs_south.json",
+                  "assets/minecraft/models/block/spruce_stairs_west.json",
+                  "assets/minecraft/models/block/spruce_stairs_inner_nw.json",
+                  "assets/minecraft/models/block/spruce_stairs_inner_ne.json",
+                  "assets/minecraft/models/block/spruce_stairs_inner_se.json",
+                  "assets/minecraft/models/block/spruce_stairs_inner_sw.json",
+                  "assets/minecraft/models/block/spruce_stairs_outer_nw.json",
+                  "assets/minecraft/models/block/spruce_stairs_outer_ne.json",
+                  "assets/minecraft/models/block/spruce_stairs_outer_se.json",
+                  "assets/minecraft/models/block/spruce_stairs_outer_sw.json",
+                  "assets/minecraft/models/block/spruce_stairs_top_north.json",
+                  "assets/minecraft/models/block/spruce_stairs_top_east.json",
+                  "assets/minecraft/models/block/spruce_stairs_top_south.json",
+                  "assets/minecraft/models/block/spruce_stairs_top_west.json",
+                  "assets/minecraft/models/block/spruce_stairs_top_inner_nw.json",
+                  "assets/minecraft/models/block/spruce_stairs_top_inner_ne.json",
+                  "assets/minecraft/models/block/spruce_stairs_top_inner_se.json",
+                  "assets/minecraft/models/block/spruce_stairs_top_inner_sw.json",
+                  "assets/minecraft/models/block/spruce_stairs_top_outer_nw.json",
+                  "assets/minecraft/models/block/spruce_stairs_top_outer_ne.json",
+                  "assets/minecraft/models/block/spruce_stairs_top_outer_se.json",
+                  "assets/minecraft/models/block/spruce_stairs_top_outer_sw.json",
+                  "assets/minecraft/models/block/spruce_fence_post.json",
+                  "assets/minecraft/models/item/spruce_fence.json",
+                  "assets/minecraft/models/block/spruce_slab.json",
+                  "assets/minecraft/models/block/spruce_slab_top.json"
+                ]
+              }
+            },
+            "selector": {
+              "type": "path",
+              "arguments": {
+                "location": "textures/*"
+              }
+            },
+            "modifiers": [
+              {
+                "type": "set",
+                "arguments": {
+                  "data": "blocks/planks_spruce"
+                }
+              }
+            ]
           }
         ]
       }
