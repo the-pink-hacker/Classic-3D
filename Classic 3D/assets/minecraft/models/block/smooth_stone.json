@@ -1,6 +1,0 @@
-{
-	"parent": "block/template_ore_block",
-	"textures": {
-		"all": "block/smooth_stone"
-	}
-}

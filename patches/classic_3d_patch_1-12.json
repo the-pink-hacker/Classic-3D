@@ -2,6 +2,12 @@
   "type": "multi",
   "patch": [
     {
+      "type": "replace",
+      "patch": {
+        "directory": "#workdir/patches/replace/Classic 3D - patch 1.12"
+      }
+    },
+    {
       "type": "mixin_json",
       "patch": {
         "mixins": [
@@ -70,6 +76,148 @@
                 "arguments": {
                   "select": "^block/|(?<=^minecraft:)block/",
                   "replacement": ""
+                }
+              }
+            ]
+          },
+          {
+            "file_selector": {
+              "type": "path",
+              "arguments": {
+                "path": "assets/minecraft/models/block",
+                "regex": "^sandstone(?!_wall)"
+              }
+            },
+            "selector": {
+              "type": "path",
+              "arguments": {
+                "location": "textures"
+              }
+            },
+            "modifiers": [
+              {
+                "type": "set",
+                "arguments": {
+                  "data": {
+                    "side": "blocks/sandstone_normal",
+                    "particle": "blocks/sandstone_normal"
+                  },
+                  "merge": true
+                }
+              }
+            ]
+          },
+          {
+            "file_selector": {
+              "type": "path",
+              "arguments": {
+                "path": "assets/minecraft/models/block",
+                "regex": "^red_sandstone(?!_wall)"
+              }
+            },
+            "selector": {
+              "type": "path",
+              "arguments": {
+                "location": "textures"
+              }
+            },
+            "modifiers": [
+              {
+                "type": "set",
+                "arguments": {
+                  "data": {
+                    "side": "blocks/red_sandstone_normal",
+                    "particle": "blocks/red_sandstone_normal"
+                  },
+                  "merge": true
+                }
+              }
+            ]
+          },
+          {
+            "file_selector": {
+              "type": "file",
+              "arguments": {
+                "files": ["assets/minecraft/models/block/chiseled_sandstone.json"]
+              }
+            },
+            "selector": {
+              "type": "path",
+              "arguments": {
+                "location": "textures/side"
+              }
+            },
+            "modifiers": [
+              {
+                "type": "set",
+                "arguments": {
+                  "data": "blocks/sandstone_carved"
+                }
+              }
+            ]
+          },
+          {
+            "file_selector": {
+              "type": "file",
+              "arguments": {
+                "files": ["assets/minecraft/models/block/chiseled_red_sandstone.json"]
+              }
+            },
+            "selector": {
+              "type": "path",
+              "arguments": {
+                "location": "textures/side"
+              }
+            },
+            "modifiers": [
+              {
+                "type": "set",
+                "arguments": {
+                  "data": "blocks/red_sandstone_carved"
+                }
+              }
+            ]
+          },
+          {
+            "file_selector": {
+              "type": "file",
+              "arguments": {
+                "files": ["assets/minecraft/models/block/cut_sandstone.json"]
+              }
+            },
+            "selector": {
+              "type": "path",
+              "arguments": {
+                "location": "textures/side"
+              }
+            },
+            "modifiers": [
+              {
+                "type": "set",
+                "arguments": {
+                  "data": "blocks/sandstone_smooth"
+                }
+              }
+            ]
+          },
+          {
+            "file_selector": {
+              "type": "file",
+              "arguments": {
+                "files": ["assets/minecraft/models/block/cut_red_sandstone.json"]
+              }
+            },
+            "selector": {
+              "type": "path",
+              "arguments": {
+                "location": "textures/side"
+              }
+            },
+            "modifiers": [
+              {
+                "type": "set",
+                "arguments": {
+                  "data": "blocks/red_sandstone_smooth"
                 }
               }
             ]
