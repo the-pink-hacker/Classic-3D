@@ -1,0 +1,18 @@
+{
+  "patches": [
+    {
+      "type": "modifier",
+      "patch": {
+        "type": "model_margin",
+        "arguments": {
+          "offset": -0.0001,
+          "random_offset": -0.0001,
+          "models": [
+            "minecraft:block/template_cobblestone",
+            "minecraft:block/template_sandstone"
+          ]
+        }
+      }
+    }
+  ]
+}

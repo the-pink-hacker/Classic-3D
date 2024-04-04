@@ -18,7 +18,10 @@
         ]
       },
       "regenerate_meta": true,
-      "minify_json": true
+      "minify_json": true,
+      "patches": [
+        "margin_model"
+      ]
     },
     "1.17": {
       "mc_versions": [
@@ -33,7 +36,10 @@
         ]
       },
       "regenerate_meta": true,
-      "minify_json": true
+      "minify_json": true,
+      "patches": [
+        "margin_model"
+      ]
     },
     "1.16": {
       "mc_versions": [
@@ -54,6 +60,7 @@
       "regenerate_meta": true,
       "minify_json": true,
       "patches": [
+        "margin_model",
         "1.16"
       ]
     },
@@ -73,6 +80,7 @@
       "regenerate_meta": true,
       "minify_json": true,
       "patches": [
+        "margin_model",
         "1.16",
         "1.15"
       ]
@@ -95,6 +103,7 @@
       "regenerate_meta": true,
       "minify_json": true,
       "patches": [
+        "margin_model",
         "1.16",
         "1.15",
         "1.14"
@@ -116,6 +125,7 @@
       "regenerate_meta": true,
       "minify_json": true,
       "patches": [
+        "margin_model",
         "1.16",
         "1.15",
         "1.14",
@@ -138,6 +148,7 @@
       "regenerate_meta": true,
       "minify_json": true,
       "patches": [
+        "margin_model",
         "1.16",
         "1.15",
         "1.14",
