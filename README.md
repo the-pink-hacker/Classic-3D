@@ -1,27 +1,30 @@
-# V11.2.1
+# V12.0
 
-Changed - Pack format has updated 6
+## Changes:
 
-#### Links
+- Added all straight stairs, walls, and slabs
+- Added warped and crimson stem block
+- Improved the end portal frame model
+- Optimized many blocks
+- The hinges on doors are now 3D.
+- Candle item models (1.17)
+
+## Know Issues:
+
+- Old ore models do not match the new 1.17 textures
+
+## Links:
 
 To report a bug or give feedback, go here:
 
-[curseforge.com/minecraft/texture-packs/classic-3d/issues](https://www.curseforge.com/minecraft/texture-packs/classic-3d/issues?filter-tag=&amp;filter-action=)
+[github.com/RyanGar46/Classic-3D/issues](https://github.com/RyanGar46/Classic-3D/issues)
 
 To get news and updates about the Classic 3D, go here:
 
-[twitter.com/Classic\_3D](https://twitter.com/Classic_3D)
+[twitter.com/Classic\_3D](https://twitter.com/classic_3d)
 
 Credit:
 
 [instagram.com/godamongdessert/](https://www.instagram.com/godamongdessert/)
 
-The only official download websites for Classic 3D is [Curseforge](https://www.curseforge.com/minecraft/texture-packs/classic-3d) and [Planet Minecraft](https://www.planetminecraft.com/texture-pack/classic-3d-4384051/). Do not download from the following sites:
-
-- [minecrafteo.com/classic-3d-texture-pack](https://www.curseforge.com/linkout?remoteUrl=https%253a%252f%252fwww.minecrafteo.com%252fclassic-3d-texture-pack%252f)
-- [pcminecraft-mods.com/classic-3d-resource-pack-minecraft-1-14-4](https://www.curseforge.com/linkout?remoteUrl=https%253a%252f%252fpcminecraft-mods.com%252fclassic-3d-resource-pack-minecraft-1-14-4%252f)
-- [mtmods.com/classic-3d-texture-pack](https://www.curseforge.com/linkout?remoteUrl=https%253a%252f%252fwww.mtmods.com%252fclassic-3d-texture-pack%252f)
-- [annoounces.com/classic-3d-16x-texture-pack](https://www.curseforge.com/linkout?remoteUrl=https%253a%252f%252fannoounces.com%252fclassic-3d-16x-texture-pack%252f)
-- [minecraft-resourcepacks.com/classic-3d-1-16](https://www.curseforge.com/linkout?remoteUrl=https%253a%252f%252fminecraft-resourcepacks.com%252fclassic-3d-1-16%252f)
-- [tlauncher.org/en/texture-packs-116\_102/classic-3d-1-16\_9962](https://www.curseforge.com/linkout?remoteUrl=https%253a%252f%252ftlauncher.org%252fen%252ftexture-packs-116_102%252fclassic-3d-1-16_9962.html)
-- [minecraft-inside.ru/resource-packs/108364-classic-3d](https://www.curseforge.com/linkout?remoteUrl=https%253a%252f%252fminecraft-inside.ru%252fresource-packs%252f108364-classic-3d.html)
+The only official download websites for Classic 3D are [Curseforge](https://www.curseforge.com/) and [Planet Minecraft](https://www.planetminecraft.com/). Don&#39;t download it from any other website.
