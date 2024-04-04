@@ -2,14 +2,6 @@
   "type": "multi",
   "patch": [
     {
-      "type": "remove",
-      "patch": {
-        "files": [
-          "assets/minecraft/blockstates"
-        ]
-      }
-    },
-    {
       "type": "mixin_json",
       "patch": {
         "mixins": [
@@ -32,6 +24,52 @@
                 "arguments": {
                   "select": "^block|(?<=^minecraft:)block",
                   "replacement": "blocks"
+                }
+              }
+            ]
+          },
+          {
+            "file_selector": {
+              "type": "path",
+              "arguments": {
+                "path": "assets/minecraft/blockstates"
+              }
+            },
+            "selector": {
+              "type": "path",
+              "arguments": {
+                "location": "variants/*/model"
+              }
+            },
+            "modifiers": [
+              {
+                "type": "replace",
+                "arguments": {
+                  "select": "^block/|(?<=^minecraft:)block/",
+                  "replacement": ""
+                }
+              }
+            ]
+          },
+          {
+            "file_selector": {
+              "type": "path",
+              "arguments": {
+                "path": "assets/minecraft/blockstates"
+              }
+            },
+            "selector": {
+              "type": "path",
+              "arguments": {
+                "location": "multipart/*/apply/model"
+              }
+            },
+            "modifiers": [
+              {
+                "type": "replace",
+                "arguments": {
+                  "select": "^block/|(?<=^minecraft:)block/",
+                  "replacement": ""
                 }
               }
             ]

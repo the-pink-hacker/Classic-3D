@@ -27,12 +27,13 @@
             },
             "modifiers": [
               {
-                "type": "merge",
+                "type": "set",
                 "arguments": {
                   "data": {
                     "all": "block/stone_slab_top",
 		                "side": "block/stone_slab_side"
-                  }
+                  },
+                  "merge": true
                 }
               }
             ]
@@ -75,12 +76,13 @@
             },
             "modifiers": [
               {
-                "type": "merge",
+                "type": "set",
                 "arguments": {
                   "data": {
                     "ore": "3d/nether_quartz_ore",
                     "cube": "block/netherrack"
-                  }
+                  },
+                  "merge": true
                 }
               }
             ]
