@@ -5,6 +5,23 @@
     "id": "336686",
     "changelog_type": "markdown-html"
   },
+  "run_options": {
+    "config": {
+      "configs": "*",
+      "minify_json": true,
+      "delete_empty_folders": true,
+      "zip_pack": true
+    },
+    "dev": {
+      "configs": "?",
+      "minify_json": false,
+      "delete_empty_folders": false,
+      "zip_pack": false,
+      "out_dir": "#packdir",
+      "version": "DEV",
+      "rerun": true
+    }
+  },
   "configs": {
     "1.18": {
       "mc_versions": [
