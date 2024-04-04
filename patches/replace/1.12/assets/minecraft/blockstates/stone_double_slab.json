@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "normal": {
+      "model": "smooth_stone_slab_double"
+    },
+    "all": {
+      "model": "smooth_stone"
+    }
+  }
+}
