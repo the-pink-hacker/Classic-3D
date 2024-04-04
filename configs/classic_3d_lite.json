@@ -1,10 +1,6 @@
 {
   "directory": "#workdir/Classic 3D",
   "name_scheme": "\u00A76\u00A7l#name - Lite v#version - #mcversion",
-  "curseforge": {
-    "id": "507962",
-    "changelog_type": "markdown-html"
-  },
   "configs": {
     "1.18": {
       "mc_versions": [
