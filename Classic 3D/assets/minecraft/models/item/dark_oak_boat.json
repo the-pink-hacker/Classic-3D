@@ -1,6 +1,6 @@
 {
-    "parent": "block/template_boat",
-    "textures": {
-		"all": "3d/boat/dark_oak"
-    }
+  "parent": "block/template_boat",
+  "textures": {
+    "boat": "minecraft:3d/boat/dark_oak"
+  }
 }
