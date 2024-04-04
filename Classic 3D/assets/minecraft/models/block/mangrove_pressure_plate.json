@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_pressure_plate_planks",
+  "textures": {
+    "texture": "minecraft:block/mangrove_planks"
+  }
+}
