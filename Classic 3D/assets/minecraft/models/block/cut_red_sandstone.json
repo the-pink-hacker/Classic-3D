@@ -1,5 +1,4 @@
 {
-	"credit": "Made with Blockbench - Made by ryangar46 - Models are for Classic 3D Only",
     "parent": "block/template_cut_sandstone",
     "textures": {
         "top": "block/red_sandstone_top",

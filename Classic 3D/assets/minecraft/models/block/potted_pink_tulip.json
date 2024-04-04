@@ -1,5 +1,4 @@
 {
-	"credit": "Made with Blockbench",
 	"parent": "block/template_potted_tulip",
 	"textures": {
 		"all": "3d/flowers/pink_tulip",

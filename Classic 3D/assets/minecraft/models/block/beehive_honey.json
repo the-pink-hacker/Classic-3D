@@ -1,5 +1,4 @@
 {
-	"credit": "Made with Blockbench - Made/edited by RyanGar46",
 	"parent": "block/orientable_with_bottom",
 	"textures": {
 		"bottom": "block/beehive_end",

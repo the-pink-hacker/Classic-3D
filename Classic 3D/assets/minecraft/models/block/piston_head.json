@@ -1,5 +1,4 @@
 {
-	"credit": "Made/edited by RyanGar46",
 	"parent": "block/template_piston",
 	"textures": {
 		"side": "block/piston_side",

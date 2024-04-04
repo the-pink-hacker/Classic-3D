@@ -1,5 +1,4 @@
 {
-	"credit": "Made with Blockbench - Made/edited by RyanGar46",
 	"parent": "minecraft:block/pointed_dripstone",
 	"textures": {
 		"1": "block/dripstone_block",

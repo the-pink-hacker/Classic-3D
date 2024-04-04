@@ -1,5 +1,4 @@
 {
-	"credit": "Made with Blockbench - Made/edited by RyanGar46",
 	"parent": "block/orientable",
 	"textures": {
 		"4": "3d/loom_string",
