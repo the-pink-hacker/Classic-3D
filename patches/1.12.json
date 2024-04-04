@@ -130,9 +130,9 @@
           },
           {
             "file_selector": {
-              "type": "file",
+              "type": "identifier",
               "arguments": {
-                "files": ["assets/minecraft/models/block/chiseled_sandstone.json"]
+                "models": ["minecraft:block/chiseled_sandstone"]
               }
             },
             "selector": {
@@ -152,9 +152,9 @@
           },
           {
             "file_selector": {
-              "type": "file",
+              "type": "identifier",
               "arguments": {
-                "files": ["assets/minecraft/models/block/chiseled_red_sandstone.json"]
+                "models": ["minecraft:block/chiseled_red_sandstone"]
               }
             },
             "selector": {
@@ -174,9 +174,9 @@
           },
           {
             "file_selector": {
-              "type": "file",
+              "type": "identifier",
               "arguments": {
-                "files": ["assets/minecraft/models/block/cut_sandstone.json"]
+                "models": ["minecraft:block/cut_sandstone"]
               }
             },
             "selector": {
@@ -196,9 +196,9 @@
           },
           {
             "file_selector": {
-              "type": "file",
+              "type": "identifier",
               "arguments": {
-                "files": ["assets/minecraft/models/block/cut_red_sandstone.json"]
+                "models": ["minecraft:block/cut_red_sandstone"]
               }
             },
             "selector": {
@@ -218,9 +218,9 @@
           },
           {
             "file_selector": {
-              "type": "file",
+              "type": "identifier",
               "arguments": {
-                "files": ["assets/minecraft/models/block/grass_block.json"]
+                "models": ["minecraft:block/grass_block"]
               }
             },
             "selector": {
@@ -245,9 +245,9 @@
           },
           {
             "file_selector": {
-              "type": "file",
+              "type": "identifier",
               "arguments": {
-                "files": ["assets/minecraft/models/block/podzol.json"]
+                "models": ["minecraft:block/podzol"]
               }
             },
             "selector": {
@@ -271,38 +271,38 @@
           },
           {
             "file_selector": {
-              "type": "file",
+              "type": "identifier",
               "arguments": {
-                "files": [
-                  "assets/minecraft/models/block/oak_planks.json",
-                  "assets/minecraft/models/block/oak_stairs_north.json",
-                  "assets/minecraft/models/block/oak_stairs_east.json",
-                  "assets/minecraft/models/block/oak_stairs_south.json",
-                  "assets/minecraft/models/block/oak_stairs_west.json",
-                  "assets/minecraft/models/block/oak_stairs_inner_nw.json",
-                  "assets/minecraft/models/block/oak_stairs_inner_ne.json",
-                  "assets/minecraft/models/block/oak_stairs_inner_se.json",
-                  "assets/minecraft/models/block/oak_stairs_inner_sw.json",
-                  "assets/minecraft/models/block/oak_stairs_outer_nw.json",
-                  "assets/minecraft/models/block/oak_stairs_outer_ne.json",
-                  "assets/minecraft/models/block/oak_stairs_outer_se.json",
-                  "assets/minecraft/models/block/oak_stairs_outer_sw.json",
-                  "assets/minecraft/models/block/oak_stairs_top_north.json",
-                  "assets/minecraft/models/block/oak_stairs_top_east.json",
-                  "assets/minecraft/models/block/oak_stairs_top_south.json",
-                  "assets/minecraft/models/block/oak_stairs_top_west.json",
-                  "assets/minecraft/models/block/oak_stairs_top_inner_nw.json",
-                  "assets/minecraft/models/block/oak_stairs_top_inner_ne.json",
-                  "assets/minecraft/models/block/oak_stairs_top_inner_se.json",
-                  "assets/minecraft/models/block/oak_stairs_top_inner_sw.json",
-                  "assets/minecraft/models/block/oak_stairs_top_outer_nw.json",
-                  "assets/minecraft/models/block/oak_stairs_top_outer_ne.json",
-                  "assets/minecraft/models/block/oak_stairs_top_outer_se.json",
-                  "assets/minecraft/models/block/oak_stairs_top_outer_sw.json",
-                  "assets/minecraft/models/block/oak_fence_post.json",
-                  "assets/minecraft/models/item/oak_fence.json",
-                  "assets/minecraft/models/block/oak_slab.json",
-                  "assets/minecraft/models/block/oak_slab_top.json"
+                "models": [
+                  "minecraft:block/oak_planks",
+                  "minecraft:block/oak_stairs_north",
+                  "minecraft:block/oak_stairs_east",
+                  "minecraft:block/oak_stairs_south",
+                  "minecraft:block/oak_stairs_west",
+                  "minecraft:block/oak_stairs_inner_nw",
+                  "minecraft:block/oak_stairs_inner_ne",
+                  "minecraft:block/oak_stairs_inner_se",
+                  "minecraft:block/oak_stairs_inner_sw",
+                  "minecraft:block/oak_stairs_outer_nw",
+                  "minecraft:block/oak_stairs_outer_ne",
+                  "minecraft:block/oak_stairs_outer_se",
+                  "minecraft:block/oak_stairs_outer_sw",
+                  "minecraft:block/oak_stairs_top_north",
+                  "minecraft:block/oak_stairs_top_east",
+                  "minecraft:block/oak_stairs_top_south",
+                  "minecraft:block/oak_stairs_top_west",
+                  "minecraft:block/oak_stairs_top_inner_nw",
+                  "minecraft:block/oak_stairs_top_inner_ne",
+                  "minecraft:block/oak_stairs_top_inner_se",
+                  "minecraft:block/oak_stairs_top_inner_sw",
+                  "minecraft:block/oak_stairs_top_outer_nw",
+                  "minecraft:block/oak_stairs_top_outer_ne",
+                  "minecraft:block/oak_stairs_top_outer_se",
+                  "minecraft:block/oak_stairs_top_outer_sw",
+                  "minecraft:block/oak_fence_post",
+                  "minecraft:item/oak_fence",
+                  "minecraft:block/oak_slab",
+                  "minecraft:block/oak_slab_top"
                 ]
               }
             },
@@ -323,38 +323,38 @@
           },
           {
             "file_selector": {
-              "type": "file",
+              "type": "identifier",
               "arguments": {
-                "files": [
-                  "assets/minecraft/models/block/birch_planks.json",
-                  "assets/minecraft/models/block/birch_stairs_north.json",
-                  "assets/minecraft/models/block/birch_stairs_east.json",
-                  "assets/minecraft/models/block/birch_stairs_south.json",
-                  "assets/minecraft/models/block/birch_stairs_west.json",
-                  "assets/minecraft/models/block/birch_stairs_inner_nw.json",
-                  "assets/minecraft/models/block/birch_stairs_inner_ne.json",
-                  "assets/minecraft/models/block/birch_stairs_inner_se.json",
-                  "assets/minecraft/models/block/birch_stairs_inner_sw.json",
-                  "assets/minecraft/models/block/birch_stairs_outer_nw.json",
-                  "assets/minecraft/models/block/birch_stairs_outer_ne.json",
-                  "assets/minecraft/models/block/birch_stairs_outer_se.json",
-                  "assets/minecraft/models/block/birch_stairs_outer_sw.json",
-                  "assets/minecraft/models/block/birch_stairs_top_north.json",
-                  "assets/minecraft/models/block/birch_stairs_top_east.json",
-                  "assets/minecraft/models/block/birch_stairs_top_south.json",
-                  "assets/minecraft/models/block/birch_stairs_top_west.json",
-                  "assets/minecraft/models/block/birch_stairs_top_inner_nw.json",
-                  "assets/minecraft/models/block/birch_stairs_top_inner_ne.json",
-                  "assets/minecraft/models/block/birch_stairs_top_inner_se.json",
-                  "assets/minecraft/models/block/birch_stairs_top_inner_sw.json",
-                  "assets/minecraft/models/block/birch_stairs_top_outer_nw.json",
-                  "assets/minecraft/models/block/birch_stairs_top_outer_ne.json",
-                  "assets/minecraft/models/block/birch_stairs_top_outer_se.json",
-                  "assets/minecraft/models/block/birch_stairs_top_outer_sw.json",
-                  "assets/minecraft/models/block/birch_fence_post.json",
-                  "assets/minecraft/models/item/birch_fence.json",
-                  "assets/minecraft/models/block/birch_slab.json",
-                  "assets/minecraft/models/block/birch_slab_top.json"
+                "models": [
+                  "minecraft:block/birch_planks",
+                  "minecraft:block/birch_stairs_north",
+                  "minecraft:block/birch_stairs_east",
+                  "minecraft:block/birch_stairs_south",
+                  "minecraft:block/birch_stairs_west",
+                  "minecraft:block/birch_stairs_inner_nw",
+                  "minecraft:block/birch_stairs_inner_ne",
+                  "minecraft:block/birch_stairs_inner_se",
+                  "minecraft:block/birch_stairs_inner_sw",
+                  "minecraft:block/birch_stairs_outer_nw",
+                  "minecraft:block/birch_stairs_outer_ne",
+                  "minecraft:block/birch_stairs_outer_se",
+                  "minecraft:block/birch_stairs_outer_sw",
+                  "minecraft:block/birch_stairs_top_north",
+                  "minecraft:block/birch_stairs_top_east",
+                  "minecraft:block/birch_stairs_top_south",
+                  "minecraft:block/birch_stairs_top_west",
+                  "minecraft:block/birch_stairs_top_inner_nw",
+                  "minecraft:block/birch_stairs_top_inner_ne",
+                  "minecraft:block/birch_stairs_top_inner_se",
+                  "minecraft:block/birch_stairs_top_inner_sw",
+                  "minecraft:block/birch_stairs_top_outer_nw",
+                  "minecraft:block/birch_stairs_top_outer_ne",
+                  "minecraft:block/birch_stairs_top_outer_se",
+                  "minecraft:block/birch_stairs_top_outer_sw",
+                  "minecraft:block/birch_fence_post",
+                  "minecraft:item/birch_fence",
+                  "minecraft:block/birch_slab",
+                  "minecraft:block/birch_slab_top"
                 ]
               }
             },
@@ -375,38 +375,38 @@
           },
           {
             "file_selector": {
-              "type": "file",
+              "type": "identifier",
               "arguments": {
-                "files": [
-                  "assets/minecraft/models/block/jungle_planks.json",
-                  "assets/minecraft/models/block/jungle_stairs_north.json",
-                  "assets/minecraft/models/block/jungle_stairs_east.json",
-                  "assets/minecraft/models/block/jungle_stairs_south.json",
-                  "assets/minecraft/models/block/jungle_stairs_west.json",
-                  "assets/minecraft/models/block/jungle_stairs_inner_nw.json",
-                  "assets/minecraft/models/block/jungle_stairs_inner_ne.json",
-                  "assets/minecraft/models/block/jungle_stairs_inner_se.json",
-                  "assets/minecraft/models/block/jungle_stairs_inner_sw.json",
-                  "assets/minecraft/models/block/jungle_stairs_outer_nw.json",
-                  "assets/minecraft/models/block/jungle_stairs_outer_ne.json",
-                  "assets/minecraft/models/block/jungle_stairs_outer_se.json",
-                  "assets/minecraft/models/block/jungle_stairs_outer_sw.json",
-                  "assets/minecraft/models/block/jungle_stairs_top_north.json",
-                  "assets/minecraft/models/block/jungle_stairs_top_east.json",
-                  "assets/minecraft/models/block/jungle_stairs_top_south.json",
-                  "assets/minecraft/models/block/jungle_stairs_top_west.json",
-                  "assets/minecraft/models/block/jungle_stairs_top_inner_nw.json",
-                  "assets/minecraft/models/block/jungle_stairs_top_inner_ne.json",
-                  "assets/minecraft/models/block/jungle_stairs_top_inner_se.json",
-                  "assets/minecraft/models/block/jungle_stairs_top_inner_sw.json",
-                  "assets/minecraft/models/block/jungle_stairs_top_outer_nw.json",
-                  "assets/minecraft/models/block/jungle_stairs_top_outer_ne.json",
-                  "assets/minecraft/models/block/jungle_stairs_top_outer_se.json",
-                  "assets/minecraft/models/block/jungle_stairs_top_outer_sw.json",
-                  "assets/minecraft/models/block/jungle_fence_post.json",
-                  "assets/minecraft/models/item/jungle_fence.json",
-                  "assets/minecraft/models/block/jungle_slab.json",
-                  "assets/minecraft/models/block/jungle_slab_top.json"
+                "models": [
+                  "minecraft:block/jungle_planks",
+                  "minecraft:block/jungle_stairs_north",
+                  "minecraft:block/jungle_stairs_east",
+                  "minecraft:block/jungle_stairs_south",
+                  "minecraft:block/jungle_stairs_west",
+                  "minecraft:block/jungle_stairs_inner_nw",
+                  "minecraft:block/jungle_stairs_inner_ne",
+                  "minecraft:block/jungle_stairs_inner_se",
+                  "minecraft:block/jungle_stairs_inner_sw",
+                  "minecraft:block/jungle_stairs_outer_nw",
+                  "minecraft:block/jungle_stairs_outer_ne",
+                  "minecraft:block/jungle_stairs_outer_se",
+                  "minecraft:block/jungle_stairs_outer_sw",
+                  "minecraft:block/jungle_stairs_top_north",
+                  "minecraft:block/jungle_stairs_top_east",
+                  "minecraft:block/jungle_stairs_top_south",
+                  "minecraft:block/jungle_stairs_top_west",
+                  "minecraft:block/jungle_stairs_top_inner_nw",
+                  "minecraft:block/jungle_stairs_top_inner_ne",
+                  "minecraft:block/jungle_stairs_top_inner_se",
+                  "minecraft:block/jungle_stairs_top_inner_sw",
+                  "minecraft:block/jungle_stairs_top_outer_nw",
+                  "minecraft:block/jungle_stairs_top_outer_ne",
+                  "minecraft:block/jungle_stairs_top_outer_se",
+                  "minecraft:block/jungle_stairs_top_outer_sw",
+                  "minecraft:block/jungle_fence_post",
+                  "minecraft:item/jungle_fence",
+                  "minecraft:block/jungle_slab",
+                  "minecraft:block/jungle_slab_top"
                 ]
               }
             },
@@ -427,38 +427,38 @@
           },
           {
             "file_selector": {
-              "type": "file",
+              "type": "identifier",
               "arguments": {
-                "files": [
-                  "assets/minecraft/models/block/acacia_planks.json",
-                  "assets/minecraft/models/block/acacia_stairs_north.json",
-                  "assets/minecraft/models/block/acacia_stairs_east.json",
-                  "assets/minecraft/models/block/acacia_stairs_south.json",
-                  "assets/minecraft/models/block/acacia_stairs_west.json",
-                  "assets/minecraft/models/block/acacia_stairs_inner_nw.json",
-                  "assets/minecraft/models/block/acacia_stairs_inner_ne.json",
-                  "assets/minecraft/models/block/acacia_stairs_inner_se.json",
-                  "assets/minecraft/models/block/acacia_stairs_inner_sw.json",
-                  "assets/minecraft/models/block/acacia_stairs_outer_nw.json",
-                  "assets/minecraft/models/block/acacia_stairs_outer_ne.json",
-                  "assets/minecraft/models/block/acacia_stairs_outer_se.json",
-                  "assets/minecraft/models/block/acacia_stairs_outer_sw.json",
-                  "assets/minecraft/models/block/acacia_stairs_top_north.json",
-                  "assets/minecraft/models/block/acacia_stairs_top_east.json",
-                  "assets/minecraft/models/block/acacia_stairs_top_south.json",
-                  "assets/minecraft/models/block/acacia_stairs_top_west.json",
-                  "assets/minecraft/models/block/acacia_stairs_top_inner_nw.json",
-                  "assets/minecraft/models/block/acacia_stairs_top_inner_ne.json",
-                  "assets/minecraft/models/block/acacia_stairs_top_inner_se.json",
-                  "assets/minecraft/models/block/acacia_stairs_top_inner_sw.json",
-                  "assets/minecraft/models/block/acacia_stairs_top_outer_nw.json",
-                  "assets/minecraft/models/block/acacia_stairs_top_outer_ne.json",
-                  "assets/minecraft/models/block/acacia_stairs_top_outer_se.json",
-                  "assets/minecraft/models/block/acacia_stairs_top_outer_sw.json",
-                  "assets/minecraft/models/block/acacia_fence_post.json",
-                  "assets/minecraft/models/item/acacia_fence.json",
-                  "assets/minecraft/models/block/acacia_slab.json",
-                  "assets/minecraft/models/block/acacia_slab_top.json"
+                "models": [
+                  "minecraft:block/acacia_planks",
+                  "minecraft:block/acacia_stairs_north",
+                  "minecraft:block/acacia_stairs_east",
+                  "minecraft:block/acacia_stairs_south",
+                  "minecraft:block/acacia_stairs_west",
+                  "minecraft:block/acacia_stairs_inner_nw",
+                  "minecraft:block/acacia_stairs_inner_ne",
+                  "minecraft:block/acacia_stairs_inner_se",
+                  "minecraft:block/acacia_stairs_inner_sw",
+                  "minecraft:block/acacia_stairs_outer_nw",
+                  "minecraft:block/acacia_stairs_outer_ne",
+                  "minecraft:block/acacia_stairs_outer_se",
+                  "minecraft:block/acacia_stairs_outer_sw",
+                  "minecraft:block/acacia_stairs_top_north",
+                  "minecraft:block/acacia_stairs_top_east",
+                  "minecraft:block/acacia_stairs_top_south",
+                  "minecraft:block/acacia_stairs_top_west",
+                  "minecraft:block/acacia_stairs_top_inner_nw",
+                  "minecraft:block/acacia_stairs_top_inner_ne",
+                  "minecraft:block/acacia_stairs_top_inner_se",
+                  "minecraft:block/acacia_stairs_top_inner_sw",
+                  "minecraft:block/acacia_stairs_top_outer_nw",
+                  "minecraft:block/acacia_stairs_top_outer_ne",
+                  "minecraft:block/acacia_stairs_top_outer_se",
+                  "minecraft:block/acacia_stairs_top_outer_sw",
+                  "minecraft:block/acacia_fence_post",
+                  "minecraft:item/acacia_fence",
+                  "minecraft:block/acacia_slab",
+                  "minecraft:block/acacia_slab_top"
                 ]
               }
             },
@@ -479,38 +479,38 @@
           },
           {
             "file_selector": {
-              "type": "file",
+              "type": "identifier",
               "arguments": {
-                "files": [
-                  "assets/minecraft/models/block/dark_oak_planks.json",
-                  "assets/minecraft/models/block/dark_oak_stairs_north.json",
-                  "assets/minecraft/models/block/dark_oak_stairs_east.json",
-                  "assets/minecraft/models/block/dark_oak_stairs_south.json",
-                  "assets/minecraft/models/block/dark_oak_stairs_west.json",
-                  "assets/minecraft/models/block/dark_oak_stairs_inner_nw.json",
-                  "assets/minecraft/models/block/dark_oak_stairs_inner_ne.json",
-                  "assets/minecraft/models/block/dark_oak_stairs_inner_se.json",
-                  "assets/minecraft/models/block/dark_oak_stairs_inner_sw.json",
-                  "assets/minecraft/models/block/dark_oak_stairs_outer_nw.json",
-                  "assets/minecraft/models/block/dark_oak_stairs_outer_ne.json",
-                  "assets/minecraft/models/block/dark_oak_stairs_outer_se.json",
-                  "assets/minecraft/models/block/dark_oak_stairs_outer_sw.json",
-                  "assets/minecraft/models/block/dark_oak_stairs_top_north.json",
-                  "assets/minecraft/models/block/dark_oak_stairs_top_east.json",
-                  "assets/minecraft/models/block/dark_oak_stairs_top_south.json",
-                  "assets/minecraft/models/block/dark_oak_stairs_top_west.json",
-                  "assets/minecraft/models/block/dark_oak_stairs_top_inner_nw.json",
-                  "assets/minecraft/models/block/dark_oak_stairs_top_inner_ne.json",
-                  "assets/minecraft/models/block/dark_oak_stairs_top_inner_se.json",
-                  "assets/minecraft/models/block/dark_oak_stairs_top_inner_sw.json",
-                  "assets/minecraft/models/block/dark_oak_stairs_top_outer_nw.json",
-                  "assets/minecraft/models/block/dark_oak_stairs_top_outer_ne.json",
-                  "assets/minecraft/models/block/dark_oak_stairs_top_outer_se.json",
-                  "assets/minecraft/models/block/dark_oak_stairs_top_outer_sw.json",
-                  "assets/minecraft/models/block/dark_oak_fence_post.json",
-                  "assets/minecraft/models/item/dark_oak_fence.json",
-                  "assets/minecraft/models/block/dark_oak_slab.json",
-                  "assets/minecraft/models/block/dark_oak_slab_top.json"
+                "models": [
+                  "minecraft:block/dark_oak_planks",
+                  "minecraft:block/dark_oak_stairs_north",
+                  "minecraft:block/dark_oak_stairs_east",
+                  "minecraft:block/dark_oak_stairs_south",
+                  "minecraft:block/dark_oak_stairs_west",
+                  "minecraft:block/dark_oak_stairs_inner_nw",
+                  "minecraft:block/dark_oak_stairs_inner_ne",
+                  "minecraft:block/dark_oak_stairs_inner_se",
+                  "minecraft:block/dark_oak_stairs_inner_sw",
+                  "minecraft:block/dark_oak_stairs_outer_nw",
+                  "minecraft:block/dark_oak_stairs_outer_ne",
+                  "minecraft:block/dark_oak_stairs_outer_se",
+                  "minecraft:block/dark_oak_stairs_outer_sw",
+                  "minecraft:block/dark_oak_stairs_top_north",
+                  "minecraft:block/dark_oak_stairs_top_east",
+                  "minecraft:block/dark_oak_stairs_top_south",
+                  "minecraft:block/dark_oak_stairs_top_west",
+                  "minecraft:block/dark_oak_stairs_top_inner_nw",
+                  "minecraft:block/dark_oak_stairs_top_inner_ne",
+                  "minecraft:block/dark_oak_stairs_top_inner_se",
+                  "minecraft:block/dark_oak_stairs_top_inner_sw",
+                  "minecraft:block/dark_oak_stairs_top_outer_nw",
+                  "minecraft:block/dark_oak_stairs_top_outer_ne",
+                  "minecraft:block/dark_oak_stairs_top_outer_se",
+                  "minecraft:block/dark_oak_stairs_top_outer_sw",
+                  "minecraft:block/dark_oak_fence_post",
+                  "minecraft:item/dark_oak_fence",
+                  "minecraft:block/dark_oak_slab",
+                  "minecraft:block/dark_oak_slab_top"
                 ]
               }
             },
@@ -531,38 +531,38 @@
           },
           {
             "file_selector": {
-              "type": "file",
+              "type": "identifier",
               "arguments": {
-                "files": [
-                  "assets/minecraft/models/block/spruce_planks.json",
-                  "assets/minecraft/models/block/spruce_stairs_north.json",
-                  "assets/minecraft/models/block/spruce_stairs_east.json",
-                  "assets/minecraft/models/block/spruce_stairs_south.json",
-                  "assets/minecraft/models/block/spruce_stairs_west.json",
-                  "assets/minecraft/models/block/spruce_stairs_inner_nw.json",
-                  "assets/minecraft/models/block/spruce_stairs_inner_ne.json",
-                  "assets/minecraft/models/block/spruce_stairs_inner_se.json",
-                  "assets/minecraft/models/block/spruce_stairs_inner_sw.json",
-                  "assets/minecraft/models/block/spruce_stairs_outer_nw.json",
-                  "assets/minecraft/models/block/spruce_stairs_outer_ne.json",
-                  "assets/minecraft/models/block/spruce_stairs_outer_se.json",
-                  "assets/minecraft/models/block/spruce_stairs_outer_sw.json",
-                  "assets/minecraft/models/block/spruce_stairs_top_north.json",
-                  "assets/minecraft/models/block/spruce_stairs_top_east.json",
-                  "assets/minecraft/models/block/spruce_stairs_top_south.json",
-                  "assets/minecraft/models/block/spruce_stairs_top_west.json",
-                  "assets/minecraft/models/block/spruce_stairs_top_inner_nw.json",
-                  "assets/minecraft/models/block/spruce_stairs_top_inner_ne.json",
-                  "assets/minecraft/models/block/spruce_stairs_top_inner_se.json",
-                  "assets/minecraft/models/block/spruce_stairs_top_inner_sw.json",
-                  "assets/minecraft/models/block/spruce_stairs_top_outer_nw.json",
-                  "assets/minecraft/models/block/spruce_stairs_top_outer_ne.json",
-                  "assets/minecraft/models/block/spruce_stairs_top_outer_se.json",
-                  "assets/minecraft/models/block/spruce_stairs_top_outer_sw.json",
-                  "assets/minecraft/models/block/spruce_fence_post.json",
-                  "assets/minecraft/models/item/spruce_fence.json",
-                  "assets/minecraft/models/block/spruce_slab.json",
-                  "assets/minecraft/models/block/spruce_slab_top.json"
+                "models": [
+                  "minecraft:block/spruce_planks",
+                  "minecraft:block/spruce_stairs_north",
+                  "minecraft:block/spruce_stairs_east",
+                  "minecraft:block/spruce_stairs_south",
+                  "minecraft:block/spruce_stairs_west",
+                  "minecraft:block/spruce_stairs_inner_nw",
+                  "minecraft:block/spruce_stairs_inner_ne",
+                  "minecraft:block/spruce_stairs_inner_se",
+                  "minecraft:block/spruce_stairs_inner_sw",
+                  "minecraft:block/spruce_stairs_outer_nw",
+                  "minecraft:block/spruce_stairs_outer_ne",
+                  "minecraft:block/spruce_stairs_outer_se",
+                  "minecraft:block/spruce_stairs_outer_sw",
+                  "minecraft:block/spruce_stairs_top_north",
+                  "minecraft:block/spruce_stairs_top_east",
+                  "minecraft:block/spruce_stairs_top_south",
+                  "minecraft:block/spruce_stairs_top_west",
+                  "minecraft:block/spruce_stairs_top_inner_nw",
+                  "minecraft:block/spruce_stairs_top_inner_ne",
+                  "minecraft:block/spruce_stairs_top_inner_se",
+                  "minecraft:block/spruce_stairs_top_inner_sw",
+                  "minecraft:block/spruce_stairs_top_outer_nw",
+                  "minecraft:block/spruce_stairs_top_outer_ne",
+                  "minecraft:block/spruce_stairs_top_outer_se",
+                  "minecraft:block/spruce_stairs_top_outer_sw",
+                  "minecraft:block/spruce_fence_post",
+                  "minecraft:item/spruce_fence",
+                  "minecraft:block/spruce_slab",
+                  "minecraft:block/spruce_slab_top"
                 ]
               }
             },
@@ -583,9 +583,9 @@
           },
           {
             "file_selector": {
-              "type": "file",
+              "type": "identifier",
               "arguments": {
-                "files": ["assets/minecraft/models/block/bookshelf.json"]
+                "models": ["minecraft:block/bookshelf"]
               }
             },
             "selector": {
@@ -605,11 +605,11 @@
           },
           {
             "file_selector": {
-              "type": "file",
+              "type": "identifier",
               "arguments": {
-                "files": [
-                  "assets/minecraft/models/block/torch.json",
-                  "assets/minecraft/models/block/wall_torch.json"
+                "models": [
+                  "minecraft:block/torch",
+                  "minecraft:block/wall_torch"
                 ]
               }
             },
@@ -630,11 +630,11 @@
           },
           {
             "file_selector": {
-              "type": "file",
+              "type": "identifier",
               "arguments": {
-                "files": [
-                  "assets/minecraft/models/block/redstone_torch.json",
-                  "assets/minecraft/models/block/redstone_wall_torch.json"
+                "models": [
+                  "minecraft:block/redstone_torch",
+                  "minecraft:block/redstone_wall_torch"
                 ]
               }
             },
@@ -655,9 +655,9 @@
           },
           {
             "file_selector": {
-              "type": "file",
+              "type": "identifier",
               "arguments": {
-                "files": ["assets/minecraft/models/block/carved_pumpkin.json"]
+                "models": ["minecraft:block/carved_pumpkin"]
               }
             },
             "selector": {
@@ -677,9 +677,9 @@
           },
           {
             "file_selector": {
-              "type": "file",
+              "type": "identifier",
               "arguments": {
-                "files": ["assets/minecraft/models/block/jack_o_lantern.json"]
+                "models": ["minecraft:block/jack_o_lantern"]
               }
             },
             "selector": {
@@ -703,11 +703,11 @@
           },
           {
             "file_selector": {
-              "type": "file",
+              "type": "identifier",
               "arguments": {
-                "files": [
-                  "assets/minecraft/models/block/fire_side0.json",
-                  "assets/minecraft/models/block/fire_side_alt0.json"
+                "models": [
+                  "minecraft:block/fire_side0",
+                  "minecraft:block/fire_side_alt0"
                 ]
               }
             },
@@ -728,11 +728,11 @@
           },
           {
             "file_selector": {
-              "type": "file",
+              "type": "identifier",
               "arguments": {
-                "files": [
-                  "assets/minecraft/models/block/fire_side1.json",
-                  "assets/minecraft/models/block/fire_side_alt1.json"
+                "models": [
+                  "minecraft:block/fire_side1",
+                  "minecraft:block/fire_side_alt1"
                 ]
               }
             },
@@ -753,9 +753,9 @@
           },
           {
             "file_selector": {
-              "type": "file",
+              "type": "identifier",
               "arguments": {
-                "files": ["assets/minecraft/models/block/dropper.json"]
+                "models": ["minecraft:block/dropper"]
               }
             },
             "selector": {
@@ -775,9 +775,9 @@
           },
           {
             "file_selector": {
-              "type": "file",
+              "type": "identifier",
               "arguments": {
-                "files": ["assets/minecraft/models/block/dispenser.json"]
+                "models": ["minecraft:block/dispenser"]
               }
             },
             "selector": {
@@ -797,9 +797,9 @@
           },
           {
             "file_selector": {
-              "type": "file",
+              "type": "identifier",
               "arguments": {
-                "files": ["assets/minecraft/models/block/tripwire_hook.json"]
+                "models": ["minecraft:block/tripwire_hook"]
               }
             },
             "selector": {
@@ -823,19 +823,19 @@
           },
           {
             "file_selector": {
-              "type": "file",
+              "type": "identifier",
               "arguments": {
-                "files": [
-                  "assets/minecraft/models/block/comparator_on.json",
-                  "assets/minecraft/models/block/comparator_on_subtract.json",
-                  "assets/minecraft/models/block/repeater_1tick_on.json",
-                  "assets/minecraft/models/block/repeater_1tick_on_locked.json",
-                  "assets/minecraft/models/block/repeater_2tick_on.json",
-                  "assets/minecraft/models/block/repeater_2tick_on_locked.json",
-                  "assets/minecraft/models/block/repeater_3tick_on.json",
-                  "assets/minecraft/models/block/repeater_3tick_on_locked.json",
-                  "assets/minecraft/models/block/repeater_4tick_on.json",
-                  "assets/minecraft/models/block/repeater_4tick_on_locked.json"
+                "models": [
+                  "minecraft:block/comparator_on",
+                  "minecraft:block/comparator_on_subtract",
+                  "minecraft:block/repeater_1tick_on",
+                  "minecraft:block/repeater_1tick_on_locked",
+                  "minecraft:block/repeater_2tick_on",
+                  "minecraft:block/repeater_2tick_on_locked",
+                  "minecraft:block/repeater_3tick_on",
+                  "minecraft:block/repeater_3tick_on_locked",
+                  "minecraft:block/repeater_4tick_on",
+                  "minecraft:block/repeater_4tick_on_locked"
                 ]
               }
             },
@@ -856,11 +856,11 @@
           },
           {
             "file_selector": {
-              "type": "file",
+              "type": "identifier",
               "arguments": {
-                "files": [
-                  "assets/minecraft/models/block/comparator.json",
-                  "assets/minecraft/models/block/comparator_subtract.json"
+                "models": [
+                  "minecraft:block/comparator",
+                  "minecraft:block/comparator_subtract"
                 ]
               }
             },
@@ -885,17 +885,17 @@
           },
           {
             "file_selector": {
-              "type": "file",
+              "type": "identifier",
               "arguments": {
-                "files": [
-                  "assets/minecraft/models/block/repeater_1tick.json",
-                  "assets/minecraft/models/block/repeater_1tick_locked.json",
-                  "assets/minecraft/models/block/repeater_2tick.json",
-                  "assets/minecraft/models/block/repeater_2tick_locked.json",
-                  "assets/minecraft/models/block/repeater_3tick.json",
-                  "assets/minecraft/models/block/repeater_3tick_locked.json",
-                  "assets/minecraft/models/block/repeater_4tick.json",
-                  "assets/minecraft/models/block/repeater_4tick_locked.json"
+                "models": [
+                  "minecraft:block/repeater_1tick",
+                  "minecraft:block/repeater_1tick_locked",
+                  "minecraft:block/repeater_2tick",
+                  "minecraft:block/repeater_2tick_locked",
+                  "minecraft:block/repeater_3tick",
+                  "minecraft:block/repeater_3tick_locked",
+                  "minecraft:block/repeater_4tick",
+                  "minecraft:block/repeater_4tick_locked"
                 ]
               }
             },
@@ -920,9 +920,9 @@
           },
           {
             "file_selector": {
-              "type": "file",
+              "type": "identifier",
               "arguments": {
-                "files": ["assets/minecraft/models/block/sunflower_top.json"]
+                "models": ["minecraft:block/sunflower_top"]
               }
             },
             "selector": {
@@ -947,9 +947,9 @@
           },
           {
             "file_selector": {
-              "type": "file",
+              "type": "identifier",
               "arguments": {
-                "files": ["assets/minecraft/models/block/sunflower_inv.json"]
+                "models": ["minecraft:block/sunflower_inv"]
               }
             },
             "selector": {
@@ -975,9 +975,9 @@
           },
           {
             "file_selector": {
-              "type": "file",
+              "type": "identifier",
               "arguments": {
-                "files": ["assets/minecraft/models/block/sunflower_bottom.json"]
+                "models": ["minecraft:block/sunflower_bottom"]
               }
             },
             "selector": {
@@ -997,13 +997,13 @@
           },
           {
             "file_selector": {
-              "type": "file",
+              "type": "identifier",
               "arguments": {
-                "files": [
-                  "assets/minecraft/models/block/rail_flat.json",
-                  "assets/minecraft/models/block/rail_corner.json",
-                  "assets/minecraft/models/block/rail_raised_ne.json",
-                  "assets/minecraft/models/block/rail_raised_sw.json"
+                "models": [
+                  "minecraft:block/rail_flat",
+                  "minecraft:block/rail_corner",
+                  "minecraft:block/rail_raised_ne",
+                  "minecraft:block/rail_raised_sw"
                 ]
               }
             },
@@ -1024,12 +1024,12 @@
           },
           {
             "file_selector": {
-              "type": "file",
+              "type": "identifier",
               "arguments": {
-                "files": [
-                  "assets/minecraft/models/block/activator_rail.json",
-                  "assets/minecraft/models/block/activator_rail_raised_ne.json",
-                  "assets/minecraft/models/block/activator_rail_raised_sw.json"
+                "models": [
+                  "minecraft:block/activator_rail",
+                  "minecraft:block/activator_rail_raised_ne",
+                  "minecraft:block/activator_rail_raised_sw"
                 ]
               }
             },
@@ -1050,12 +1050,12 @@
           },
           {
             "file_selector": {
-              "type": "file",
+              "type": "identifier",
               "arguments": {
-                "files": [
-                  "assets/minecraft/models/block/activator_rail_on.json",
-                  "assets/minecraft/models/block/activator_rail_on_raised_ne.json",
-                  "assets/minecraft/models/block/activator_rail_on_raised_sw.json"
+                "models": [
+                  "minecraft:block/activator_rail_on",
+                  "minecraft:block/activator_rail_on_raised_ne",
+                  "minecraft:block/activator_rail_on_raised_sw"
                 ]
               }
             },
@@ -1076,12 +1076,12 @@
           },
           {
             "file_selector": {
-              "type": "file",
+              "type": "identifier",
               "arguments": {
-                "files": [
-                  "assets/minecraft/models/block/powered_rail.json",
-                  "assets/minecraft/models/block/powered_rail_raised_ne.json",
-                  "assets/minecraft/models/block/powered_rail_raised_sw.json"
+                "models": [
+                  "minecraft:block/powered_rail",
+                  "minecraft:block/powered_rail_raised_ne",
+                  "minecraft:block/powered_rail_raised_sw"
                 ]
               }
             },
@@ -1102,12 +1102,12 @@
           },
           {
             "file_selector": {
-              "type": "file",
+              "type": "identifier",
               "arguments": {
-                "files": [
-                  "assets/minecraft/models/block/powered_rail_on.json",
-                  "assets/minecraft/models/block/powered_rail_on_raised_ne.json",
-                  "assets/minecraft/models/block/powered_rail_on_raised_sw.json"
+                "models": [
+                  "minecraft:block/powered_rail_on",
+                  "minecraft:block/powered_rail_on_raised_ne",
+                  "minecraft:block/powered_rail_on_raised_sw"
                 ]
               }
             },
@@ -1128,12 +1128,12 @@
           },
           {
             "file_selector": {
-              "type": "file",
+              "type": "identifier",
               "arguments": {
-                "files": [
-                  "assets/minecraft/models/block/detector_rail.json",
-                  "assets/minecraft/models/block/detector_rail_raised_ne.json",
-                  "assets/minecraft/models/block/detector_rail_raised_sw.json"
+                "models": [
+                  "minecraft:block/detector_rail",
+                  "minecraft:block/detector_rail_raised_ne",
+                  "minecraft:block/detector_rail_raised_sw"
                 ]
               }
             },
@@ -1154,12 +1154,12 @@
           },
           {
             "file_selector": {
-              "type": "file",
+              "type": "identifier",
               "arguments": {
-                "files": [
-                  "assets/minecraft/models/block/detector_rail_on.json",
-                  "assets/minecraft/models/block/detector_rail_on_raised_ne.json",
-                  "assets/minecraft/models/block/detector_rail_on_raised_sw.json"
+                "models": [
+                  "minecraft:block/detector_rail_on",
+                  "minecraft:block/detector_rail_on_raised_ne",
+                  "minecraft:block/detector_rail_on_raised_sw"
                 ]
               }
             },
@@ -1180,14 +1180,14 @@
           },
           {
             "file_selector": {
-              "type": "file",
+              "type": "identifier",
               "arguments": {
-                "files": [
-                  "assets/minecraft/models/block/acacia_door_bottom.json",
-                  "assets/minecraft/models/block/acacia_door_bottom_hinge.json",
-                  "assets/minecraft/models/block/acacia_door_top.json",
-                  "assets/minecraft/models/block/acacia_door_top_hinge.json",
-                  "assets/minecraft/models/block/acacia_door_inv.json"
+                "models": [
+                  "minecraft:block/acacia_door_bottom",
+                  "minecraft:block/acacia_door_bottom_hinge",
+                  "minecraft:block/acacia_door_top",
+                  "minecraft:block/acacia_door_top_hinge",
+                  "minecraft:block/acacia_door_inv"
                 ]
               }
             },
@@ -1211,14 +1211,14 @@
           },
           {
             "file_selector": {
-              "type": "file",
+              "type": "identifier",
               "arguments": {
-                "files": [
-                  "assets/minecraft/models/block/oak_door_bottom.json",
-                  "assets/minecraft/models/block/oak_door_bottom_hinge.json",
-                  "assets/minecraft/models/block/oak_door_top.json",
-                  "assets/minecraft/models/block/oak_door_top_hinge.json",
-                  "assets/minecraft/models/block/oak_door_inv.json"
+                "models": [
+                  "minecraft:block/oak_door_bottom",
+                  "minecraft:block/oak_door_bottom_hinge",
+                  "minecraft:block/oak_door_top",
+                  "minecraft:block/oak_door_top_hinge",
+                  "minecraft:block/oak_door_inv"
                 ]
               }
             },
@@ -1242,14 +1242,14 @@
           },
           {
             "file_selector": {
-              "type": "file",
+              "type": "identifier",
               "arguments": {
-                "files": [
-                  "assets/minecraft/models/block/birch_door_bottom.json",
-                  "assets/minecraft/models/block/birch_door_bottom_hinge.json",
-                  "assets/minecraft/models/block/birch_door_top.json",
-                  "assets/minecraft/models/block/birch_door_top_hinge.json",
-                  "assets/minecraft/models/block/birch_door_inv.json"
+                "models": [
+                  "minecraft:block/birch_door_bottom",
+                  "minecraft:block/birch_door_bottom_hinge",
+                  "minecraft:block/birch_door_top",
+                  "minecraft:block/birch_door_top_hinge",
+                  "minecraft:block/birch_door_inv"
                 ]
               }
             },
@@ -1273,14 +1273,14 @@
           },
           {
             "file_selector": {
-              "type": "file",
+              "type": "identifier",
               "arguments": {
-                "files": [
-                  "assets/minecraft/models/block/spruce_door_bottom.json",
-                  "assets/minecraft/models/block/spruce_door_bottom_hinge.json",
-                  "assets/minecraft/models/block/spruce_door_top.json",
-                  "assets/minecraft/models/block/spruce_door_top_hinge.json",
-                  "assets/minecraft/models/block/spruce_door_inv.json"
+                "models": [
+                  "minecraft:block/spruce_door_bottom",
+                  "minecraft:block/spruce_door_bottom_hinge",
+                  "minecraft:block/spruce_door_top",
+                  "minecraft:block/spruce_door_top_hinge",
+                  "minecraft:block/spruce_door_inv"
                 ]
               }
             },
@@ -1304,14 +1304,14 @@
           },
           {
             "file_selector": {
-              "type": "file",
+              "type": "identifier",
               "arguments": {
-                "files": [
-                  "assets/minecraft/models/block/dark_oak_door_bottom.json",
-                  "assets/minecraft/models/block/dark_oak_door_bottom_hinge.json",
-                  "assets/minecraft/models/block/dark_oak_door_top.json",
-                  "assets/minecraft/models/block/dark_oak_door_top_hinge.json",
-                  "assets/minecraft/models/block/dark_oak_door_inv.json"
+                "models": [
+                  "minecraft:block/dark_oak_door_bottom",
+                  "minecraft:block/dark_oak_door_bottom_hinge",
+                  "minecraft:block/dark_oak_door_top",
+                  "minecraft:block/dark_oak_door_top_hinge",
+                  "minecraft:block/dark_oak_door_inv"
                 ]
               }
             },
@@ -1335,14 +1335,14 @@
           },
           {
             "file_selector": {
-              "type": "file",
+              "type": "identifier",
               "arguments": {
-                "files": [
-                  "assets/minecraft/models/block/iron_door_bottom.json",
-                  "assets/minecraft/models/block/iron_door_bottom_hinge.json",
-                  "assets/minecraft/models/block/iron_door_top.json",
-                  "assets/minecraft/models/block/iron_door_top_hinge.json",
-                  "assets/minecraft/models/block/iron_door_inv.json"
+                "models": [
+                  "minecraft:block/iron_door_bottom",
+                  "minecraft:block/iron_door_bottom_hinge",
+                  "minecraft:block/iron_door_top",
+                  "minecraft:block/iron_door_top_hinge",
+                  "minecraft:block/iron_door_inv"
                 ]
               }
             },
@@ -1366,14 +1366,14 @@
           },
           {
             "file_selector": {
-              "type": "file",
+              "type": "identifier",
               "arguments": {
-                "files": [
-                  "assets/minecraft/models/block/jungle_door_bottom.json",
-                  "assets/minecraft/models/block/jungle_door_bottom_hinge.json",
-                  "assets/minecraft/models/block/jungle_door_top.json",
-                  "assets/minecraft/models/block/jungle_door_top_hinge.json",
-                  "assets/minecraft/models/block/jungle_door_inv.json"
+                "models": [
+                  "minecraft:block/jungle_door_bottom",
+                  "minecraft:block/jungle_door_bottom_hinge",
+                  "minecraft:block/jungle_door_top",
+                  "minecraft:block/jungle_door_top_hinge",
+                  "minecraft:block/jungle_door_inv"
                 ]
               }
             },
@@ -1397,9 +1397,9 @@
           },
           {
             "file_selector": {
-              "type": "file",
+              "type": "identifier",
               "arguments": {
-                "files": ["assets/minecraft/models/block/sugar_cane.json"]
+                "models": ["minecraft:block/sugar_cane"]
               }
             },
             "selector": {
@@ -1419,36 +1419,36 @@
           },
           {
             "file_selector": {
-              "type": "file",
+              "type": "identifier",
               "arguments": {
-                "files": [
-                  "assets/minecraft/models/block/stone_bricks.json",
-                  "assets/minecraft/models/block/stone_brick_stairs_north.json",
-                  "assets/minecraft/models/block/stone_brick_stairs_east.json",
-                  "assets/minecraft/models/block/stone_brick_stairs_south.json",
-                  "assets/minecraft/models/block/stone_brick_stairs_west.json",
-                  "assets/minecraft/models/block/stone_brick_stairs_inner_nw.json",
-                  "assets/minecraft/models/block/stone_brick_stairs_inner_ne.json",
-                  "assets/minecraft/models/block/stone_brick_stairs_inner_se.json",
-                  "assets/minecraft/models/block/stone_brick_stairs_inner_sw.json",
-                  "assets/minecraft/models/block/stone_brick_stairs_outer_nw.json",
-                  "assets/minecraft/models/block/stone_brick_stairs_outer_ne.json",
-                  "assets/minecraft/models/block/stone_brick_stairs_outer_se.json",
-                  "assets/minecraft/models/block/stone_brick_stairs_outer_sw.json",
-                  "assets/minecraft/models/block/stone_brick_stairs_top_north.json",
-                  "assets/minecraft/models/block/stone_brick_stairs_top_east.json",
-                  "assets/minecraft/models/block/stone_brick_stairs_top_south.json",
-                  "assets/minecraft/models/block/stone_brick_stairs_top_west.json",
-                  "assets/minecraft/models/block/stone_brick_stairs_top_inner_nw.json",
-                  "assets/minecraft/models/block/stone_brick_stairs_top_inner_ne.json",
-                  "assets/minecraft/models/block/stone_brick_stairs_top_inner_se.json",
-                  "assets/minecraft/models/block/stone_brick_stairs_top_inner_sw.json",
-                  "assets/minecraft/models/block/stone_brick_stairs_top_outer_nw.json",
-                  "assets/minecraft/models/block/stone_brick_stairs_top_outer_ne.json",
-                  "assets/minecraft/models/block/stone_brick_stairs_top_outer_se.json",
-                  "assets/minecraft/models/block/stone_brick_stairs_top_outer_sw.json",
-                  "assets/minecraft/models/block/stone_brick_slab.json",
-                  "assets/minecraft/models/block/stone_brick_slab_top.json"
+                "models": [
+                  "minecraft:block/stone_bricks",
+                  "minecraft:block/stone_brick_stairs_north",
+                  "minecraft:block/stone_brick_stairs_east",
+                  "minecraft:block/stone_brick_stairs_south",
+                  "minecraft:block/stone_brick_stairs_west",
+                  "minecraft:block/stone_brick_stairs_inner_nw",
+                  "minecraft:block/stone_brick_stairs_inner_ne",
+                  "minecraft:block/stone_brick_stairs_inner_se",
+                  "minecraft:block/stone_brick_stairs_inner_sw",
+                  "minecraft:block/stone_brick_stairs_outer_nw",
+                  "minecraft:block/stone_brick_stairs_outer_ne",
+                  "minecraft:block/stone_brick_stairs_outer_se",
+                  "minecraft:block/stone_brick_stairs_outer_sw",
+                  "minecraft:block/stone_brick_stairs_top_north",
+                  "minecraft:block/stone_brick_stairs_top_east",
+                  "minecraft:block/stone_brick_stairs_top_south",
+                  "minecraft:block/stone_brick_stairs_top_west",
+                  "minecraft:block/stone_brick_stairs_top_inner_nw",
+                  "minecraft:block/stone_brick_stairs_top_inner_ne",
+                  "minecraft:block/stone_brick_stairs_top_inner_se",
+                  "minecraft:block/stone_brick_stairs_top_inner_sw",
+                  "minecraft:block/stone_brick_stairs_top_outer_nw",
+                  "minecraft:block/stone_brick_stairs_top_outer_ne",
+                  "minecraft:block/stone_brick_stairs_top_outer_se",
+                  "minecraft:block/stone_brick_stairs_top_outer_sw",
+                  "minecraft:block/stone_brick_slab",
+                  "minecraft:block/stone_brick_slab_top"
                 ]
               }
             },
@@ -1469,10 +1469,10 @@
           },
           {
             "file_selector": {
-              "type": "file",
+              "type": "identifier",
               "arguments": {
-                "files": [
-                  "assets/minecraft/models/block/end_stone_bricks.json"
+                "models": [
+                  "minecraft:block/end_stone_bricks"
                 ]
               }
             },
@@ -1493,10 +1493,10 @@
           },
           {
             "file_selector": {
-              "type": "file",
+              "type": "identifier",
               "arguments": {
-                "files": [
-                  "assets/minecraft/models/block/mossy_stone_bricks.json"
+                "models": [
+                  "minecraft:block/mossy_stone_bricks"
                 ]
               }
             },
@@ -1517,10 +1517,10 @@
           },
           {
             "file_selector": {
-              "type": "file",
+              "type": "identifier",
               "arguments": {
-                "files": [
-                  "assets/minecraft/models/block/cracked_stone_bricks.json"
+                "models": [
+                  "minecraft:block/cracked_stone_bricks"
                 ]
               }
             },
@@ -1541,10 +1541,10 @@
           },
           {
             "file_selector": {
-              "type": "file",
+              "type": "identifier",
               "arguments": {
-                "files": [
-                  "assets/minecraft/models/block/chiseled_stone_bricks.json"
+                "models": [
+                  "minecraft:block/chiseled_stone_bricks"
                 ]
               }
             },
@@ -1565,38 +1565,38 @@
           },
           {
             "file_selector": {
-              "type": "file",
+              "type": "identifier",
               "arguments": {
-                "files": [
-                  "assets/minecraft/models/block/nether_bricks.json",
-                  "assets/minecraft/models/block/nether_brick_stairs_north.json",
-                  "assets/minecraft/models/block/nether_brick_stairs_east.json",
-                  "assets/minecraft/models/block/nether_brick_stairs_south.json",
-                  "assets/minecraft/models/block/nether_brick_stairs_west.json",
-                  "assets/minecraft/models/block/nether_brick_stairs_inner_nw.json",
-                  "assets/minecraft/models/block/nether_brick_stairs_inner_ne.json",
-                  "assets/minecraft/models/block/nether_brick_stairs_inner_se.json",
-                  "assets/minecraft/models/block/nether_brick_stairs_inner_sw.json",
-                  "assets/minecraft/models/block/nether_brick_stairs_outer_nw.json",
-                  "assets/minecraft/models/block/nether_brick_stairs_outer_ne.json",
-                  "assets/minecraft/models/block/nether_brick_stairs_outer_se.json",
-                  "assets/minecraft/models/block/nether_brick_stairs_outer_sw.json",
-                  "assets/minecraft/models/block/nether_brick_stairs_top_north.json",
-                  "assets/minecraft/models/block/nether_brick_stairs_top_east.json",
-                  "assets/minecraft/models/block/nether_brick_stairs_top_south.json",
-                  "assets/minecraft/models/block/nether_brick_stairs_top_west.json",
-                  "assets/minecraft/models/block/nether_brick_stairs_top_inner_nw.json",
-                  "assets/minecraft/models/block/nether_brick_stairs_top_inner_ne.json",
-                  "assets/minecraft/models/block/nether_brick_stairs_top_inner_se.json",
-                  "assets/minecraft/models/block/nether_brick_stairs_top_inner_sw.json",
-                  "assets/minecraft/models/block/nether_brick_stairs_top_outer_nw.json",
-                  "assets/minecraft/models/block/nether_brick_stairs_top_outer_ne.json",
-                  "assets/minecraft/models/block/nether_brick_stairs_top_outer_se.json",
-                  "assets/minecraft/models/block/nether_brick_stairs_top_outer_sw.json",
-                  "assets/minecraft/models/block/nether_brick_slab.json",
-                  "assets/minecraft/models/block/nether_brick_slab_top.json",
-                  "assets/minecraft/models/block/nether_brick_fence_post.json",
-                  "assets/minecraft/models/block/nether_brick_fence_inv.json"
+                "models": [
+                  "minecraft:block/nether_bricks",
+                  "minecraft:block/nether_brick_stairs_north",
+                  "minecraft:block/nether_brick_stairs_east",
+                  "minecraft:block/nether_brick_stairs_south",
+                  "minecraft:block/nether_brick_stairs_west",
+                  "minecraft:block/nether_brick_stairs_inner_nw",
+                  "minecraft:block/nether_brick_stairs_inner_ne",
+                  "minecraft:block/nether_brick_stairs_inner_se",
+                  "minecraft:block/nether_brick_stairs_inner_sw",
+                  "minecraft:block/nether_brick_stairs_outer_nw",
+                  "minecraft:block/nether_brick_stairs_outer_ne",
+                  "minecraft:block/nether_brick_stairs_outer_se",
+                  "minecraft:block/nether_brick_stairs_outer_sw",
+                  "minecraft:block/nether_brick_stairs_top_north",
+                  "minecraft:block/nether_brick_stairs_top_east",
+                  "minecraft:block/nether_brick_stairs_top_south",
+                  "minecraft:block/nether_brick_stairs_top_west",
+                  "minecraft:block/nether_brick_stairs_top_inner_nw",
+                  "minecraft:block/nether_brick_stairs_top_inner_ne",
+                  "minecraft:block/nether_brick_stairs_top_inner_se",
+                  "minecraft:block/nether_brick_stairs_top_inner_sw",
+                  "minecraft:block/nether_brick_stairs_top_outer_nw",
+                  "minecraft:block/nether_brick_stairs_top_outer_ne",
+                  "minecraft:block/nether_brick_stairs_top_outer_se",
+                  "minecraft:block/nether_brick_stairs_top_outer_sw",
+                  "minecraft:block/nether_brick_slab",
+                  "minecraft:block/nether_brick_slab_top",
+                  "minecraft:block/nether_brick_fence_post",
+                  "minecraft:block/nether_brick_fence_inv"
                 ]
               }
             },
@@ -1617,10 +1617,10 @@
           },
           {
             "file_selector": {
-              "type": "file",
+              "type": "identifier",
               "arguments": {
-                "files": [
-                  "assets/minecraft/models/block/red_nether_bricks.json"
+                "models": [
+                  "minecraft:block/red_nether_bricks"
                 ]
               }
             },
@@ -1641,13 +1641,13 @@
           },
           {
             "file_selector": {
-              "type": "file",
+              "type": "identifier",
               "arguments": {
-                "files": [
-                  "assets/minecraft/models/block/nether_wart_stage0.json",
-                  "assets/minecraft/models/block/nether_wart_stage1.json",
-                  "assets/minecraft/models/block/nether_wart_stage2.json",
-                  "assets/minecraft/models/block/nether_wart_stage3.json"
+                "models": [
+                  "minecraft:block/nether_wart_stage0",
+                  "minecraft:block/nether_wart_stage1",
+                  "minecraft:block/nether_wart_stage2",
+                  "minecraft:block/nether_wart_stage3"
                 ]
               }
             },
@@ -1669,10 +1669,10 @@
           },
           {
             "file_selector": {
-              "type": "file",
+              "type": "identifier",
               "arguments": {
-                "files": [
-                  "assets/minecraft/models/block/chiseled_quartz_block.json"
+                "models": [
+                  "minecraft:block/chiseled_quartz_block"
                 ]
               }
             },
@@ -1696,16 +1696,16 @@
           },
           {
             "file_selector": {
-              "type": "file",
+              "type": "identifier",
               "arguments": {
-                "files": [
-                  "assets/minecraft/models/block/mossy_cobblestone.json",
-                  "assets/minecraft/models/block/mossy_cobblestone_wall_inventory.json",
-                  "assets/minecraft/models/block/mossy_cobblestone_wall_post.json",
-                  "assets/minecraft/models/block/mossy_cobblestone_wall_side_north.json",
-                  "assets/minecraft/models/block/mossy_cobblestone_wall_side_east.json",
-                  "assets/minecraft/models/block/mossy_cobblestone_wall_side_south.json",
-                  "assets/minecraft/models/block/mossy_cobblestone_wall_side_west.json"
+                "models": [
+                  "minecraft:block/mossy_cobblestone",
+                  "minecraft:block/mossy_cobblestone_wall_inventory",
+                  "minecraft:block/mossy_cobblestone_wall_post",
+                  "minecraft:block/mossy_cobblestone_wall_side_north",
+                  "minecraft:block/mossy_cobblestone_wall_side_east",
+                  "minecraft:block/mossy_cobblestone_wall_side_south",
+                  "minecraft:block/mossy_cobblestone_wall_side_west"
                 ]
               }
             },
@@ -1726,36 +1726,36 @@
           },
           {
             "file_selector": {
-              "type": "file",
+              "type": "identifier",
               "arguments": {
-                "files": [
-                  "assets/minecraft/models/block/bricks.json",
-                  "assets/minecraft/models/block/brick_slab.json",
-                  "assets/minecraft/models/block/brick_slab_top.json",
-                  "assets/minecraft/models/block/brick_stairs_north.json",
-                  "assets/minecraft/models/block/brick_stairs_east.json",
-                  "assets/minecraft/models/block/brick_stairs_south.json",
-                  "assets/minecraft/models/block/brick_stairs_west.json",
-                  "assets/minecraft/models/block/brick_stairs_inner_nw.json",
-                  "assets/minecraft/models/block/brick_stairs_inner_ne.json",
-                  "assets/minecraft/models/block/brick_stairs_inner_se.json",
-                  "assets/minecraft/models/block/brick_stairs_inner_sw.json",
-                  "assets/minecraft/models/block/brick_stairs_outer_nw.json",
-                  "assets/minecraft/models/block/brick_stairs_outer_ne.json",
-                  "assets/minecraft/models/block/brick_stairs_outer_se.json",
-                  "assets/minecraft/models/block/brick_stairs_outer_sw.json",
-                  "assets/minecraft/models/block/brick_stairs_top_north.json",
-                  "assets/minecraft/models/block/brick_stairs_top_east.json",
-                  "assets/minecraft/models/block/brick_stairs_top_south.json",
-                  "assets/minecraft/models/block/brick_stairs_top_west.json",
-                  "assets/minecraft/models/block/brick_stairs_top_inner_nw.json",
-                  "assets/minecraft/models/block/brick_stairs_top_inner_ne.json",
-                  "assets/minecraft/models/block/brick_stairs_top_inner_se.json",
-                  "assets/minecraft/models/block/brick_stairs_top_inner_sw.json",
-                  "assets/minecraft/models/block/brick_stairs_top_outer_nw.json",
-                  "assets/minecraft/models/block/brick_stairs_top_outer_ne.json",
-                  "assets/minecraft/models/block/brick_stairs_top_outer_se.json",
-                  "assets/minecraft/models/block/brick_stairs_top_outer_sw.json"
+                "models": [
+                  "minecraft:block/bricks",
+                  "minecraft:block/brick_slab",
+                  "minecraft:block/brick_slab_top",
+                  "minecraft:block/brick_stairs_north",
+                  "minecraft:block/brick_stairs_east",
+                  "minecraft:block/brick_stairs_south",
+                  "minecraft:block/brick_stairs_west",
+                  "minecraft:block/brick_stairs_inner_nw",
+                  "minecraft:block/brick_stairs_inner_ne",
+                  "minecraft:block/brick_stairs_inner_se",
+                  "minecraft:block/brick_stairs_inner_sw",
+                  "minecraft:block/brick_stairs_outer_nw",
+                  "minecraft:block/brick_stairs_outer_ne",
+                  "minecraft:block/brick_stairs_outer_se",
+                  "minecraft:block/brick_stairs_outer_sw",
+                  "minecraft:block/brick_stairs_top_north",
+                  "minecraft:block/brick_stairs_top_east",
+                  "minecraft:block/brick_stairs_top_south",
+                  "minecraft:block/brick_stairs_top_west",
+                  "minecraft:block/brick_stairs_top_inner_nw",
+                  "minecraft:block/brick_stairs_top_inner_ne",
+                  "minecraft:block/brick_stairs_top_inner_se",
+                  "minecraft:block/brick_stairs_top_inner_sw",
+                  "minecraft:block/brick_stairs_top_outer_nw",
+                  "minecraft:block/brick_stairs_top_outer_ne",
+                  "minecraft:block/brick_stairs_top_outer_se",
+                  "minecraft:block/brick_stairs_top_outer_sw"
                 ]
               }
             },
@@ -1776,12 +1776,12 @@
           },
           {
             "file_selector": {
-              "type": "file",
+              "type": "identifier",
               "arguments": {
-                "files": [
-                  "assets/minecraft/models/block/oak_trapdoor_bottom.json",
-                  "assets/minecraft/models/block/oak_trapdoor_open.json",
-                  "assets/minecraft/models/block/oak_trapdoor_top.json"
+                "models": [
+                  "minecraft:block/oak_trapdoor_bottom",
+                  "minecraft:block/oak_trapdoor_open",
+                  "minecraft:block/oak_trapdoor_top"
                 ]
               }
             },

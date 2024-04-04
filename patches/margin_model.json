@@ -8,15 +8,20 @@
         "arguments": {
           "offset": -0.01,
           "random_offset": -0.001,
-          "models": [
-            "minecraft:block/template_cobblestone",
-            "minecraft:block/template_sandstone",
-            "minecraft:block/template_nether_bricks",
-            "minecraft:block/template_stone_bricks",
-            "minecraft:block/template_planks",
-            "minecraft:block/prismarine",
-            "minecraft:block/bricks"
-          ]
+          "file_selector": {
+            "type": "identifier",
+            "arguments": {
+              "models": [
+                "minecraft:block/template_cobblestone",
+                "minecraft:block/template_sandstone",
+                "minecraft:block/template_nether_bricks",
+                "minecraft:block/template_stone_bricks",
+                "minecraft:block/template_planks",
+                "minecraft:block/prismarine",
+                "minecraft:block/bricks"
+              ]
+            }
+          }
         }
       }
     }
