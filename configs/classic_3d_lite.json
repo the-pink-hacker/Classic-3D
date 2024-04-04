@@ -72,8 +72,9 @@
   "configs": {
     "1.18": {
       "mc_versions": [
+        "1.18",
         "1.18.1",
-        "1.18"
+        "1.18.2"
       ],
       "textures": {
         "delete": true,
@@ -91,8 +92,8 @@
     },
     "1.17": {
       "mc_versions": [
-        "1.17.1",
-        "1.17"
+        "1.17",
+        "1.17.1"
       ],
       "textures": {
         "delete": true,
@@ -104,17 +105,18 @@
       "regenerate_meta": true,
       "minify_json": true,
       "patches": [
-        "lite"
+        "lite",
+        "margin_model"
       ]
     },
     "1.16": {
       "mc_versions": [
-        "1.16.5",
-        "1.16.4",
-        "1.16.3",
-        "1.16.2",
+        "1.16",
         "1.16.1",
-        "1.16"
+        "1.16.2",
+        "1.16.3",
+        "1.16.4",
+        "1.16.5"
       ],
       "textures": {
         "delete": true,
@@ -126,16 +128,16 @@
       "regenerate_meta": true,
       "minify_json": true,
       "patches": [
-        "1.16",
+        "1.16-patch",
         "lite",
         "margin_model"
       ]
     },
     "1.15": {
       "mc_versions": [
-        "1.15.2",
+        "1.15",
         "1.15.1",
-        "1.15"
+        "1.15.2"
       ],
       "textures": {
         "delete": true,
@@ -147,19 +149,19 @@
       "regenerate_meta": true,
       "minify_json": true,
       "patches": [
-        "1.16",
-        "1.15",
+        "1.16-patch",
+        "1.15-patch",
         "lite",
         "margin_model"
       ]
     },
     "1.14": {
       "mc_versions": [
-        "1.14.4",
-        "1.14.3",
-        "1.14.2",
+        "1.14",
         "1.14.1",
-        "1.14"
+        "1.14.2",
+        "1.14.3",
+        "1.14.4"
       ],
       "textures": {
         "delete": true,
@@ -171,18 +173,18 @@
       "regenerate_meta": true,
       "minify_json": true,
       "patches": [
-        "1.16",
-        "1.15",
-        "1.14",
+        "1.16-patch",
+        "1.15-patch",
+        "1.14-patch",
         "lite",
         "margin_model"
       ]
     },
     "1.13": {
       "mc_versions": [
-        "1.13.2",
+        "1.13",
         "1.13.1",
-        "1.13"
+        "1.13.2"
       ],
       "textures": {
         "delete": true,
@@ -194,10 +196,10 @@
       "regenerate_meta": true,
       "minify_json": true,
       "patches": [
-        "1.16",
-        "1.15",
-        "1.14",
-        "1.13",
+        "1.16-patch",
+        "1.15-patch",
+        "1.14-patch",
+        "1.13-patch",
         "lite",
         "margin_model"
       ]
