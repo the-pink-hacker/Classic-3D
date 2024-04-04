@@ -1,6 +1,6 @@
 {
-	"parent": "block/poppy",
+	"parent": "minecraft:block/poppy",
 	"textures": {
-		"particle": "3d/flowers/wither_rose"
+		"cross": "3d/flowers/wither_rose"
 	}
 }
