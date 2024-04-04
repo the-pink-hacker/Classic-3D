@@ -1722,6 +1722,82 @@
                 }
               }
             ]
+          },
+          {
+            "file_selector": {
+              "type": "file",
+              "arguments": {
+                "files": [
+                  "assets/minecraft/models/block/bricks.json",
+                  "assets/minecraft/models/block/brick_slab.json",
+                  "assets/minecraft/models/block/brick_slab_top.json",
+                  "assets/minecraft/models/block/brick_stairs_north.json",
+                  "assets/minecraft/models/block/brick_stairs_east.json",
+                  "assets/minecraft/models/block/brick_stairs_south.json",
+                  "assets/minecraft/models/block/brick_stairs_west.json",
+                  "assets/minecraft/models/block/brick_stairs_inner_nw.json",
+                  "assets/minecraft/models/block/brick_stairs_inner_ne.json",
+                  "assets/minecraft/models/block/brick_stairs_inner_se.json",
+                  "assets/minecraft/models/block/brick_stairs_inner_sw.json",
+                  "assets/minecraft/models/block/brick_stairs_outer_nw.json",
+                  "assets/minecraft/models/block/brick_stairs_outer_ne.json",
+                  "assets/minecraft/models/block/brick_stairs_outer_se.json",
+                  "assets/minecraft/models/block/brick_stairs_outer_sw.json",
+                  "assets/minecraft/models/block/brick_stairs_top_north.json",
+                  "assets/minecraft/models/block/brick_stairs_top_east.json",
+                  "assets/minecraft/models/block/brick_stairs_top_south.json",
+                  "assets/minecraft/models/block/brick_stairs_top_west.json",
+                  "assets/minecraft/models/block/brick_stairs_top_inner_nw.json",
+                  "assets/minecraft/models/block/brick_stairs_top_inner_ne.json",
+                  "assets/minecraft/models/block/brick_stairs_top_inner_se.json",
+                  "assets/minecraft/models/block/brick_stairs_top_inner_sw.json",
+                  "assets/minecraft/models/block/brick_stairs_top_outer_nw.json",
+                  "assets/minecraft/models/block/brick_stairs_top_outer_ne.json",
+                  "assets/minecraft/models/block/brick_stairs_top_outer_se.json",
+                  "assets/minecraft/models/block/brick_stairs_top_outer_sw.json"
+                ]
+              }
+            },
+            "selector": {
+              "type": "path",
+              "arguments": {
+                "location": "textures/*"
+              }
+            },
+            "modifiers": [
+              {
+                "type": "set",
+                "arguments": {
+                  "data": "blocks/brick"
+                }
+              }
+            ]
+          },
+          {
+            "file_selector": {
+              "type": "file",
+              "arguments": {
+                "files": [
+                  "assets/minecraft/models/block/oak_trapdoor_bottom.json",
+                  "assets/minecraft/models/block/oak_trapdoor_open.json",
+                  "assets/minecraft/models/block/oak_trapdoor_top.json"
+                ]
+              }
+            },
+            "selector": {
+              "type": "path",
+              "arguments": {
+                "location": "textures/*"
+              }
+            },
+            "modifiers": [
+              {
+                "type": "set",
+                "arguments": {
+                  "data": "blocks/trapdoor"
+                }
+              }
+            ]
           }
         ]
       }
