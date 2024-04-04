@@ -3,7 +3,7 @@
   "patch": {
     "mixins": [
       {
-        "file":"assets/minecraft/models/block/mycelium.json",
+        "files": ["assets/minecraft/models/block/mycelium.json"],
         "selector": {
           "type": "path",
           "arguments": {
