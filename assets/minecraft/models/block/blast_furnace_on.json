@@ -1,0 +1,8 @@
+{
+	"credit": "Made with Blockbench - Made by anonymous_46 - Models are for Classic 3D Only",
+	"parent": "block/blast_furnace",
+	"textures": {
+		"particle": "block/blast_furnace_front_on",
+		"front": "block/blast_furnace_front_on"
+	}
+}

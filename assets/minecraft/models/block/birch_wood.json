@@ -1,0 +1,8 @@
+{
+	"credit": "Made with Blockbench - Made by anonymous_46 - Models are for Classic 3D Only",
+	"parent": "block/template_wood",
+	"textures": {
+		"side": "block/birch_log",
+		"particle": "block/birch_log"
+	}
+}

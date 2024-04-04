@@ -1,0 +1,122 @@
+{
+    "__comment": "Model generated using MrCrayfish's Model Creator (https://mrcrayfish.com/tools?id=mc)",
+    "textures": {
+        "particle": "minecraft:block/iron_trapdoor",
+        "iron_trapdoor": "minecraft:block/iron_trapdoor"
+    },
+    "display": {
+        "gui": {
+            "rotation": [ 30, 45, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 0.625, 0.625, 0.625 ]
+        },
+        "ground": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 3, 0 ],
+            "scale": [ 0.25, 0.25, 0.25 ]
+        },
+        "fixed": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "head": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ 0, 315, 0 ],
+            "translation": [ 0, 2.5, 0 ],
+            "scale": [ 0.4, 0.4, 0.4 ]
+        },
+        "thirdperson_righthand": {
+            "rotation": [ 75, 315, 0 ],
+            "translation": [ 0, 2.5, 0 ],
+            "scale": [ 0.375, 0.375, 0.375 ]
+        }
+    },
+    "elements": [
+        {
+            "name": "Cube",
+            "from": [ 0, 13, 13 ], 
+            "to": [ 16, 16, 16 ], 
+            "faces": {
+                "north": { "texture": "#iron_trapdoor", "uv": [ 0, 0, 16, 3 ] },
+                "east": { "texture": "#iron_trapdoor", "uv": [ 0, 0, 3, 3 ] },
+                "south": { "texture": "#iron_trapdoor", "uv": [ 0, 0, 16, 3 ] },
+                "west": { "texture": "#iron_trapdoor", "uv": [ 0, 0, 3, 3 ] },
+                "up": { "texture": "#iron_trapdoor", "uv": [ 0, 0, 16, 3 ], "rotation": 180 },
+                "down": { "texture": "#iron_trapdoor", "uv": [ 0, 13, 16, 16 ], "rotation": 180 }
+            }
+        },
+        {
+            "name": "Cube",
+            "from": [ 0, 0, 13 ], 
+            "to": [ 16, 3, 16 ], 
+            "faces": {
+                "north": { "texture": "#iron_trapdoor", "uv": [ 16, 13, 0, 16 ] },
+                "east": { "texture": "#iron_trapdoor", "uv": [ 3, 13, 0, 16 ], "rotation": 90 },
+                "south": { "texture": "#iron_trapdoor", "uv": [ 0, 13, 16, 16 ] },
+                "west": { "texture": "#iron_trapdoor", "uv": [ 13, 13, 16, 16 ] },
+                "up": { "texture": "#iron_trapdoor", "uv": [ 0, 13, 16, 16 ], "rotation": 180 },
+                "down": { "texture": "#iron_trapdoor", "uv": [ 0, 13, 16, 16 ], "rotation": 180 }
+            }
+        },
+        {
+            "name": "Cube",
+            "from": [ 0, 3, 13 ], 
+            "to": [ 3, 13, 16 ], 
+            "faces": {
+                "north": { "texture": "#iron_trapdoor", "uv": [ 13, 3, 16, 13 ] },
+                "east": { "texture": "#iron_trapdoor", "uv": [ 13, 3, 16, 13 ] },
+                "south": { "texture": "#iron_trapdoor", "uv": [ 0, 3, 3, 13 ] },
+                "west": { "texture": "#iron_trapdoor", "uv": [ 13, 3, 16, 13 ] }
+            }
+        },
+        {
+            "name": "Cube",
+            "from": [ 13, 3, 13 ], 
+            "to": [ 16, 13, 16 ], 
+            "faces": {
+                "north": { "texture": "#iron_trapdoor", "uv": [ 0, 3, 3, 13 ] },
+                "east": { "texture": "#iron_trapdoor", "uv": [ 0, 3, 3, 13 ] },
+                "south": { "texture": "#iron_trapdoor", "uv": [ 13, 3, 16, 13 ] },
+                "west": { "texture": "#iron_trapdoor", "uv": [ 0, 3, 3, 13 ] }
+            }
+        },
+        {
+            "name": "Cube",
+            "from": [ 6, 3, 13 ], 
+            "to": [ 10, 13, 16 ], 
+            "faces": {
+                "north": { "texture": "#iron_trapdoor", "uv": [ 6, 3, 10, 13 ] },
+                "east": { "texture": "#iron_trapdoor", "uv": [ 6, 3, 9, 13 ] },
+                "south": { "texture": "#iron_trapdoor", "uv": [ 6, 3, 10, 13 ] },
+                "west": { "texture": "#iron_trapdoor", "uv": [ 6, 3, 9, 13 ] }
+            }
+        },
+        {
+            "name": "Cube",
+            "from": [ 10, 6, 13 ], 
+            "to": [ 13, 10, 16 ], 
+            "faces": {
+                "north": { "texture": "#iron_trapdoor", "uv": [ 10, 6, 13, 10 ] },
+                "south": { "texture": "#iron_trapdoor", "uv": [ 10, 6, 13, 10 ] },
+                "up": { "texture": "#iron_trapdoor", "uv": [ 10, 6, 13, 9 ], "rotation": 180 },
+                "down": { "texture": "#iron_trapdoor", "uv": [ 10, 7, 13, 10 ], "rotation": 180 }
+            }
+        },
+        {
+            "name": "Cube",
+            "from": [ 3, 6, 13 ], 
+            "to": [ 6, 10, 16 ], 
+            "faces": {
+                "north": { "texture": "#iron_trapdoor", "uv": [ 3, 6, 6, 10 ] },
+                "south": { "texture": "#iron_trapdoor", "uv": [ 3, 6, 6, 10 ] },
+                "up": { "texture": "#iron_trapdoor", "uv": [ 3, 6, 6, 9 ], "rotation": 180 },
+                "down": { "texture": "#iron_trapdoor", "uv": [ 3, 7, 6, 10 ], "rotation": 180 }
+            }
+        }
+    ]
+}

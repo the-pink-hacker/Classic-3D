@@ -1,0 +1,7 @@
+{
+	"credit": "Made with Blockbench - Made by ryangar46 - Models are for Classic 3D Only",
+	"parent": "block/template_ore_block",
+	"textures": {
+		"all": "block/diamond_block"
+	}
+}
