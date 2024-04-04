@@ -1,7 +1,0 @@
-{
-    "parent": "item/template_sign",
-    "textures": {
-        "all": "3d/block/signs/birch",
-		"particle": "3d/block/signs/birch"
-    }
-}

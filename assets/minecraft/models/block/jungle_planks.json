@@ -1,8 +1,0 @@
-{
-	"credit": "Made with Blockbench - Made by anonymous_46 - Models are for Classic 3D Only",
-	"parent": "block/template_planks",
-	"textures": {
-		"particle": "block/jungle_planks",
-		"all": "block/jungle_planks"
-	}
-}

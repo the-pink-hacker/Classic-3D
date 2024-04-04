@@ -1,8 +1,0 @@
-{
-	"credit": "Made with Blockbench - Made by RyanGar46 - Models are for Classic 3D Only",
-	"parent": "block/template_planks",
-	"textures": {
-		"particle": "block/oak_planks",
-		"all": "block/oak_planks"
-	}
-}

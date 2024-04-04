@@ -1,9 +1,0 @@
-{
-	"credit": "Made with Blockbench - Made by anonymous_46 - Models are for Classic 3D Only",
-	"parent": "block/template_log",
-	"textures": {
-		"top": "block/jungle_log_top",
-		"side": "block/jungle_log",
-		"particle": "block/jungle_log"
-	}
-}

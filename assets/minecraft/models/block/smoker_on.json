@@ -1,8 +1,0 @@
-{
-	"credit": "Made with Blockbench - Made by anonymous_46 - Models are for Classic 3D Only",
-	"parent": "block/smoker",
-	"textures": {
-		"particle": "block/smoker_front_on",
-		"front": "block/smoker_front_on"
-	}
-}

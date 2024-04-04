@@ -1,8 +1,0 @@
-{
-	"credit": "Made with Blockbench",
-	"parent": "block/template_potted_tulip",
-	"textures": {
-		"1": "block/white_tulip",
-		"particle": "block/white_tulip"
-	}
-}

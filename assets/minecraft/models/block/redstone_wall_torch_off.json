@@ -1,7 +1,0 @@
-{
-	"credit": "Made with Blockbench - Made/edited by RyanGar46",
-	"parent": "block/template_wall_torch",
-	"textures": {
-		"particle": "block/redstone_torch_off"
-	}
-}
