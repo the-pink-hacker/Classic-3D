@@ -70,6 +70,23 @@
     ]
   },
   "configs": {
+    "1.19": {
+      "mc_versions": [
+        "1.19"
+      ],
+      "textures": {
+        "delete": true,
+        "ignore": [
+          "3d",
+          "gui"
+        ]
+      },
+      "regenerate_meta": true,
+      "minify_json": true,
+      "patches": [
+        "margin_model"
+      ]
+    },
     "1.18": {
       "mc_versions": [
         "1.18",
