@@ -1,9 +1,31 @@
-v14.2
+v14.3
 
-Changes:
+Fixes:
 
-- Added 1.12 support
-- Removed unnecessary files
+- Reduced Z-fighting on many blocks
+- Barrel lighting issue
+- Iron bars' blockstate is incorrect
+- Iron door uses oak door texture
+- Loom culling issues
+- Sea lantern culling issues
+- Reduced lag in nether
+- Parenting issues with rails
+- 1.12 support
+  - Prismarine
+  - Dark Prismarine
+  - Piston
+  - Sticky Piston
+  - Cake
+- Optimized
+  - Sandstone
+  - Cobblestone
+  - Stone Bricks
+  - Bee Nest
+  - Beehive
+  - Anvils
+  - Redstone Dust
+  - Scaffolding
+  - Nylium
 
 ---
 
