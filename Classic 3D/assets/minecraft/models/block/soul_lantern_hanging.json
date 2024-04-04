@@ -1,7 +1,7 @@
 {
-    "parent": "block/lantern_hanging",
-    "textures": {
-		"particle": "block/soul_lantern",
-		"all": "block/soul_lantern"
-    }
+  "parent": "minecraft:block/lantern_hanging",
+  "textures": {
+    "particle": "minecraft:block/soul_lantern",
+    "lantern": "minecraft:block/soul_lantern"
+  }
 }
