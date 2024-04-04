@@ -1,4 +1,5 @@
 {
+  "$schema": "https://raw.githubusercontent.com/RyanGar46/resource-pack-packer/main/schema/patch.schema.json",
   "patches": [
     {
       "type": "replace",
