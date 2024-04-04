@@ -580,6 +580,420 @@
                 }
               }
             ]
+          },
+          {
+            "file_selector": {
+              "type": "file",
+              "arguments": {
+                "files": ["assets/minecraft/models/block/bookshelf.json"]
+              }
+            },
+            "selector": {
+              "type": "path",
+              "arguments": {
+                "location": "textures/end"
+              }
+            },
+            "modifiers": [
+              {
+                "type": "set",
+                "arguments": {
+                  "data": "blocks/planks_oak"
+                }
+              }
+            ]
+          },
+          {
+            "file_selector": {
+              "type": "file",
+              "arguments": {
+                "files": [
+                  "assets/minecraft/models/block/torch.json",
+                  "assets/minecraft/models/block/wall_torch.json"
+                ]
+              }
+            },
+            "selector": {
+              "type": "path",
+              "arguments": {
+                "location": "textures/*"
+              }
+            },
+            "modifiers": [
+              {
+                "type": "set",
+                "arguments": {
+                  "data": "blocks/torch_on"
+                }
+              }
+            ]
+          },
+          {
+            "file_selector": {
+              "type": "file",
+              "arguments": {
+                "files": [
+                  "assets/minecraft/models/block/redstone_torch.json",
+                  "assets/minecraft/models/block/redstone_wall_torch.json"
+                ]
+              }
+            },
+            "selector": {
+              "type": "path",
+              "arguments": {
+                "location": "textures/*"
+              }
+            },
+            "modifiers": [
+              {
+                "type": "set",
+                "arguments": {
+                  "data": "blocks/redstone_torch_on"
+                }
+              }
+            ]
+          },
+          {
+            "file_selector": {
+              "type": "file",
+              "arguments": {
+                "files": ["assets/minecraft/models/block/carved_pumpkin.json"]
+              }
+            },
+            "selector": {
+              "type": "path",
+              "arguments": {
+                "location": "textures/front"
+              }
+            },
+            "modifiers": [
+              {
+                "type": "set",
+                "arguments": {
+                  "data": "blocks/pumpkin_face_off"
+                }
+              }
+            ]
+          },
+          {
+            "file_selector": {
+              "type": "file",
+              "arguments": {
+                "files": ["assets/minecraft/models/block/jack_o_lantern.json"]
+              }
+            },
+            "selector": {
+              "type": "path",
+              "arguments": {
+                "location": "textures"
+              }
+            },
+            "modifiers": [
+              {
+                "type": "set",
+                "arguments": {
+                  "data": {
+                    "torch": "blocks/torch_on",
+                    "front": "blocks/pumpkin_face_on"
+                  },
+                  "merge": true
+                }
+              }
+            ]
+          },
+          {
+            "file_selector": {
+              "type": "file",
+              "arguments": {
+                "files": [
+                  "assets/minecraft/models/block/fire_side0.json",
+                  "assets/minecraft/models/block/fire_side_alt0.json"
+                ]
+              }
+            },
+            "selector": {
+              "type": "path",
+              "arguments": {
+                "location": "textures/*"
+              }
+            },
+            "modifiers": [
+              {
+                "type": "set",
+                "arguments": {
+                  "data": "blocks/fire_layer_0"
+                }
+              }
+            ]
+          },
+          {
+            "file_selector": {
+              "type": "file",
+              "arguments": {
+                "files": [
+                  "assets/minecraft/models/block/fire_side1.json",
+                  "assets/minecraft/models/block/fire_side_alt1.json"
+                ]
+              }
+            },
+            "selector": {
+              "type": "path",
+              "arguments": {
+                "location": "textures/*"
+              }
+            },
+            "modifiers": [
+              {
+                "type": "set",
+                "arguments": {
+                  "data": "blocks/fire_layer_1"
+                }
+              }
+            ]
+          },
+          {
+            "file_selector": {
+              "type": "file",
+              "arguments": {
+                "files": ["assets/minecraft/models/block/dropper.json"]
+              }
+            },
+            "selector": {
+              "type": "path",
+              "arguments": {
+                "location": "textures/front"
+              }
+            },
+            "modifiers": [
+              {
+                "type": "set",
+                "arguments": {
+                  "data": "blocks/dropper_front_horizontal"
+                }
+              }
+            ]
+          },
+          {
+            "file_selector": {
+              "type": "file",
+              "arguments": {
+                "files": ["assets/minecraft/models/block/dispenser.json"]
+              }
+            },
+            "selector": {
+              "type": "path",
+              "arguments": {
+                "location": "textures/front"
+              }
+            },
+            "modifiers": [
+              {
+                "type": "set",
+                "arguments": {
+                  "data": "blocks/dispenser_front_horizontal"
+                }
+              }
+            ]
+          },
+          {
+            "file_selector": {
+              "type": "file",
+              "arguments": {
+                "files": ["assets/minecraft/models/block/tripwire_hook.json"]
+              }
+            },
+            "selector": {
+              "type": "path",
+              "arguments": {
+                "location": "textures"
+              }
+            },
+            "modifiers": [
+              {
+                "type": "set",
+                "arguments": {
+                  "data": {
+                    "hook": "blocks/trip_wire_source",
+                    "wood": "blocks/planks_oak",
+                    "particle": "blocks/planks_oak"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "file_selector": {
+              "type": "file",
+              "arguments": {
+                "files": [
+                  "assets/minecraft/models/block/comparator_on.json",
+                  "assets/minecraft/models/block/comparator_on_subtract.json",
+                  "assets/minecraft/models/block/repeater_1tick_on.json",
+                  "assets/minecraft/models/block/repeater_1tick_on_locked.json",
+                  "assets/minecraft/models/block/repeater_2tick_on.json",
+                  "assets/minecraft/models/block/repeater_2tick_on_locked.json",
+                  "assets/minecraft/models/block/repeater_3tick_on.json",
+                  "assets/minecraft/models/block/repeater_3tick_on_locked.json",
+                  "assets/minecraft/models/block/repeater_4tick_on.json",
+                  "assets/minecraft/models/block/repeater_4tick_on_locked.json"
+                ]
+              }
+            },
+            "selector": {
+              "type": "path",
+              "arguments": {
+                "location": "textures/torch"
+              }
+            },
+            "modifiers": [
+              {
+                "type": "set",
+                "arguments": {
+                  "data": "blocks/redstone_torch_on"
+                }
+              }
+            ]
+          },
+          {
+            "file_selector": {
+              "type": "file",
+              "arguments": {
+                "files": [
+                  "assets/minecraft/models/block/comparator.json",
+                  "assets/minecraft/models/block/comparator_subtract.json"
+                ]
+              }
+            },
+            "selector": {
+              "type": "path",
+              "arguments": {
+                "location": "textures"
+              }
+            },
+            "modifiers": [
+              {
+                "type": "set",
+                "arguments": {
+                  "data": {
+                    "top": "blocks/comparator_off",
+                    "particle": "blocks/comparator_off"
+                  },
+                  "merge": true
+                }
+              }
+            ]
+          },
+          {
+            "file_selector": {
+              "type": "file",
+              "arguments": {
+                "files": [
+                  "assets/minecraft/models/block/repeater_1tick.json",
+                  "assets/minecraft/models/block/repeater_1tick_locked.json",
+                  "assets/minecraft/models/block/repeater_2tick.json",
+                  "assets/minecraft/models/block/repeater_2tick_locked.json",
+                  "assets/minecraft/models/block/repeater_3tick.json",
+                  "assets/minecraft/models/block/repeater_3tick_locked.json",
+                  "assets/minecraft/models/block/repeater_4tick.json",
+                  "assets/minecraft/models/block/repeater_4tick_locked.json"
+                ]
+              }
+            },
+            "selector": {
+              "type": "path",
+              "arguments": {
+                "location": "textures"
+              }
+            },
+            "modifiers": [
+              {
+                "type": "set",
+                "arguments": {
+                  "data": {
+                    "top": "blocks/repeater_off",
+                    "particle": "blocks/repeater_off"
+                  },
+                  "merge": true
+                }
+              }
+            ]
+          },
+          {
+            "file_selector": {
+              "type": "file",
+              "arguments": {
+                "files": ["assets/minecraft/models/block/sunflower_top.json"]
+              }
+            },
+            "selector": {
+              "type": "path",
+              "arguments": {
+                "location": "textures"
+              }
+            },
+            "modifiers": [
+              {
+                "type": "set",
+                "arguments": {
+                  "data": {
+                    "cross": "blocks/double_plant_sunflower_top",
+                    "back": "blocks/double_plant_sunflower_back",
+                    "particle": "blocks/double_plant_sunflower_front",
+                    "front": "blocks/double_plant_sunflower_front"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "file_selector": {
+              "type": "file",
+              "arguments": {
+                "files": ["assets/minecraft/models/block/sunflower_inv.json"]
+              }
+            },
+            "selector": {
+              "type": "path",
+              "arguments": {
+                "location": "textures"
+              }
+            },
+            "modifiers": [
+              {
+                "type": "set",
+                "arguments": {
+                  "data": {
+                    "top_cross": "blocks/double_plant_sunflower_top",
+                    "bottom_cross": "blocks/double_plant_sunflower_bottom",
+                    "back": "blocks/double_plant_sunflower_back",
+                    "particle": "blocks/double_plant_sunflower_front",
+                    "front": "blocks/double_plant_sunflower_front"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "file_selector": {
+              "type": "file",
+              "arguments": {
+                "files": ["assets/minecraft/models/block/sunflower_bottom.json"]
+              }
+            },
+            "selector": {
+              "type": "path",
+              "arguments": {
+                "location": "textures/cross"
+              }
+            },
+            "modifiers": [
+              {
+                "type": "set",
+                "arguments": {
+                  "data": "blocks/double_plant_sunflower_bottom"
+                }
+              }
+            ]
           }
         ]
       }
