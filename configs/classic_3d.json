@@ -96,7 +96,8 @@
       "minify_json": true,
       "patches": [
         "classic_3d_patch_1-16_ores",
-        "classic_3d_patch_1-15_walls"
+        "classic_3d_patch_1-15_walls",
+        "classic_3d_patch_1-14"
       ]
     },
     "1.13": {
@@ -117,6 +118,7 @@
       "patches": [
         "classic_3d_patch_1-16_ores",
         "classic_3d_patch_1-15_walls",
+        "classic_3d_patch_1-14",
         "classic_3d_patch_1-13_textures"
       ]
     }
