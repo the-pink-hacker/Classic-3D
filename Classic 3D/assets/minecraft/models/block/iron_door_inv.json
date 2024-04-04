@@ -1,8 +1,7 @@
 {
-	"parent": "block/oak_door_inv",
+	"parent": "minecraft:block/template_oak_door_inv",
 	"textures": {
-		"top": "block/iron_door_top",
-		"particle": "block/iron_door_bottom",
-		"bottom": "block/iron_door_bottom"
+		"top": "minecraft:block/iron_door_top",
+		"bottom": "minecraft:block/iron_door_bottom"
 	}
 }
