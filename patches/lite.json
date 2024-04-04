@@ -63,6 +63,13 @@
                     "minecraft:block/magma_block"
                   ]
                 }
+              },
+              {
+                "type": "blockstate",
+                "arguments": {
+                  "blockstate": "minecraft:sculk_vein",
+                  "include_blockstate": true
+                }
               }
             ]
           }
