@@ -1,7 +1,6 @@
 {
-	"parent": "block/thin_block",
+	"parent": "block/template_orientable_trapdoor_bottom",
 	"textures": {
-		"particle": "block/spruce_trapdoor",
 		"texture": "block/spruce_trapdoor"
 	},
 	"elements": [
