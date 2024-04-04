@@ -7,19 +7,14 @@
         "selector": {
           "type": "path",
           "arguments": {
-            "location": "textures"
+            "location": "textures/overlay"
           }
         },
         "modifiers": [
           {
             "type": "set",
             "arguments": {
-              "data": {
-                "bottom": "block/dirt",
-                "top": "block/mycelium_top",
-                "side": "block/mycelium_side",
-                "overlay": "block/mycelium_top"
-              }
+              "data": "block/mycelium_top"
             }
           }
         ]
