@@ -1,6 +1,5 @@
 {
 	"parent": "block/oak_door_bottom",
-	"ambientocclusion": false,
 	"textures": {
 		"bottom": "block/iron_door_bottom"
 	}

@@ -2,6 +2,7 @@
 	"parent": "block/oak_door_inv",
 	"textures": {
 		"top": "block/iron_door_top",
-		"particle": "block/iron_door_bottom"
+		"particle": "block/iron_door_bottom",
+		"bottom": "block/iron_door_bottom"
 	}
 }

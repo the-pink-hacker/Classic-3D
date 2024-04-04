@@ -1,5 +1,5 @@
 {
-	"parent": "block/door_top",
+	"parent": "minecraft:block/door_top",
 	"ambientocclusion": false,
 	"textures": {
 		"bottom": "block/crimson_door_bottom",
@@ -222,7 +222,16 @@
 			"rotation": [0, 180, 0]
 		}
 	},
-	"groups": [0, 1, 2, 3, 4, 5, 6, 7, 8,
+	"groups": [
+		0,
+		1,
+		2,
+		3,
+		4,
+		5,
+		6,
+		7,
+		8,
 		{
 			"name": "door_hinges_top",
 			"origin": [8, 8, 8],

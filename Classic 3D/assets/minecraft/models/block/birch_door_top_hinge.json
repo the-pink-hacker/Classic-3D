@@ -1,10 +1,10 @@
 {
-	"parent": "minecraft:block/door_top",
+	"parent": "minecraft:block/door_top_rh",
 	"ambientocclusion": false,
 	"textures": {
-		"particle": "minecraft:block/birch_door_bottom",
-		"bottom": "minecraft:block/birch_door_bottom",
-		"top": "minecraft:block/birch_door_top"
+		"particle": "block/birch_door_bottom",
+		"bottom": "block/birch_door_bottom",
+		"top": "block/birch_door_top"
 	},
 	"elements": [
 		{
@@ -180,7 +180,12 @@
 			"rotation": [0, 180, 0]
 		}
 	},
-	"groups": [0, 1, 2, 3, 4,
+	"groups": [
+		0,
+		1,
+		2,
+		3,
+		4,
 		{
 			"name": "door_hinges_top_hinge",
 			"origin": [8, 8, 8],
@@ -190,7 +195,9 @@
 					"name": "west",
 					"origin": [8, 8, 8],
 					"color": 0,
-					"children": [5, 6,
+					"children": [
+						5,
+						6,
 						{
 							"name": "west handle",
 							"origin": [8.75, 8, 8],
@@ -215,7 +222,9 @@
 					"name": "east",
 					"origin": [8, 8, 8],
 					"color": 0,
-					"children": [11, 12,
+					"children": [
+						11,
+						12,
 						{
 							"name": "east handle",
 							"origin": [-5.75, 8, 8],

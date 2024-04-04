@@ -1,5 +1,5 @@
 {
-	"parent": "block/door_top",
+	"parent": "minecraft:block/door_top_rh",
 	"ambientocclusion": false,
 	"textures": {
 		"bottom": "block/crimson_door_bottom",
@@ -221,7 +221,16 @@
 			"rotation": [0, 180, 0]
 		}
 	},
-	"groups": [0, 1, 2, 3, 4, 5, 6, 7, 8,
+	"groups": [
+		0,
+		1,
+		2,
+		3,
+		4,
+		5,
+		6,
+		7,
+		8,
 		{
 			"name": "door_hinges_top_hinge",
 			"origin": [8, 8, 8],
@@ -231,7 +240,9 @@
 					"name": "west",
 					"origin": [8, 8, 8],
 					"color": 0,
-					"children": [9, 10,
+					"children": [
+						9,
+						10,
 						{
 							"name": "west handle",
 							"origin": [8.75, 8, 8],
@@ -256,7 +267,9 @@
 					"name": "east",
 					"origin": [8, 8, 8],
 					"color": 0,
-					"children": [15, 16,
+					"children": [
+						15,
+						16,
 						{
 							"name": "east handle",
 							"origin": [-5.75, 8, 8],

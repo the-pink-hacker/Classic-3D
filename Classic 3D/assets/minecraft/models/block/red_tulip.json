@@ -1,7 +1,7 @@
 {
 	"parent": "block/template_tulip",
 	"textures": {
-		"all": "3d/flowers/red_tulip",
-		"particle": "block/red_tulip"
+		"particle": "3d/flowers/red_tulip",
+		"all": "3d/flowers/red_tulip"
 	}
 }

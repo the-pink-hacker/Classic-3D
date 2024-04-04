@@ -1,10 +1,10 @@
 {
-	"credit": "Made/edited by RyanGar46",
+	"parent": "minecraft:block/door_top",
 	"ambientocclusion": false,
 	"textures": {
-		"top": "block/iron_door_top",
-		"particle": "block/iron_door_bottom",
-		"bottom": "block/iron_door_bottom"
+		"top": "Default Textures Blockbench:block/iron_door_top",
+		"particle": "Default Textures Blockbench:block/iron_door_bottom",
+		"bottom": "Default Textures Blockbench:block/iron_door_bottom"
 	},
 	"elements": [
 		{
@@ -212,7 +212,14 @@
 			"rotation": [0, 180, 0]
 		}
 	},
-	"groups": [0, 1, 2, 3, 4, 5, 6,
+	"groups": [
+		0,
+		1,
+		2,
+		3,
+		4,
+		5,
+		6,
 		{
 			"name": "west",
 			"origin": [8, 8, 8],
