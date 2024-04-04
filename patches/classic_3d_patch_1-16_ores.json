@@ -1,6 +1,10 @@
 {
-  "type": "replace",
-  "patch": {
-    "directory": "#workdir/patches/replace/Classic 3D - patch 1.16 ores"
-  }
+  "patches": [
+    {
+      "type": "replace",
+      "patch": {
+        "directory": "#workdir/patches/replace/Classic 3D - patch 1.16 ores"
+      }
+    }
+  ]
 }

@@ -1,6 +1,5 @@
 {
-  "type": "multi",
-  "patch": [
+  "patches": [
     {
       "type": "replace",
       "patch": {
