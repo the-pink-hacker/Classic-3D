@@ -1,0 +1,18 @@
+{
+  "type": "mixin_json",
+  "patch": {
+    "mixins": [
+      {
+        "mode": "set",
+        "file": "assets/minecraft/models/block/mycelium.json",
+        "location": ["textures"],
+        "data": {
+          "bottom": "block/dirt",
+          "top": "block/mycelium_top",
+          "side": "block/mycelium_side",
+          "overlay": "block/mycelium_top"
+        }
+      }
+    ]
+  }
+}
