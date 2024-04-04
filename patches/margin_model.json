@@ -5,11 +5,16 @@
       "patch": {
         "type": "model_margin",
         "arguments": {
-          "offset": -0.0001,
-          "random_offset": -0.0001,
+          "offset": -0.01,
+          "random_offset": -0.001,
           "models": [
             "minecraft:block/template_cobblestone",
-            "minecraft:block/template_sandstone"
+            "minecraft:block/template_sandstone",
+            "minecraft:block/template_nether_bricks",
+            "minecraft:block/template_stone_bricks",
+            "minecraft:block/template_planks",
+            "minecraft:block/prismarine",
+            "minecraft:block/bricks"
           ]
         }
       }
