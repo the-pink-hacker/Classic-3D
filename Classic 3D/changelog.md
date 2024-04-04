@@ -30,9 +30,9 @@ To get news and updates about the Classic 3D, go here:
 
 Credit:
 
-Some textures by: [GodAmongDessert](https://instagram.com/godamongdessert/)
+Some textures by: [GodAmongDessert](https://godamongdessert.carrd.co/)
 
-Created by: [Ryan Garrett (RyanGar46)](https://ryangar46.tumblr.com/)
+Created by: [Ryan Garrett (RyanGar46)](https://the-pink-hacker.tumblr.com/)
 
 Built using [Resource Pack Packer](https://github.com/RyanGar46/resource-pack-packer).
 
