@@ -1843,6 +1843,32 @@
                 }
               }
             ]
+          },
+          {
+            "file_selector": {
+              "type": "identifier",
+              "arguments": {
+                "models": [
+                  "minecraft:block/piston",
+                  "minecraft:block/piston_inventory"
+                ]
+              }
+            },
+            "selector": {
+              "type": "path",
+              "arguments": {
+                "location": "textures/*"
+              }
+            },
+            "modifiers": [
+              {
+                "type": "replace",
+                "arguments": {
+                  "select": "piston_top",
+                  "replacement": "piston_top_normal"
+                }
+              }
+            ]
           }
         ]
       }
