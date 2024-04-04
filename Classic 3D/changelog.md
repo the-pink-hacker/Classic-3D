@@ -1,16 +1,6 @@
-v15.2 - 1.19.3 Dedicated Release
+v15.2
 
-Sorry about not releasing this sooner. The fixes have been sitting on GitHub for the past month, but I've been going through a lot. I hope you all enjoy!
-
-Changes:
-
-- Cleaned out unnecessary files
-- Optimized Brewing Stand block model
-
-Fixes:
-
-- Purpur Pillar's horizontal block state didn't work
-- Fixed issue with some textures not being in the texture atlases ([#19](https://github.com/RyanGar46/Classic-3D/issues/19))
+This is just a straight port to 1.19.4 and 1.20. No changes.
 
 ---
 
@@ -18,11 +8,9 @@ Links:
 
 To report a bug or give feedback, go here:
 
-[Classic 3D's Github](https://github.com/RyanGar46/Classic-3D/issues)
+[Classic 3D's Github](https://github.com/RyanThePinkHacker/Classic-3D/issues)
 
 To get news and updates about the Classic 3D, go here:
-
-~~[Classic 3D's Twitter](https://twitter.com/Classic_3D "No longer in use. Tumblr is now used.")~~
 
 [Classic 3D's Tumblr](https://classic3d.tumblr.com/)
 
@@ -32,9 +20,9 @@ Credit:
 
 Some textures by: [GodAmongDessert](https://godamongdessert.carrd.co/)
 
-Created by: [Ryan Garrett (RyanGar46)](https://the-pink-hacker.tumblr.com/)
+Created by: [Ryan Garrett (ThePinkHacker)](https://thepinkhacker.com)
 
-Built using [Resource Pack Packer](https://github.com/RyanGar46/resource-pack-packer).
+Built using [Resource Pack Packer](https://github.com/RyanThePinkHacker/resource-pack-packer).
 
 Models created with [BlockBench](https://www.blockbench.net)
 

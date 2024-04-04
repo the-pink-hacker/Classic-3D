@@ -71,9 +71,10 @@
   },
   "configs": {
     "1.20": {
-      "pack_format": 12,
+      "pack_format": 15,
       "mc_versions": [
-        "1.19.3"
+        "1.20",
+        "1.20.1"
       ],
       "regenerate_meta": true,
       "minify_json": true,
@@ -81,6 +82,19 @@
         "1.16-content",
         "1.19.3-patch",
         "1.20-patch",
+        "margin_model"
+      ]
+    },
+    "1.19.4": {
+      "pack_format": 13,
+      "mc_versions": [
+        "1.19.4"
+      ],
+      "regenerate_meta": true,
+      "minify_json": true,
+      "patches": [
+        "1.16-content",
+        "1.19.3-patch",
         "margin_model"
       ]
     },
