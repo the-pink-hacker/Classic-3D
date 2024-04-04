@@ -1,13 +1,11 @@
 {
 	"credit": "Made with Blockbench - Made/edited by RyanGar46",
-	"parent": "block/cube_bottom_top",
 	"texture_size": [64, 64],
 	"textures": {
 		"1": "3d/furnaces/furnace_front",
 		"3": "block/furnace_side",
 		"4": "block/furnace_top",
-		"minecart": "3d/minecart",
-		"particle": "#1"
+		"minecart": "3d/minecart"
 	},
 	"elements": [
 		{

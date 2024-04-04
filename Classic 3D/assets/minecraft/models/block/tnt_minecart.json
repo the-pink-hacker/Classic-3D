@@ -1,6 +1,5 @@
 {
 	"credit": "Made with Blockbench - Made/edited by RyanGar46",
-	"parent": "block/cube_bottom_top",
 	"texture_size": [64, 64],
 	"textures": {
 		"2": "block/tnt_side",
