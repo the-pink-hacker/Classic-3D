@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_polished_stairs_top_outer_nw",
+  "textures": {
+    "all": "minecraft:block/quartz_block_top"
+  }
+}
