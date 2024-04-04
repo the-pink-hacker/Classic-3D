@@ -72,7 +72,7 @@
   "configs": {
     "1.19": {
       "mc_versions": [
-        "1.19"
+        "22w18a"
       ],
       "textures": {
         "delete": true,
