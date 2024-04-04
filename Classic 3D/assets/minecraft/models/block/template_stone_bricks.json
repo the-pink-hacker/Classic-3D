@@ -245,7 +245,8 @@
 			"scale": [0.5, 0.5, 0.5]
 		}
 	},
-	"groups": [0,
+	"groups": [
+		0,
 		{
 			"name": "north",
 			"origin": [8, 8, 8],

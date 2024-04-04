@@ -228,7 +228,9 @@
 			}
 		}
 	],
-	"groups": [0, 1,
+	"groups": [
+		0,
+		1,
 		{
 			"name": "down",
 			"origin": [8, 8, 8],
