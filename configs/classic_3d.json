@@ -73,7 +73,7 @@
     "1.20": {
       "pack_format": 12,
       "mc_versions": [
-        "22w46a"
+        "1.19.3"
       ],
       "regenerate_meta": true,
       "minify_json": true,
@@ -87,7 +87,7 @@
     "1.19.3": {
       "pack_format": 12,
       "mc_versions": [
-        "22w46a"
+        "1.19.3"
       ],
       "regenerate_meta": true,
       "minify_json": true,
