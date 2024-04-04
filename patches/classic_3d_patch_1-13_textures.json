@@ -12,12 +12,13 @@
       "patch": {
         "mixins": [
           {
-            "files": [
-              "assets/minecraft/models/block/smooth_stone_slab.json",
-              "assets/minecraft/models/block/smooth_stone_slab_top.json",
-              "assets/minecraft/models/block/smooth_stone_slab_double.json",
-              "assets/minecraft/models/block/smooth_stone.json"
-            ],
+            "file_selector": {
+              "type": "path",
+              "arguments": {
+                "path": "assets/minecraft/models/block",
+                "regex": "^smooth_stone"
+              }
+            },
             "selector": {
               "type": "path",
               "arguments": {
@@ -37,28 +38,13 @@
             ]
           },
           {
-            "files": [
-              "assets/minecraft/models/block/repeater_1tick.json",
-              "assets/minecraft/models/block/repeater_1tick_locked.json",
-              "assets/minecraft/models/block/repeater_1tick_on.json",
-              "assets/minecraft/models/block/repeater_1tick_on_locked.json",
-              "assets/minecraft/models/block/repeater_2tick.json",
-              "assets/minecraft/models/block/repeater_2tick_locked.json",
-              "assets/minecraft/models/block/repeater_2tick_on.json",
-              "assets/minecraft/models/block/repeater_2tick_on_locked.json",
-              "assets/minecraft/models/block/repeater_3tick.json",
-              "assets/minecraft/models/block/repeater_3tick_locked.json",
-              "assets/minecraft/models/block/repeater_3tick_on.json",
-              "assets/minecraft/models/block/repeater_3tick_on_locked.json",
-              "assets/minecraft/models/block/repeater_4tick.json",
-              "assets/minecraft/models/block/repeater_4tick_locked.json",
-              "assets/minecraft/models/block/repeater_4tick_on.json",
-              "assets/minecraft/models/block/repeater_4tick_on_locked.json",
-              "assets/minecraft/models/block/comparator.json",
-              "assets/minecraft/models/block/comparator_on.json",
-              "assets/minecraft/models/block/comparator_on_subtract.json",
-              "assets/minecraft/models/block/comparator_subtract.json"
-            ],
+            "file_selector": {
+              "type": "path",
+              "arguments": {
+                "path": "assets/minecraft/models/block",
+                "regex": "^repeater|^comparator"
+              }
+            },
             "selector": {
               "type": "path",
               "arguments": {
@@ -75,9 +61,12 @@
             ]
           },
           {
-            "files": [
-              "assets/minecraft/models/block/nether_quartz_ore.json"
-            ],
+            "file_selector": {
+              "type": "file",
+              "arguments": {
+                "files": ["assets/minecraft/models/block/nether_quartz_ore.json"]
+              }
+            },
             "selector": {
               "type": "path",
               "arguments": {
