@@ -90,6 +90,46 @@
                 }
               }
             ]
+          },
+          {
+            "file":"assets/minecraft/models/block/smooth_stone.json",
+            "selector": {
+              "type": "path",
+              "arguments": {
+                "location": "textures"
+              }
+            },
+            "modifiers": [
+              {
+                "type": "set",
+                "arguments": {
+                  "data": {
+                    "all": "block/stone_slab_top",
+		                "side": "block/stone_slab_side"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "file":"assets/minecraft/models/block/smooth_stone.json",
+            "selector": {
+              "type": "path",
+              "arguments": {
+                "location": "textures"
+              }
+            },
+            "modifiers": [
+              {
+                "type": "set",
+                "arguments": {
+                  "data": {
+                    "all": "block/stone_slab_top",
+		                "side": "block/stone_slab_side"
+                  }
+                }
+              }
+            ]
           }
         ]
       }
