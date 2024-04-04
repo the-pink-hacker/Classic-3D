@@ -1799,6 +1799,50 @@
                 }
               }
             ]
+          },
+          {
+            "file_selector": {
+              "type": "identifier",
+              "arguments": {
+                "models": ["minecraft:block/dark_prismarine"]
+              }
+            },
+            "selector": {
+              "type": "path",
+              "arguments": {
+                "location": "textures/*"
+              }
+            },
+            "modifiers": [
+              {
+                "type": "set",
+                "arguments": {
+                  "data": "blocks/prismarine_dark"
+                }
+              }
+            ]
+          },
+          {
+            "file_selector": {
+              "type": "identifier",
+              "arguments": {
+                "models": ["minecraft:block/prismarine"]
+              }
+            },
+            "selector": {
+              "type": "path",
+              "arguments": {
+                "location": "textures/*"
+              }
+            },
+            "modifiers": [
+              {
+                "type": "set",
+                "arguments": {
+                  "data": "blocks/prismarine_rough"
+                }
+              }
+            ]
           }
         ]
       }
