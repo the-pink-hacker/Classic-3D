@@ -1,3 +1,8 @@
+# Classic 3D
+
+> [!IMPORTANT]
+> `Classic-3D` has been moved to [`classic-3d-redux`](https://github.thepinkhacker.com/classic-3d-redux).
+
 Classic 3D is a resource pack that turns the default models into more complex and detailed blocks, while still looking like Minecraft. This repository contains Classic 3D and Classic 3D lite. You have to build Classic 3D with my RPP tool in oder to develop with Classic 3D.
 
 ---
